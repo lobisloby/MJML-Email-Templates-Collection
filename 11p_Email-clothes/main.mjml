@@ -1,0 +1,514 @@
+<mjml>
+  <mj-head>
+    <mj-title>Newowerful Fashion - New Collection</mj-title>
+    <mj-preview>Discover our new collection - Staples, coats & tailored styles for every season</mj-preview>
+
+    <!-- Google Fonts -->
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" />
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" />
+
+    <!-- Global Attributes -->
+    <mj-attributes>
+      <mj-all font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" />
+      <mj-text font-size="14px" color="#111111" line-height="22px" />
+      <mj-button font-family="'Poppins', Arial, sans-serif" font-size="13px" font-weight="600" background-color="#B78A5B" color="#ffffff" border-radius="4px" inner-padding="14px 32px" text-transform="uppercase" />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+    </mj-attributes>
+
+    <!-- Custom Styles -->
+    <mj-style>
+      .heading-font { font-family: 'Poppins', Arial, sans-serif !important; } a { text-decoration: none; color: inherit; } .product-badge { background-color: #E8E4DE; color: #333333; padding: 4px 10px; border-radius: 12px; font-size: 10px;
+      font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; } @media only screen and (max-width: 480px) { .mobile-hero-heading { font-size: 28px !important; line-height: 34px !important; } .mobile-full-width { width: 100%
+      !important; } .mobile-center { text-align: center !important; } .mobile-padding { padding-left: 20px !important; padding-right: 20px !important; } .product-grid-item { width: 50% !important; max-width: 50% !important; } }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#ffffff">
+    <!-- ============================================== -->
+    <!-- TOP NAVIGATION BAR                            -->
+    <!-- ============================================== -->
+    <mj-section background-color="#F7F1E9" padding="18px 25px">
+    <mj-group>
+         <mj-column width="20%" vertical-align="middle">
+        <mj-text font-size="11px" color="#666666" padding="0" line-height="16px" letter-spacing="1px">
+          <a href="#" style="color: #666666">Men</a>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="60%" vertical-align="middle">
+        <mj-text align="center" font-size="24px" color="#111111" font-weight="700" padding="0" line-height="30px">
+          <span style="font-family: 'Poppins', Arial, sans-serif; letter-spacing: 2px">MODERNO</span>
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="20%" vertical-align="middle">
+        <mj-text align="right" font-size="11px" color="#666666" padding="0" line-height="16px" letter-spacing="1px">
+          <a href="#" style="color: #666666; margin-right: 16px">Women</a>
+        </mj-text>
+      </mj-column>
+    </mj-group>
+     
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 1. HERO SECTION - "NEWOWERFUL FASHION"        -->
+    <!-- ============================================== -->
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-text padding="0">
+          <!--[if gte mso 9]>
+          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:580px;">
+            <v:fill type="frame" src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=640&h=580&fit=crop" color="#202020" />
+            <v:textbox inset="0,0,0,0">
+          <![endif]-->
+
+          <div style="background-image: url('https://images.unsplash.com/photo-1509631179647-0177331693ae?w=640&h=580&fit=crop'); background-size: cover; background-position: center center; background-color: #202020">
+            <!-- Dark Gradient Overlay -->
+            <div style="background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.1) 100%); padding: 140px 40px 120px">
+              <!-- Small Label -->
+              <div style="font-family: 'Inter', Arial, sans-serif; font-size: 11px; color: #b78a5b; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 20px; line-height: 16px">New Collection 2024</div>
+
+              <!-- Main Headline -->
+              <h1 class="mobile-hero-heading" style="font-family: 'Poppins', Arial, sans-serif; font-size: 42px; color: #ffffff; margin: 0 0 10px 0; line-height: 48px; font-weight: 800; text-transform: uppercase; letter-spacing: 3px">
+                Newowerful
+              </h1>
+              <h1 class="mobile-hero-heading" style="font-family: 'Poppins', Arial, sans-serif; font-size: 42px; color: #ffffff; margin: 0 0 25px 0; line-height: 48px; font-weight: 800; text-transform: uppercase; letter-spacing: 3px">
+                Fashion
+              </h1>
+
+              <!-- Subheading -->
+              <p style="font-family: 'Inter', Arial, sans-serif; font-size: 15px; color: #e8e4de; margin: 0 0 35px 0; line-height: 24px; max-width: 320px">
+                New staples, coats & tailored styles for every season. Discover timeless pieces crafted for modern living.
+              </p>
+
+              <!-- CTA Button -->
+              <a
+                href="#"
+                style="
+                  display: inline-block;
+                  background-color: #b78a5b;
+                  color: #ffffff;
+                  padding: 15px 36px;
+                  font-family: 'Poppins', Arial, sans-serif;
+                  font-size: 12px;
+                  font-weight: 600;
+                  text-decoration: none;
+                  border-radius: 4px;
+                  text-transform: uppercase;
+                  letter-spacing: 2px;
+                "
+              >
+                Shop Now
+              </a>
+            </div>
+          </div>
+
+          <!--[if gte mso 9]>
+            </v:textbox>
+          </v:rect>
+          <![endif]-->
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 2. STORY TEASER BLOCK ("OUR STORY")           -->
+    <!-- ============================================== -->
+    <mj-section background-color="#F7F1E9" padding="60px 20px">
+      <!-- Left: Image -->
+      <mj-column width="48%" padding="0 10px 20px" vertical-align="middle">
+        <mj-image src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=320&h=440&fit=crop" alt="Model in neutral outfit" border-radius="6px" padding="0" />
+      </mj-column>
+
+      <!-- Right: Text Card -->
+      <mj-column width="52%" padding="0 10px 20px" vertical-align="middle">
+        <mj-text padding="0">
+          <div style="background-color: #ffffff; border-radius: 8px; padding: 35px 30px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06)">
+            <!-- Label -->
+            <div style="font-family: 'Inter', Arial, sans-serif; font-size: 10px; color: #b78a5b; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 15px; line-height: 14px">Our Story</div>
+
+            <!-- Heading -->
+            <div style="font-family: 'Poppins', Arial, sans-serif; font-size: 24px; font-weight: 700; color: #111111; margin-bottom: 18px; line-height: 32px">Born in Paris,<br />Crafted Worldwide</div>
+
+            <!-- Description -->
+            <div style="font-family: 'Inter', Arial, sans-serif; font-size: 14px; color: #555555; line-height: 24px; margin-bottom: 25px">
+              Founded with a passion for timeless design and sustainable practices. Each piece tells a story of craftsmanship, from sketch to stitch.
+            </div>
+
+            <!-- CTA Link -->
+            <a
+              href="#"
+              style="font-family: 'Poppins', Arial, sans-serif; font-size: 12px; font-weight: 600; color: #111111; text-decoration: none; border-bottom: 2px solid #b78a5b; padding-bottom: 3px; letter-spacing: 1px; text-transform: uppercase"
+            >
+              Read Story →
+            </a>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 3. FEATURED COLLECTION LAUNCH TITLE           -->
+    <!-- ============================================== -->
+    <mj-section background-color="#F7F1E9" padding="40px 25px 30px">
+      <mj-column>
+        <!-- Small Label -->
+        <mj-text align="center" font-size="10px" color="#B78A5B" padding="0 0 10px" letter-spacing="3px" text-transform="uppercase" line-height="14px"> New </mj-text>
+
+        <!-- Main Heading -->
+        <mj-text align="center" font-size="28px" color="#111111" font-weight="700" padding="0" line-height="36px">
+          <span style="font-family: 'Poppins', Arial, sans-serif">Featured Collection<br />Launch</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 4. PRODUCT GRID (6 ITEMS - 3x2)               -->
+    <!-- ============================================== -->
+
+    <!-- Row 1 (3 Products) -->
+    <mj-section background-color="#F7F1E9" padding="20px 12px 10px">
+      <!-- Product 1 -->
+      <mj-column width="33.33%" padding="0 8px 20px" css-class="product-grid-item">
+        <mj-text padding="0">
+          <div style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04)">
+            <div style="position: relative; padding: 10px">
+              <!-- Badge -->
+              <span style="position: absolute; top: 15px; left: 15px; background-color: #e8e4de; color: #333333; padding: 4px 10px; border-radius: 12px; font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px"
+                >New</span
+              >
+              <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&h=260&fit=crop" alt="Wool Coat" style="width: 100%; border-radius: 6px; display: block" />
+            </div>
+            <div style="padding: 15px 15px 18px">
+              <div style="font-family: 'Poppins', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #111111; margin-bottom: 4px; line-height: 18px">Classic Wool Coat</div>
+              <div style="font-size: 12px; color: #888888; line-height: 18px">$289.00</div>
+            </div>
+          </div>
+        </mj-text>
+      </mj-column>
+
+      <!-- Product 2 -->
+      <mj-column width="33.33%" padding="0 8px 20px" css-class="product-grid-item">
+        <mj-text padding="0">
+          <div style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04)">
+            <div style="position: relative; padding: 10px">
+              <span style="position: absolute; top: 15px; left: 15px; background-color: #e8e4de; color: #333333; padding: 4px 10px; border-radius: 12px; font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px"
+                >New</span
+              >
+              <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=200&h=260&fit=crop" alt="Tailored Trousers" style="width: 100%; border-radius: 6px; display: block" />
+            </div>
+            <div style="padding: 15px 15px 18px">
+              <div style="font-family: 'Poppins', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #111111; margin-bottom: 4px; line-height: 18px">Tailored Trousers</div>
+              <div style="font-size: 12px; color: #888888; line-height: 18px">$149.00</div>
+            </div>
+          </div>
+        </mj-text>
+      </mj-column>
+
+      <!-- Product 3 -->
+      <mj-column width="33.33%" padding="0 8px 20px" css-class="product-grid-item">
+        <mj-text padding="0">
+          <div style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04)">
+            <div style="position: relative; padding: 10px">
+              <span style="position: absolute; top: 15px; left: 15px; background-color: #b78a5b; color: #ffffff; padding: 4px 10px; border-radius: 12px; font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px"
+                >Best</span
+              >
+              <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=200&h=260&fit=crop" alt="Leather Handbag" style="width: 100%; border-radius: 6px; display: block" />
+            </div>
+            <div style="padding: 15px 15px 18px">
+              <div style="font-family: 'Poppins', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #111111; margin-bottom: 4px; line-height: 18px">Leather Handbag</div>
+              <div style="font-size: 12px; color: #888888; line-height: 18px">$359.00</div>
+            </div>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Row 2 (3 Products) -->
+    <mj-section background-color="#F7F1E9" padding="0 12px 40px">
+      <!-- Product 4 -->
+      <mj-column width="33.33%" padding="0 8px 20px" css-class="product-grid-item">
+        <mj-text padding="0">
+          <div style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04)">
+            <div style="position: relative; padding: 10px">
+              <span style="position: absolute; top: 15px; left: 15px; background-color: #e8e4de; color: #333333; padding: 4px 10px; border-radius: 12px; font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px"
+                >New</span
+              >
+              <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=200&h=260&fit=crop" alt="Cashmere Sweater" style="width: 100%; border-radius: 6px; display: block" />
+            </div>
+            <div style="padding: 15px 15px 18px">
+              <div style="font-family: 'Poppins', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #111111; margin-bottom: 4px; line-height: 18px">Cashmere Sweater</div>
+              <div style="font-size: 12px; color: #888888; line-height: 18px">$199.00</div>
+            </div>
+          </div>
+        </mj-text>
+      </mj-column>
+
+      <!-- Product 5 -->
+      <mj-column width="33.33%" padding="0 8px 20px" css-class="product-grid-item">
+        <mj-text padding="0">
+          <div style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04)">
+            <div style="position: relative; padding: 10px">
+              <span style="position: absolute; top: 15px; left: 15px; background-color: #e8e4de; color: #333333; padding: 4px 10px; border-radius: 12px; font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px"
+                >$179</span
+              >
+              <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=200&h=260&fit=crop" alt="Silk Blouse" style="width: 100%; border-radius: 6px; display: block" />
+            </div>
+            <div style="padding: 15px 15px 18px">
+              <div style="font-family: 'Poppins', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #111111; margin-bottom: 4px; line-height: 18px">Silk Blouse</div>
+              <div style="font-size: 12px; color: #888888; line-height: 18px">$179.00</div>
+            </div>
+          </div>
+        </mj-text>
+      </mj-column>
+
+      <!-- Product 6 -->
+      <mj-column width="33.33%" padding="0 8px 20px" css-class="product-grid-item">
+        <mj-text padding="0">
+          <div style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04)">
+            <div style="position: relative; padding: 10px">
+              <span style="position: absolute; top: 15px; left: 15px; background-color: #e8e4de; color: #333333; padding: 4px 10px; border-radius: 12px; font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px"
+                >New</span
+              >
+              <img src="https://images.unsplash.com/photo-1603252109303-2751441dd157?w=200&h=260&fit=crop" alt="Linen Blazer" style="width: 100%; border-radius: 6px; display: block" />
+            </div>
+            <div style="padding: 15px 15px 18px">
+              <div style="font-family: 'Poppins', Arial, sans-serif; font-size: 13px; font-weight: 600; color: #111111; margin-bottom: 4px; line-height: 18px">Linen Blazer</div>
+              <div style="font-size: 12px; color: #888888; line-height: 18px">$249.00</div>
+            </div>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- View All Button -->
+    <mj-section background-color="#F7F1E9" padding="0 25px 60px">
+      <mj-column>
+        <mj-button href="#" background-color="transparent" color="#111111" border="2px solid #111111" font-size="12px" inner-padding="14px 40px"> View All Products </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 5. FABRIC & QUALITY DARK BAND                 -->
+    <!-- ============================================== -->
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-text padding="0">
+          <!--[if gte mso 9]>
+          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;">
+            <v:fill type="tile" color="#181818" />
+            <v:textbox inset="0,0,0,0">
+          <![endif]-->
+
+          <div style="background-color: #181818; padding: 60px 30px 50px; text-align: center">
+            <!-- Label -->
+            <div style="font-family: 'Inter', Arial, sans-serif; font-size: 10px; color: #b78a5b; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 12px; line-height: 14px">Craftsmanship</div>
+
+            <!-- Heading -->
+            <div style="font-family: 'Poppins', Arial, sans-serif; font-size: 26px; font-weight: 700; color: #ffffff; margin-bottom: 15px; line-height: 34px">Fabric & Quality</div>
+
+            <!-- Subheading -->
+            <div style="font-family: 'Inter', Arial, sans-serif; font-size: 14px; color: #aaaaaa; line-height: 24px; max-width: 420px; margin: 0 auto 40px">
+              Every garment is crafted with the finest materials, ensuring comfort, durability, and timeless elegance.
+            </div>
+
+            <!-- 3 Image Strip -->
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 520px; margin: 0 auto">
+              <tr>
+                <td style="width: 33.33%; padding: 0 6px; vertical-align: top; text-align: center">
+                  <img src="https://images.unsplash.com/photo-1558171813-4c088753af8f?w=180&h=240&fit=crop" alt="Soft Fabric" style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px; display: block; margin-bottom: 12px" />
+                  <div style="font-family: 'Inter', Arial, sans-serif; font-size: 11px; color: #888888; letter-spacing: 2px; text-transform: uppercase; line-height: 16px">Soft</div>
+                </td>
+                <td style="width: 33.33%; padding: 0 6px; vertical-align: top; text-align: center">
+                  <img
+                    src="https://images.unsplash.com/photo-1594938328870-9623159c8c99?w=180&h=240&fit=crop"
+                    alt="Durable Material"
+                    style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px; display: block; margin-bottom: 12px"
+                  />
+                  <div style="font-family: 'Inter', Arial, sans-serif; font-size: 11px; color: #888888; letter-spacing: 2px; text-transform: uppercase; line-height: 16px">Durable</div>
+                </td>
+                <td style="width: 33.33%; padding: 0 6px; vertical-align: top; text-align: center">
+                  <img
+                    src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=180&h=240&fit=crop"
+                    alt="Quality Finish"
+                    style="width: 100%; height: 200px; object-fit: cover; border-radius: 6px; display: block; margin-bottom: 12px"
+                  />
+                  <div style="font-family: 'Inter', Arial, sans-serif; font-size: 11px; color: #888888; letter-spacing: 2px; text-transform: uppercase; line-height: 16px">Quality</div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!--[if gte mso 9]>
+            </v:textbox>
+          </v:rect>
+          <![endif]-->
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 6. LIFESTYLE IMAGERY PANEL                    -->
+    <!-- ============================================== -->
+    <mj-section background-color="#202020" padding="0">
+      <!-- Left: Image -->
+      <mj-column width="50%" padding="0" vertical-align="middle">
+        <mj-image src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=320&h=420&fit=crop" alt="Lifestyle - City Walking" padding="0" />
+      </mj-column>
+
+      <!-- Right: Text Block -->
+      <mj-column width="50%" padding="50px 35px" vertical-align="middle" background-color="#202020">
+        <mj-text font-size="10px" color="#B78A5B" padding="0 0 12px" letter-spacing="3px" text-transform="uppercase" line-height="14px"> Lifestyle Imagery </mj-text>
+
+        <mj-text font-size="22px" color="#FFFFFF" font-weight="700" padding="0 0 18px" line-height="30px">
+          <span style="font-family: 'Poppins', Arial, sans-serif">Everyday Elegance</span>
+        </mj-text>
+
+        <mj-text font-size="14px" color="#AAAAAA" padding="0 0 28px" line-height="24px">
+          From morning meetings to evening outings, our pieces transition seamlessly through your day. Designed for real life, styled for standout moments.
+        </mj-text>
+
+        <mj-button href="#" background-color="#B78A5B" font-size="11px" inner-padding="12px 28px" align="left"> Shop Looks </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 7. CUSTOMER REVIEWS SECTION                   -->
+    <!-- ============================================== -->
+    <mj-section background-color="#F7F1E9" padding="65px 25px 30px">
+      <mj-column>
+        <!-- Label -->
+        <mj-text align="center" font-size="10px" color="#B78A5B" padding="0 0 10px" letter-spacing="3px" text-transform="uppercase" line-height="14px"> Reviews </mj-text>
+
+        <!-- Heading -->
+        <mj-text align="center" font-size="28px" color="#111111" font-weight="700" padding="0 0 35px" line-height="36px">
+          <span style="font-family: 'Poppins', Arial, sans-serif">Customer Reviews</span>
+        </mj-text>
+    </mj-section>
+
+    <!-- Review Cards -->
+<mj-section background-color="#F7F1E9" padding="0 15px 30px">
+  <!-- Review 1 -->
+  <mj-column width="50%" padding="0 10px 20px">
+    <mj-text padding="0">
+      <div style="background-color: #ffffff; border-radius: 10px; padding: 28px 24px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);">
+        <div style="font-size: 14px; color: #b78a5b; letter-spacing: 3px; margin-bottom: 12px; line-height: 18px;">★★★★★</div>
+        <div style="font-family: 'Inter', Arial, sans-serif; font-size: 14px; color: #333333; line-height: 24px; margin-bottom: 20px; font-style: italic;">
+          "The quality is exceptional. My wool coat has become my daily go-to – it's warm, beautifully tailored, and gets compliments every time."
+        </div>
+        
+        <!-- Customer Info with Image -->
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr>
+            <td style="width: 50px; vertical-align: middle;">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop&crop=faces" alt="Sarah M." style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover;" />
+            </td>
+            <td style="vertical-align: middle; padding-left: 12px;">
+              <div style="font-family: 'Poppins', Arial, sans-serif; font-size: 12px; color: #111111; font-weight: 600; line-height: 18px;">Sarah M.</div>
+              <div style="font-size: 11px; color: #888888; line-height: 16px;">Verified Buyer</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </mj-text>
+  </mj-column>
+
+  <!-- Review 2 -->
+  <mj-column width="50%" padding="0 10px 20px">
+    <mj-text padding="0">
+      <div style="background-color: #ffffff; border-radius: 10px; padding: 28px 24px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);">
+        <div style="font-size: 14px; color: #b78a5b; letter-spacing: 3px; margin-bottom: 12px; line-height: 18px;">★★★★★</div>
+        <div style="font-family: 'Inter', Arial, sans-serif; font-size: 14px; color: #333333; line-height: 24px; margin-bottom: 20px; font-style: italic;">
+          "Finally found a brand that delivers on both style and sustainability. The fit is perfect and the fabrics feel incredible."
+        </div>
+        
+        <!-- Customer Info with Image -->
+        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+          <tr>
+            <td style="width: 50px; vertical-align: middle;">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=faces" alt="James L." style="width: 45px; height: 45px; border-radius: 50%; object-fit: cover;" />
+            </td>
+            <td style="vertical-align: middle; padding-left: 12px;">
+              <div style="font-family: 'Poppins', Arial, sans-serif; font-size: 12px; color: #111111; font-weight: 600; line-height: 18px;">James L.</div>
+              <div style="font-size: 11px; color: #888888; line-height: 16px;">Verified Buyer</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+    <!-- Show More Button -->
+    <mj-section background-color="#F7F1E9" padding="10px 25px 60px">
+      <mj-column>
+        <mj-button href="#" background-color="transparent" color="#111111" border="2px solid #111111" font-size="11px" inner-padding="12px 32px"> Show More </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 8. FINAL LIFESTYLE GALLERY                    -->
+    <!-- ============================================== -->
+    <mj-section background-color="#F7F1E9" padding="0 0 0">
+      <mj-column width="50%" padding="0">
+        <mj-image src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?w=320&h=280&fit=crop" alt="Street style 1" padding="0" href="#" />
+      </mj-column>
+      <mj-column width="50%" padding="0">
+        <mj-image src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=320&h=280&fit=crop" alt="Street style 2" padding="0" href="#" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 9. NEWSLETTER SIGNUP                          -->
+    <!-- ============================================== -->
+    
+
+    <!-- ============================================== -->
+    <!-- 10. FOOTER                                    -->
+    <!-- ============================================== -->
+    <mj-section background-color="#181818" padding="50px 25px 40px">
+      <mj-column>
+        <!-- Brand Logo -->
+        <mj-text align="center" font-size="22px" color="#FFFFFF" font-weight="700" padding="0 0 20px" line-height="28px">
+          <span style="font-family: 'Poppins', Arial, sans-serif; letter-spacing: 3px">MODERNO</span>
+        </mj-text>
+
+        <!-- Social Icons -->
+        <mj-text align="center" padding="0 0 30px" line-height="26px">
+          <a href="#" style="display: inline-block; margin: 0 10px">
+            <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1757471672/11_instagram2x_dffofz.png" width="28" alt="Instagram" style="vertical-align: middle" />
+          </a>
+          <a href="#" style="display: inline-block; margin: 0 10px">
+            <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1757471660/8_facebook2x_eu8xmv.png" width="28" alt="Facebook" style="vertical-align: middle" />
+          </a>
+          <a href="#" style="display: inline-block; margin: 0 10px">
+            <img src="https://img.icons8.com/ios-filled/50/ffffff/pinterest.png" width="22" alt="Pinterest" style="vertical-align: middle" />
+          </a>
+          <a href="#" style="display: inline-block; margin: 0 10px">
+            <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1755279504/Icon_iez8zd.png" width="28" alt="TikTok" style="vertical-align: middle" />
+          </a>
+        </mj-text>
+
+        <!-- Footer Links -->
+        <mj-text align="center" font-size="11px" color="#888888" padding="0 0 25px" line-height="18px" letter-spacing="1px">
+          <a href="#" style="color: #aaaaaa; margin: 0 14px">Shop</a>
+          <a href="#" style="color: #aaaaaa; margin: 0 14px">About</a>
+          <a href="#" style="color: #aaaaaa; margin: 0 14px">Stores</a>
+          <a href="#" style="color: #aaaaaa; margin: 0 14px">Contact</a>
+          <a href="#" style="color: #aaaaaa; margin: 0 14px">FAQ</a>
+        </mj-text>
+
+        <mj-divider border-color="rgba(255,255,255,0.1)" border-width="1px" padding="0 50px 25px" />
+
+        <!-- Legal -->
+        <mj-text align="center" font-size="11px" color="#666666" line-height="18px" padding="0">
+          © 2024 Moderno Fashion. All rights reserved.<br />
+          123 Fashion Avenue, Paris, France<br /><br />
+          <a href="#" style="color: #888888; text-decoration: underline">Unsubscribe</a> · <a href="#" style="color: #888888; text-decoration: underline">Privacy Policy</a> ·
+          <a href="#" style="color: #888888; text-decoration: underline">Terms</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

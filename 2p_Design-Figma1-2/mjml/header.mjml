@@ -1,0 +1,17 @@
+<mj-section background-color="#3AECB9" padding="15px 30px">
+  <mj-column width="100%">
+    <mj-navbar hamburger="hamburger" ico-color="#000" align="center">
+      <mj-navbar-link href="https://yourwebsite.com/shop" color="#000" font-size="14px" padding="0 15px" font-weight="300" css-class="small-text" padding="0 30px">
+        Shop
+      </mj-navbar-link>
+
+      <mj-navbar-link href="https://yourwebsite.com" padding="0px 10px" css-class="logo-mobile-hide">
+        <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1762820579/Group_1_tmcuhn.png" width="200" alt="Logo" style="display: block" />
+      </mj-navbar-link>
+
+      <mj-navbar-link href="https://yourwebsite.com/learn" color="#000" font-size="14px" padding="0 15px" font-weight="300" css-class="small-text" padding="0 30px">
+        Learn
+      </mj-navbar-link>
+    </mj-navbar>
+  </mj-column>
+</mj-section>

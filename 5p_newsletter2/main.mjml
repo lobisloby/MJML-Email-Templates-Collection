@@ -1,0 +1,344 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Playfair" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" />
+    <mj-font name="Cormorant Garamond" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Playfair" />
+      <mj-text font-size="16px" color="#555555" />
+    </mj-attributes>
+    <mj-style>
+      .nav-container div {
+        white-space: nowrap !important;
+      }
+
+      .nav-links {
+        color: #181818;
+        text-decoration: none;
+        padding: 0 50px;
+        display: inline-block;
+      }
+
+      .section-number {
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        font-size: 13px;
+        letter-spacing: 3px;
+        color: #111111;
+      }
+
+      .section-title {
+        font-family: 'Playfair Display', Georgia, serif;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+      }
+
+      .section-description {
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        line-height: 1.7;
+      }
+
+      .divider-line {
+        border-top: 1px solid #111111 !important;
+        opacity: 0.3;
+      }
+
+      @media only screen and (max-width: 480px) {
+        .title div {
+          font-size: 40px !important;
+          line-height: 1.1 !important;
+        }
+
+        .description div {
+          font-size: 12px !important;
+        }
+
+        .hero-section {
+          padding: 0 !important;
+        }
+
+        .nav-links {
+          padding: 0 10px !important;
+          font-size: 16px !important;
+        }
+
+        .section-title div {
+          font-size: 24px !important;
+          letter-spacing: 4px !important;
+        }
+
+        .section-description div {
+          font-size: 13px !important;
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+
+        .section-number {
+          font-size: 12px !important;
+        }
+        .nav-link {
+          padding: 0 12px !important;
+          font-size: 11px !important;
+        }
+      }
+    </mj-style>
+    <mj-preview>Preview text goes here</mj-preview>
+    <mj-title>Email Title</mj-title>
+  </mj-head>
+  <mj-body background-color="#f4f4f4">
+    <mj-section background-color="#EBDDCC" background-repeat="no-repeat" text-align="center" padding-bottom="0">
+      <mj-column width="100%">
+        <!-- logo -->
+        <mj-image align="center" border="none" padding-bottom="30px" padding="10px 25px" src="https://res.cloudinary.com/dhneogiam/image/upload/v1765211868/ece._l7jn1v.png" target="_blank" title="" width="130px"></mj-image>
+        <mj-text align="center" css-class="nav-container">
+          <a class="nav-links" href="https://yoursite.com/gallery">Gallery</a>
+          <a class="nav-links" href="https://yoursite.com/events">Events</a>
+          <a class="nav-links" href="https://yoursite.com/kids">KIDS</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#EBDDCC" padding-top="0">
+      <mj-column>
+        <mj-divider border-color="#CFBFAC" border-style="solid" border-width="1px" width="100%" padding="10px 25px" />
+      </mj-column>
+    </mj-section>
+    <!-- SECTION: hero text  -->
+    <mj-section background-color="#EBDDCC" padding="0 20% 0 0" css-class="hero-section">
+      <mj-column>
+        <mj-text align="center" font-size="64px" font-weight="100" css-class="title" color="#181818">
+          The Finishing <br>Touch
+        </mj-text>
+        <mj-text align="center" font-size="14px" line-height="16px" padding-top="15px" css-class="description" color="#181818">
+          Surfaces & materials that come to life, embody the markings of time and reflect the innate beauty of the found world we live in
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- SECTION: hero image  -->
+    <mj-section background-color="#EBDDCC" padding-bottom="0">
+      <mj-column>
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1765211878/Rectangle_4_nj2ibx.png" width="536px" padding="0" alt="" />
+      </mj-column>
+    </mj-section>
+    <!-- SECTION:  -->
+    <!-- Main Section Container -->
+    <mj-section background-color="#EBDDCC" padding="0px">
+      <mj-column width="536px" background-color="#EAD37F" padding="10px">
+
+        <!-- Section Number with Lines -->
+        <mj-text align="center" padding="0 0 25px 0">
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 400px; margin: 0 auto;">
+            <tr>
+              <td style="width: 40%; vertical-align: middle;">
+                <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.70); height: 1px;"></div>
+              </td>
+              <td style="width: 20%; text-align: center; vertical-align: middle; padding: 0 15px;">
+                <span class="section-number" style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 16px; letter-spacing: 3px; color: ##181818;">01</span>
+              </td>
+              <td style="width: 40%; vertical-align: middle;">
+                <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.70); height: 1px;"></div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+
+        <!-- Main Title -->
+        <mj-text align="center" font-size="32px" font-weight="500" color="#111111" letter-spacing="6px" line-height="11px" padding="10px 0 20px 0" css-class="section-title">
+          EVOLUTION
+        </mj-text>
+
+        <!-- Description -->
+        <mj-text align="center" font-size="14px" font-weight="400" color="#333333" line-height="17px" padding="5px 40px 0 40px" css-class="section-description">
+          A unique and iconic element of great strength, Evolution represents the power of the evolution that the world of wooden furniture has undergone in recent decades.
+        </mj-text>
+        <mj-button padding-top="30px" inner-padding="8px 40px" background-color="#EAD37F" border="1px solid #181818" color="#181818" font-weight="bold">
+          LEARN MORE
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Section: -->
+    <mj-section background-color="#EBDDCC" padding="0px">
+      <mj-column background-color="#EAD37F" width="536px" padding-bottom="30px">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1765211883/Rectangle_5_zzokdx.png" width="440px" padding="0" alt="" />
+      </mj-column>
+    </mj-section>
+    <!-- Section: -->
+    <mj-section background-color="#EBDDCC" padding="0px">
+      <mj-column width="536px" background-color="#E8AF3E" padding="10px">
+
+        <!-- Section Number with Lines -->
+        <mj-text align="center" padding="0 0 25px 0">
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 400px; margin: 0 auto;">
+            <tr>
+              <td style="width: 40%; vertical-align: middle;">
+                <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.70); height: 1px;"></div>
+              </td>
+              <td style="width: 20%; text-align: center; vertical-align: middle; padding: 0 15px;">
+                <span class="section-number" style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 16px; letter-spacing: 3px; color: ##181818;">02</span>
+              </td>
+              <td style="width: 40%; vertical-align: middle;">
+                <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.70); height: 1px;"></div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+
+        <!-- Main Title -->
+        <mj-text align="center" font-size="32px" font-weight="500" color="#111111" letter-spacing="6px" line-height="11px" padding="10px 0 20px 0" css-class="section-title">
+          Lowtide
+        </mj-text>
+
+        <!-- Description -->
+        <mj-text align="center" font-size="14px" font-weight="400" color="#333333" line-height="17px" padding="5px 40px 0 40px" css-class="section-description">
+          A walk along the wind-swept seashore inspired the creation of the Lowtide coffee table by Dutch designer Roderick Vos. The piece uses a computer-guided milling technique to give the top a ‘handcrafted’ pattern, that resembles the sand structures left on the beach at low tide.⁠
+        </mj-text>
+        <mj-button padding-top="30px" inner-padding="8px 40px" background-color="#E8AF3E" border="1px solid #181818" color="#181818" font-weight="700">
+          LEARN MORE
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Section: -->
+    <mj-section background-color="#EBDDCC" padding="0px">
+      <mj-column background-color="#E8AF3E" width="536px">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1765211882/Rectangle_5_1_eifp9s.png" width="440px" padding="0" padding-bottom="30px" alt="" />
+      </mj-column>
+    </mj-section>
+    <!-- Section: -->
+    <mj-section background-color="#EBDDCC" padding="0px">
+      <mj-column>
+        <mj-text align="center" font-size="64px" font-weight="100" css-class="title" color="#181818">
+          Gallery
+        </mj-text>
+        <mj-image width="536px" src="https://res.cloudinary.com/dhneogiam/image/upload/v1765211879/Frame_26086163_djprv8.png" padding="0" alt="" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- Section: -->
+    <mj-section background-color="#EBDDCC" padding="0px">
+      <mj-column background-color="#98C2A6" width="536px" css-class="hero-section">
+        <!-- Section Number with Lines -->
+        <mj-text align="center" padding="30px 0 25px 0">
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 400px; margin: 0 auto;">
+            <tr>
+              <td style="width: 10%; vertical-align: middle;">
+                <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.70); height: 1px;"></div>
+              </td>
+              <td style="width: 40%; text-align: center; vertical-align: middle; padding: 0 15px;">
+                <span class="section-number" style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 14px; letter-spacing: 3px; color: ##181818;text-transform:uppercase">Inspiration On Demand</span>
+              </td>
+              <td style="width: 10%; vertical-align: middle;">
+                <div style="border-bottom: 1px solid rgba(255, 255, 255, 0.70); height: 1px;"></div>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+        <mj-text align="center" font-size="34px" font-weight="100" css-class="title" color="#181818" text-transform="uppercase">
+          See What People Are Saying
+        </mj-text>
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1765211875/Rectangle_5_2_vmz2er.png" fluid-on-mobile="true" alt="" />
+        <mj-button padding-top="30px" inner-padding="8px 40px" background-color="#98C2A6" border="1px solid #181818" color="#181818" font-weight="700" href="yoursite">
+          LEARN MORE
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- ========== FOOTER SECTION ========== -->
+    <mj-section background-color="#EBDDCC" padding="50px 25px 0px 25px">
+      <mj-column width="100%" background-color="#8b5547" >
+
+        <!-- Script Logo -->
+        <mj-image align="center" border="none" padding-bottom="30px" padding="10px 25px" src="https://res.cloudinary.com/dhneogiam/image/upload/v1765211862/ece._1_zqs2jb.png" target="_blank" title="" width="130px"></mj-image>
+
+        <!-- Navigation Links -->
+        <mj-text align="center" padding="0 0 25px 0" css-class="nav-container">
+          <a href="https://yoursite.com/about" class="nav-link" style="color: #ffffff; text-decoration: none; font-size: 13px; font-weight: 400; letter-spacing: 1px; padding: 0 25px; text-transform: uppercase;">About</a>
+          <a href="https://yoursite.com/career" class="nav-link" style="color: #ffffff; text-decoration: none; font-size: 13px; font-weight: 400; letter-spacing: 1px; padding: 0 25px; text-transform: uppercase;">Career</a>
+          <a href="https://yoursite.com/faq" class="nav-link" style="color: #ffffff; text-decoration: none; font-size: 13px; font-weight: 400; letter-spacing: 1px; padding: 0 25px; text-transform: uppercase;">FAQ</a>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider Section -->
+    <mj-section background-color="#EBDDCC" padding="0 25px">
+      <mj-column width="100%" background-color="#8b5547">
+        <mj-divider border-width="1px" border-color="rgba(255, 255, 255, 0.3)" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Social Icons Section -->
+    <mj-section background-color="#EBDDCC" padding="0px 25px">
+      <mj-column width="100%" background-color="#8b5547" padding="5px">
+
+        <!-- Social Media Icons -->
+        <mj-text align="center" padding="0">
+          <table cellpadding="0" cellspacing="0" border="0" align="center" role="presentation">
+            <tr>
+              <!-- Facebook -->
+              <td style="padding: 0 14px;">
+                <a href="https://facebook.com/yourpage" target="_blank" style="text-decoration: none;">
+                  <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1755279504/FAcebokicon_sbytuv.png" alt="Facebook" width="" height="" style="display: block; filter: brightness(0) invert(1);" />
+                </a>
+              </td>
+
+              <!-- Instagram -->
+              <td style="padding: 0 14px;">
+                <a href="https://instagram.com/yourpage" target="_blank" style="text-decoration: none;">
+                  <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" width="24" height="24" style="display: block; filter: brightness(0) invert(1);" />
+                </a>
+              </td>
+
+              <!-- Twitter/X -->
+              <td style="padding: 0 14px;">
+                <a href="https://twitter.com/yourpage" target="_blank" style="text-decoration: none;">
+                  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png" alt="Twitter" width="24" height="24" style="display: block; filter: brightness(0) invert(1);" />
+                </a>
+              </td>
+
+              <!-- TikTok -->
+              <td style="padding: 0 14px;">
+                <a href="https://tiktok.com/@yourpage" target="_blank" style="text-decoration: none;">
+                  <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" width="24" height="24" style="display: block; filter: brightness(0) invert(1);" />
+                </a>
+              </td>
+
+              <!-- YouTube -->
+              <td style="padding: 0 14px;">
+                <a href="https://youtube.com/yourchannel" target="_blank" style="text-decoration: none;">
+                  <img src="https://cdn-icons-png.flaticon.com/512/733/733646.png" alt="YouTube" width="24" height="24" style="display: block; filter: brightness(0) invert(1);" />
+                </a>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- Preferences Text Section -->
+    <mj-section background-color="#EBDDCC" padding="0px 25px 0px 25px">
+      <mj-column width="100%" background-color="#8b5547" padding-top="15px">
+
+        <!-- Preferences Paragraph -->
+        <mj-text align="center" font-size="12px" font-weight="300" color="#f5e6dc" line-height="18px" padding="0 30px" css-class="footer-text">
+          Want to change which emails you receive from us?<br />
+          You can update your preferences
+          <a href="https://yoursite.com/preferences" style="color: #ffffff; text-decoration: underline;">here</a>
+          or unsubscribe
+          <a href="https://yoursite.com/unsubscribe" style="color: #ffffff; text-decoration: underline;">here</a>.<br />
+          You can view our privacy policy
+          <a href="https://yoursite.com/privacy" style="color: #ffffff; text-decoration: underline;">here</a>.
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- Address Section -->
+    <mj-section background-color="#EBDDCC" padding="0px 25px 45px 25px">
+      <mj-column width="100%" background-color="#8b5547" padding="15px">
+
+        <!-- Address -->
+        <mj-text align="center" font-size="11px" font-weight="300" color="rgba(255, 255, 255, 0.7)" letter-spacing="0.5px" padding="0" css-class="address-text">
+          4517 Washington Ave. Manchester, Kentucky 39495
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

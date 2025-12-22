@@ -1,0 +1,616 @@
+<mjml>
+  <mj-head>
+    <mj-title>Herbal Haven - Wellness for Mind, Body & Soul</mj-title>
+    <mj-preview>Discover our hero wellness products - Free shipping on orders over $50</mj-preview>
+
+    <!-- Google Fonts -->
+    <mj-font name="Cormorant Garamond" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" />
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" />
+
+    <!-- Global Attributes -->
+    <mj-attributes>
+      <mj-all font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" />
+      <mj-text font-size="14px" color="#3D2C23" line-height="17px" />
+      <mj-button font-family="'Inter', Arial, sans-serif" font-size="13px" font-weight="500" background-color="#C39B62" color="#ffffff" border-radius="5px" inner-padding="14px 32px" />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+    </mj-attributes>
+
+    <!-- Custom Styles -->
+    <mj-style>
+      .serif-font { font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif !important; } a { text-decoration: none; color: inherit; } .hover-zoom:hover img { transform: scale(1.02); } .hero-overlay { background:
+      linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)) !important; } .product-card img { width: 100%; height: 200px; object-fit: cover; display: block; } @media only screen and (max-width: 480px) { .mobile-full-width { width: 100%
+      !important; } .mobile-center { text-align: center !important; } .mobile-padding { padding-left: 16px !important; padding-right: 16px !important; } .product-card img { height: 180px !important; object-fit: cover !important; }
+      .product-card-content { padding: 14px 12px !important; }}
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#ffffff">
+    <!-- ============================================== -->
+    <!-- MAIN EMAIL WRAPPER                            -->
+    <!-- ============================================== -->
+    <mj-wrapper background-color="#F7F3EC" padding="0" border-radius="12px">
+      <!-- ============================================== -->
+      <!-- 1. UTILITY BAR (TOP STRIP)                   -->
+      <!-- ============================================== -->
+      <mj-section background-color="#6E5742" padding="10px 20px" border-radius="12px 12px 0 0">
+        <mj-column>
+          <mj-text align="center" font-size="11px" color="#ffffff" padding="0" letter-spacing="0.5px">
+            <a href="#" style="color: rgba(255, 255, 255, 0.85); text-decoration: underline">View in browser</a>
+            <span style="margin: 0 12px; color: #c39b62">✦</span>
+            Free shipping on orders over $50
+            <span style="margin: 0 12px; color: #c39b62">✦</span>
+            <a href="#" style="color: rgba(255, 255, 255, 0.85); text-decoration: underline">Shop Now</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 2. BRAND HEADER & NAVIGATION                 -->
+      <!-- ============================================== -->
+      <mj-section background-color="#F7F3EC" padding="25px 20px 20px">
+        <mj-column>
+          <mj-text padding="0">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width: 100%">
+              <tr>
+                <!-- Left Nav -->
+                <td style="width: 25%; text-align: left; vertical-align: middle; font-size: 14px; color: #6e5742; letter-spacing: 1px">
+                  <a href="#" style="color: #6e5742; text-decoration: none">Shop</a>
+                </td>
+
+                <!-- Center Logo -->
+                <td style="width: 50%; text-align: center; vertical-align: middle">
+                  <span style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px; font-weight: 600; color: #3d2c23">Herbal Haven</span>
+                </td>
+
+                <!-- Right Nav -->
+                <td style="width: 25%; text-align: right; vertical-align: middle; font-size: 14px; color: #6e5742; letter-spacing: 1px">
+                  <a href="#" style="color: #6e5742; text-decoration: none">Contact</a>
+                </td>
+              </tr>
+            </table>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 3. FULL-WIDTH HERO IMAGE                     -->
+      <!-- ============================================== -->
+
+      <!-- Hero Section -->
+      <mj-hero
+        mode="fluid-height"
+        background-width="600px"
+        background-height="500px"
+        background-url="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=640&h=500&fit=crop"
+        background-color="#8A9A7D"
+        background-position="center center"
+        padding="80px 30px 90px"
+        vertical-align="middle"
+        css-class="hero-overlay"
+      >
+        <mj-text align="center" font-size="11px" color="rgba(255,255,255,0.9)" padding="0 0 15px" letter-spacing="3px" text-transform="uppercase"> ✦ New Collection ✦ </mj-text>
+
+        <mj-text align="center" font-size="44px" color="#F7F3EC" font-weight="800" padding="0 0 18px" line-height="35px">
+          <span style="font-family: 'Cormorant Garamond', Georgia, serif; text-shadow: 0 2px 15px rgba(0, 0, 0, 0.3)">Hero and Core<br />Wellness Products</span>
+        </mj-text>
+
+        <mj-text align="center" font-size="16px" color="rgba(255,255,255,0.95)" padding="0 40px 30px" line-height="17px"> Nature's finest botanical blends, crafted to restore balance and nurture your well-being from within. </mj-text>
+
+        <mj-button href="#" background-color="#C39B62" color="#ffffff" font-size="14px" font-weight="600" inner-padding="16px 42px" border-radius="5px"> Shop Wellness </mj-button>
+      </mj-hero>
+      <!-- ============================================== -->
+      <!-- 5. BRAND MISSION SECTION                     -->
+      <!-- ============================================== -->
+      <mj-section background-color="#F7F3EC" padding="55px 25px 35px">
+        <mj-column>
+          <mj-text align="center" font-size="28px" color="#3D2C23" font-weight="500" padding="0 0 15px" line-height="13px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Brand Mission / Wellness Promise</span>
+          </mj-text>
+
+          <mj-text align="center" font-size="14px" color="#6E5742" padding="0 25px" line-height="18px">
+            We believe in the transformative power of nature. Each product is thoughtfully formulated with sustainably sourced botanicals to support your journey to holistic wellness.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Mission Pillars with Images -->
+      <mj-section background-color="#F7F3EC" padding="10px 15px 20px">
+        <mj-column width="25%" padding="0 8px 20px">
+          <mj-image src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=160&h=160&fit=crop" alt="Pure Botanicals" border-radius="12px" padding="0 0 12px" />
+          <mj-text align="center" font-size="14px" color="#3D2C23" font-weight="600" padding="0 0 4px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Pure Botanicals</span>
+          </mj-text>
+          <mj-text align="center" font-size="11px" color="#6E5742" padding="0" line-height="15px"> 100% plant-derived </mj-text>
+        </mj-column>
+
+        <mj-column width="25%" padding="0 8px 20px">
+          <mj-image src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=160&h=160&fit=crop" alt="Deep Hydration" border-radius="12px" padding="0 0 12px" />
+          <mj-text align="center" font-size="14px" color="#3D2C23" font-weight="600" padding="0 0 4px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Deep Hydration</span>
+          </mj-text>
+          <mj-text align="center" font-size="11px" color="#6E5742" padding="0" line-height="15px"> Nourish from within </mj-text>
+        </mj-column>
+
+        <mj-column width="25%" padding="0 8px 20px">
+          <mj-image src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=160&h=160&fit=crop" alt="Handcrafted" border-radius="12px" padding="0 0 12px" />
+          <mj-text align="center" font-size="14px" color="#3D2C23" font-weight="600" padding="0 0 4px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Handcrafted</span>
+          </mj-text>
+          <mj-text align="center" font-size="11px" color="#6E5742" padding="0" line-height="15px"> Small batch made </mj-text>
+        </mj-column>
+
+        <mj-column width="25%" padding="0 8px 20px">
+          <mj-image src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=160&h=160&fit=crop" alt="Sustainable" border-radius="12px" padding="0 0 12px" />
+          <mj-text align="center" font-size="14px" color="#3D2C23" font-weight="600" padding="0 0 4px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Sustainable</span>
+          </mj-text>
+          <mj-text align="center" font-size="11px" color="#6E5742" padding="0" line-height="15px"> Earth-friendly </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 6. FULL-WIDTH LIFESTYLE IMAGE                -->
+      <!-- ============================================== -->
+      <mj-section padding="20px 0 0">
+        <mj-column padding="0">
+          <mj-image src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=640&h=300&fit=crop" alt="Relaxing spa moment" padding="0" />
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 7. FEATURED PRODUCTS SECTION                 -->
+      <!-- ============================================== -->
+      <mj-section background-color="#EFE3D3" padding="50px 25px 25px">
+        <mj-column>
+          <mj-text align="center" font-size="11px" color="#C39B62" padding="0 0 10px" letter-spacing="2px" text-transform="uppercase"> Shop Our Collection </mj-text>
+          <mj-text align="center" font-size="28px" color="#3D2C23" font-weight="500" padding="0 0 10px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Featured Best-Sellers</span>
+          </mj-text>
+          <mj-text align="center" font-size="14px" color="#6E5742" padding="0 0 30px"> Our most-loved wellness essentials </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Featured Product - Large Card -->
+      <mj-section background-color="#EFE3D3" padding="0 20px 30px">
+        <mj-column width="55%" padding="0 10px 20px" vertical-align="middle">
+          <mj-image src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=340&h=440&fit=crop" alt="Wellness Drop Elixir" border-radius="16px" padding="0" href="#" />
+        </mj-column>
+
+        <mj-column width="45%" padding="0 10px 20px" vertical-align="middle">
+          <mj-text padding="0">
+            <div style="background-color: #ffffff; border-radius: 16px; padding: 32px 25px; box-shadow: 0 10px 40px rgba(61, 44, 35, 0.08)">
+              <div style="margin-bottom: 12px">
+                <span style="background-color: #8a9a7d; color: white; padding: 5px 14px; border-radius: 20px; font-size: 10px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase">Best Seller</span>
+              </div>
+
+              <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 28px; font-weight: 600; color: #3d2c23; margin-bottom: 12px; line-height: 1.2">Wellness Drop Elixir</div>
+
+              <div style="font-size: 12px; color: #c39b62; margin-bottom: 12px">★★★★★ <span style="color: #6e5742">(248 reviews)</span></div>
+
+              <div style="font-size: 14px; color: #6e5742; line-height: 1.7; margin-bottom: 18px">Our hero botanical elixir blends adaptogenic herbs with soothing lavender and chamomile for calm, restorative rest.</div>
+
+              <div style="font-size: 24px; font-weight: 600; color: #3d2c23; margin-bottom: 20px">
+                $48.00
+                <span style="font-size: 13px; color: #8a9a7d; font-weight: 400; margin-left: 6px">30ml</span>
+              </div>
+
+              <a href="#" style="display: inline-block; background-color: #c39b62; color: #ffffff; padding: 14px 32px; font-size: 13px; font-weight: 600; border-radius: 5px; text-decoration: none"> Add to Cart </a>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Product Grid - 3 Products -->
+      <!-- Product Cards -->
+      <mj-section background-color="#EFE3D3" padding="0 15px 50px">
+        <mj-column width="33.33%" padding="0 8px 20px">
+          <mj-text padding="0" css-class="product-card">
+            <div style="background-color: #ffffff; border-radius: 14px; overflow: hidden; box-shadow: 0 6px 25px rgba(61, 44, 35, 0.06)">
+              <a href="#">
+                <img src="https://images.unsplash.com/photo-1707645681412-f37327ad4a49?w=400&h=300&fit=crop" alt="Calm Body Oil" style="width: 100%; height: 200px; object-fit: cover; display: block" />
+              </a>
+              <div style="padding: 18px 16px" class="product-card-content">
+                <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 17px; font-weight: 600; color: #3d2c23; margin-bottom: 4px">Calm Body Oil</div>
+                <div style="font-size: 11px; color: #c39b62; margin-bottom: 8px">★★★★★</div>
+                <div style="font-size: 16px; font-weight: 600; color: #3d2c23; margin-bottom: 12px">$36.00</div>
+                <a href="#" style="display: block; text-align: center; background-color: #3d2c23; color: #ffffff; padding: 10px 20px; font-size: 11px; font-weight: 600; border-radius: 4px; text-decoration: none">Shop Now</a>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="33.33%" padding="0 8px 20px">
+          <mj-text padding="0" css-class="product-card">
+            <div style="background-color: #ffffff; border-radius: 14px; overflow: hidden; box-shadow: 0 6px 25px rgba(61, 44, 35, 0.06)">
+              <a href="#">
+                <img src="https://images.unsplash.com/photo-1672062519544-0d0139821c84?w=400&h=300&fit=crop" alt="Herbal Face Mist" style="width: 100%; height: 200px; object-fit: cover; display: block" />
+              </a>
+              <div style="padding: 18px 16px" class="product-card-content">
+                <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 17px; font-weight: 600; color: #3d2c23; margin-bottom: 4px">Herbal Face Mist</div>
+                <div style="font-size: 11px; color: #c39b62; margin-bottom: 8px">★★★★★</div>
+                <div style="font-size: 16px; font-weight: 600; color: #3d2c23; margin-bottom: 12px">$28.00</div>
+                <a href="#" style="display: block; text-align: center; background-color: #3d2c23; color: #ffffff; padding: 10px 20px; font-size: 11px; font-weight: 600; border-radius: 4px; text-decoration: none">Shop Now</a>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="33.33%" padding="0 8px 20px">
+          <mj-text padding="0" css-class="product-card">
+            <div style="background-color: #ffffff; border-radius: 14px; overflow: hidden; box-shadow: 0 6px 25px rgba(61, 44, 35, 0.06)">
+              <a href="#">
+                <img src="https://images.unsplash.com/photo-1729701792989-f517b77e7f49?w=400&h=300&fit=crop" alt="Sleep Ritual Set" style="width: 100%; height: 200px; object-fit: cover; display: block" />
+              </a>
+              <div style="padding: 18px 16px" class="product-card-content">
+                <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 17px; font-weight: 600; color: #3d2c23; margin-bottom: 4px">Sleep Ritual Set</div>
+                <div style="font-size: 11px; color: #c39b62; margin-bottom: 8px">★★★★★</div>
+                <div style="font-size: 16px; font-weight: 600; color: #3d2c23; margin-bottom: 12px">$72.00</div>
+                <a href="#" style="display: block; text-align: center; background-color: #3d2c23; color: #ffffff; padding: 10px 20px; font-size: 11px; font-weight: 600; border-radius: 4px; text-decoration: none">Shop Now</a>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 8. BENEFITS WITH IMAGES                      -->
+      <!-- ============================================== -->
+      <mj-section background-color="#F7F3EC" padding="50px 25px 25px">
+        <mj-column>
+          <mj-text align="center" font-size="28px" color="#3D2C23" font-weight="500" padding="0 0 10px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Benefits</span>
+          </mj-text>
+          <mj-text align="center" font-size="14px" color="#6E5742" padding="0 0 35px"> Why thousands trust Herbal Haven </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Benefits - 3 Column with Images -->
+      <mj-section background-color="#F7F3EC" padding="0 15px 30px">
+        <mj-column width="33.33%" padding="0 10px 25px">
+          <mj-image src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=200&h=200&fit=crop" alt="Stress Relief" border-radius="100px" width="140px" padding="0 0 18px" align="center" />
+          <mj-text align="center" font-size="18px" color="#3D2C23" font-weight="600" padding="0 0 8px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Stress Relief</span>
+          </mj-text>
+          <mj-text align="center" font-size="13px" color="#6E5742" padding="0" line-height="16px"> Adaptogenic blends that help naturally manage stress and restore calm. </mj-text>
+        </mj-column>
+
+        <mj-column width="33.33%" padding="0 10px 25px">
+          <mj-image src="https://images.unsplash.com/photo-1552693673-1bf958298935?w=200&h=200&fit=crop" alt="Self-Care" border-radius="100px" width="140px" padding="0 0 18px" align="center" />
+          <mj-text align="center" font-size="18px" color="#3D2C23" font-weight="600" padding="0 0 8px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Self-Care</span>
+          </mj-text>
+          <mj-text align="center" font-size="13px" color="#6E5742" padding="0" line-height="16px"> Luxurious rituals to nurture your mind, body, and spirit daily. </mj-text>
+        </mj-column>
+
+        <mj-column width="33.33%" padding="0 10px 25px">
+          <mj-image src="https://images.unsplash.com/photo-1531353826977-0941b4779a1c?w=200&h=200&fit=crop" alt="Better Sleep" border-radius="100px" width="140px" padding="0 0 18px" align="center" />
+          <mj-text align="center" font-size="18px" color="#3D2C23" font-weight="600" padding="0 0 8px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Better Sleep</span>
+          </mj-text>
+          <mj-text align="center" font-size="13px" color="#6E5742" padding="0" line-height="16px"> Calming formulas for deep, restorative sleep every night. </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 9. LIFESTYLE BROWN BAND                      -->
+      <!-- ============================================== -->
+      <mj-section background-color="#6E5742" padding="45px 25px">
+        <mj-column width="50%" padding="0 15px 20px" vertical-align="top">
+          <mj-image src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=280&h=200&fit=crop" alt="Stress Relief Collection" border-radius="10px" padding="0 0 18px" />
+          <mj-text align="center" font-size="20px" color="#ffffff" font-weight="500" padding="0 0 12px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Stress Relief</span>
+          </mj-text>
+          <mj-text align="center" font-size="12px" color="rgba(255,255,255,0.85)" padding="0 0 4px" line-height="16px"> ✓ Calming botanical blends </mj-text>
+          <mj-text align="center" font-size="12px" color="rgba(255,255,255,0.85)" padding="0 0 4px" line-height="16px"> ✓ Adaptogen-rich formulas </mj-text>
+          <mj-text align="center" font-size="12px" color="rgba(255,255,255,0.85)" padding="0 0 15px" line-height="16px"> ✓ Evening wind-down rituals </mj-text>
+          <mj-button href="#" background-color="#C39B62" font-size="11px" inner-padding="10px 24px"> Shop Collection </mj-button>
+        </mj-column>
+
+        <mj-column width="50%" padding="0 15px 20px" vertical-align="top">
+          <mj-image src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=280&h=200&fit=crop" alt="Self-Care Collection" border-radius="10px" padding="0 0 18px" />
+          <mj-text align="center" font-size="20px" color="#ffffff" font-weight="500" padding="0 0 12px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Self-Care</span>
+          </mj-text>
+          <mj-text align="center" font-size="12px" color="rgba(255,255,255,0.85)" padding="0 0 4px" line-height="16px"> ✓ Nourishing skin rituals </mj-text>
+          <mj-text align="center" font-size="12px" color="rgba(255,255,255,0.85)" padding="0 0 4px" line-height="16px"> ✓ Aromatherapy collections </mj-text>
+          <mj-text align="center" font-size="12px" color="rgba(255,255,255,0.85)" padding="0 0 15px" line-height="16px"> ✓ Mindful morning routines </mj-text>
+          <mj-button href="#" background-color="#C39B62" font-size="11px" inner-padding="10px 24px"> Shop Collection </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 10. LIFESTYLE IMAGERY GRID                   -->
+      <!-- ============================================== -->
+      <!-- First Row - 3 Images -->
+      <mj-section background-color="#F7F3EC" padding="0">
+        <mj-column padding="0">
+          <mj-text padding="0">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width: 100%">
+              <tr>
+                <td style="width: 33.33%; padding: 0; vertical-align: top">
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=220&h=280&fit=crop" alt="Spa treatment" style="width: 100%; display: block" />
+                  </a>
+                </td>
+                <td style="width: 33.33%; padding: 0; vertical-align: top">
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=220&h=280&fit=crop" alt="Self-care moment" style="width: 100%; display: block" />
+                  </a>
+                </td>
+                <td style="width: 33.33%; padding: 0; vertical-align: top">
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=220&h=280&fit=crop" alt="Relaxing atmosphere" style="width: 100%; display: block" />
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Second Row - 2 Images -->
+      <mj-section background-color="#F7F3EC" padding="0">
+        <mj-column padding="0">
+          <mj-text padding="0">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width: 100%">
+              <tr>
+                <td style="width: 50%; padding: 0; vertical-align: top">
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=320&h=240&fit=crop" alt="Wellness ritual" style="width: 100%; display: block" />
+                  </a>
+                </td>
+                <td style="width: 50%; padding: 0; vertical-align: top">
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=320&h=240&fit=crop" alt="Natural ingredients" style="width: 100%; display: block" />
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 11. TESTIMONIALS WITH PRODUCT IMAGES         -->
+      <!-- ============================================== -->
+      <mj-section background-color="#F7F3EC" padding="55px 25px 25px">
+        <mj-column>
+          <mj-text align="center" font-size="28px" color="#3D2C23" font-weight="500" padding="0 0 10px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Customer Love</span>
+          </mj-text>
+          <mj-text align="center" font-size="14px" color="#6E5742" padding="0 0 35px"> Real stories from our wellness community </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Testimonials Grid -->
+      <mj-section background-color="#F7F3EC" padding="0 15px 50px">
+        <mj-column width="33.33%" padding="0 10px 20px">
+          <mj-text padding="0">
+            <div style="background-color: #ffffff; border-radius: 16px; padding: 20px; text-align: center; box-shadow: 0 6px 25px rgba(61, 44, 35, 0.06)">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=faces" alt="Sarah M." style="width: 65px; height: 65px; border-radius: 50%; margin-bottom: 12px; object-fit: cover" />
+              <div style="font-size: 11px; color: #c39b62; margin-bottom: 10px">★★★★★</div>
+              <div style="font-size: 13px; color: #3d2c23; line-height: 1.6; margin-bottom: 12px; font-style: italic">"The Wellness Drop has completely transformed my evening routine."</div>
+              <div style="font-size: 12px; color: #6e5742; font-weight: 600">Sarah M.</div>
+              <div style="font-size: 10px; color: #8a9a7d; margin-top: 3px">Verified Buyer</div>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="33.33%" padding="0 10px 20px">
+          <mj-text padding="0">
+            <div style="background-color: #ffffff; border-radius: 16px; padding: 20px; text-align: center; box-shadow: 0 6px 25px rgba(61, 44, 35, 0.06)">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=faces" alt="James R." style="width: 65px; height: 65px; border-radius: 50%; margin-bottom: 12px; object-fit: cover" />
+              <div style="font-size: 11px; color: #c39b62; margin-bottom: 10px">★★★★★</div>
+              <div style="font-size: 13px; color: #3d2c23; line-height: 1.6; margin-bottom: 12px; font-style: italic">"Finally found products that actually work. Unmatched quality!"</div>
+              <div style="font-size: 12px; color: #6e5742; font-weight: 600">James R.</div>
+              <div style="font-size: 10px; color: #8a9a7d; margin-top: 3px">Verified Buyer</div>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="33.33%" padding="0 10px 20px">
+          <mj-text padding="0">
+            <div style="background-color: #ffffff; border-radius: 16px; padding: 20px; text-align: center; box-shadow: 0 6px 25px rgba(61, 44, 35, 0.06)">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop&crop=faces" alt="Emma L." style="width: 65px; height: 65px; border-radius: 50%; margin-bottom: 12px; object-fit: cover" />
+              <div style="font-size: 11px; color: #c39b62; margin-bottom: 10px">★★★★★</div>
+              <div style="font-size: 13px; color: #3d2c23; line-height: 1.6; margin-bottom: 12px; font-style: italic">"A staple in my self-care routine. Truly nurtures the soul."</div>
+              <div style="font-size: 12px; color: #6e5742; font-weight: 600">Emma L.</div>
+              <div style="font-size: 10px; color: #8a9a7d; margin-top: 3px">Verified Buyer</div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 12. LIMITED OFFER BANNER WITH IMAGE          -->
+      <!-- ============================================== -->
+      <mj-section background-color="#EFE3D3" padding="0">
+        <mj-column width="45%" padding="0" vertical-align="middle">
+          <mj-image src="https://images.unsplash.com/photo-1617897903246-719242758050?w=300&h=360&fit=crop" alt="Limited Time Offer" padding="0" />
+        </mj-column>
+        <mj-column width="55%" padding="40px 30px" vertical-align="middle">
+          <mj-text align="center" font-size="11px" color="#C39B62" padding="0 0 10px" letter-spacing="2px" text-transform="uppercase"> ✦ Limited Time Offer ✦ </mj-text>
+          <mj-text align="center" font-size="36px" color="#3D2C23" font-weight="600" padding="0 0 12px" line-height="11px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Save 15%</span>
+          </mj-text>
+          <mj-text align="center" font-size="14px" color="#6E5742" padding="0 0 8px"> On Your First Order </mj-text>
+          <mj-text align="center" font-size="13px" color="#3D2C23" padding="0 0 22px" font-weight="500">
+            Use code: <span style="background-color: #8a9a7d; color: white; padding: 3px 10px; border-radius: 4px; font-size: 12px">WELLNESS15</span>
+          </mj-text>
+          <mj-button href="#" background-color="#C39B62" font-size="13px" font-weight="600" inner-padding="14px 35px"> Unlock Offer </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 13. NEW ARRIVALS SECTION                     -->
+      <!-- ============================================== -->
+      <mj-section background-color="#F7F3EC" padding="55px 25px 25px">
+        <mj-column>
+          <mj-text align="center" font-size="28px" color="#3D2C23" font-weight="500" padding="0 0 10px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">New Arrivals</span>
+          </mj-text>
+          <mj-text align="center" font-size="14px" color="#6E5742" padding="0 0 30px"> Fresh additions to our collection </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- New Arrivals Grid -->
+      <mj-section background-color="#F7F3EC" padding="0 15px 50px">
+        <mj-column width="50%" padding="0 8px 20px">
+          <mj-image src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=300&h=360&fit=crop" alt="Morning Glow Serum" border-radius="14px" padding="0 0 15px" href="#" />
+          <mj-text align="center" font-size="18px" color="#3D2C23" font-weight="600" padding="0 0 5px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Morning Glow Serum</span>
+          </mj-text>
+          <mj-text align="center" font-size="11px" color="#C39B62" padding="0 0 8px"> ★★★★★ <span style="color: #6e5742">(New)</span> </mj-text>
+          <mj-text align="center" font-size="16px" color="#3D2C23" font-weight="600" padding="0 0 12px"> $54.00 </mj-text>
+          <mj-button href="#" background-color="#3D2C23" font-size="11px" inner-padding="10px 28px"> Shop Now </mj-button>
+        </mj-column>
+
+        <mj-column width="50%" padding="0 8px 20px">
+          <mj-image src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=300&h=360&fit=crop" alt="Botanical Bath Salts" border-radius="14px" padding="0 0 15px" href="#" />
+          <mj-text align="center" font-size="18px" color="#3D2C23" font-weight="600" padding="0 0 5px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Botanical Bath Salts</span>
+          </mj-text>
+          <mj-text align="center" font-size="11px" color="#C39B62" padding="0 0 8px"> ★★★★★ <span style="color: #6e5742">(New)</span> </mj-text>
+          <mj-text align="center" font-size="16px" color="#3D2C23" font-weight="600" padding="0 0 12px"> $32.00 </mj-text>
+          <mj-button href="#" background-color="#3D2C23" font-size="11px" inner-padding="10px 28px"> Shop Now </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 14. INSTAGRAM / UGC SECTION                  -->
+      <!-- ============================================== -->
+      <mj-section background-color="#8A9A7D" padding="40px 25px 20px">
+        <mj-column>
+          <mj-text align="center" font-size="22px" color="#ffffff" font-weight="500" padding="0 0 8px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">@herbalhaven</span>
+          </mj-text>
+          <mj-text align="center" font-size="13px" color="rgba(255,255,255,0.85)" padding="0 0 25px"> Share your wellness journey with us </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Instagram Grid -->
+      <mj-section background-color="#8A9A7D" padding="0 10px 40px">
+        <mj-column width="25%" padding="0 5px 10px">
+          <mj-image src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=150&h=150&fit=crop" alt="Instagram post" border-radius="8px" padding="0" href="#" />
+        </mj-column>
+        <mj-column width="25%" padding="0 5px 10px">
+          <mj-image src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=150&h=150&fit=crop" alt="Instagram post" border-radius="8px" padding="0" href="#" />
+        </mj-column>
+        <mj-column width="25%" padding="0 5px 10px">
+          <mj-image src="https://images.unsplash.com/photo-1617897903246-719242758050?w=150&h=150&fit=crop" alt="Instagram post" border-radius="8px" padding="0" href="#" />
+        </mj-column>
+        <mj-column width="25%" padding="0 5px 10px">
+          <mj-image src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=150&h=150&fit=crop" alt="Instagram post" border-radius="8px" padding="0" href="#" />
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 15. FINAL CTA CARDS                          -->
+      <!-- ============================================== -->
+      <mj-section background-color="#F7F3EC" padding="50px 25px 25px">
+        <mj-column>
+          <mj-text align="center" font-size="28px" color="#3D2C23" font-weight="500" padding="0 0 10px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Start Your Journey</span>
+          </mj-text>
+          <mj-text align="center" font-size="14px" color="#6E5742" padding="0 0 30px"> Personalized wellness, delivered to you </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CTA Cards -->
+      <mj-section background-color="#F7F3EC" padding="0 15px 55px">
+        <mj-column width="33.33%" padding="0 8px 20px">
+          <mj-text padding="0">
+            <div style="background-color: #efe3d3; border-radius: 16px; overflow: hidden; text-align: center">
+              <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=200&h=140&fit=crop" alt="Customize" style="width: 100%; display: block" />
+              <div style="padding: 20px 16px">
+                <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 17px; font-weight: 600; color: #3d2c23; margin-bottom: 8px">Customize Your Ritual</div>
+                <div style="font-size: 12px; color: #6e5742; line-height: 1.5">Build a personalized routine for your unique needs.</div>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="33.33%" padding="0 8px 20px">
+          <mj-text padding="0">
+            <div style="background-color: #efe3d3; border-radius: 16px; overflow: hidden; text-align: center">
+              <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=200&h=140&fit=crop" alt="Sustainable" style="width: 100%; display: block" />
+              <div style="padding: 20px 16px">
+                <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 17px; font-weight: 600; color: #3d2c23; margin-bottom: 8px">Sustainably Sourced</div>
+                <div style="font-size: 12px; color: #6e5742; line-height: 1.5">Ethically harvested with respect for our planet.</div>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="33.33%" padding="0 8px 20px">
+          <mj-text padding="0">
+            <div style="background-color: #efe3d3; border-radius: 16px; overflow: hidden; text-align: center">
+              <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=200&h=140&fit=crop" alt="Consultation" style="width: 100%; display: block" />
+              <div style="padding: 20px 16px">
+                <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 17px; font-weight: 600; color: #3d2c23; margin-bottom: 8px">Free Consultation</div>
+                <div style="font-size: 12px; color: #6e5742; line-height: 1.5">Connect with our experts for personalized guidance.</div>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ============================================== -->
+      <!-- 16. FOOTER                                   -->
+      <!-- ============================================== -->
+      <mj-section background-color="#6E5742" padding="45px 25px 35px">
+        <mj-column>
+          <mj-text align="center" font-size="28px" color="#ffffff" font-weight="500" padding="0 0 6px">
+            <span style="font-family: 'Cormorant Garamond', Georgia, serif">Herbal Haven</span>
+          </mj-text>
+          <mj-text align="center" font-size="11px" color="rgba(255,255,255,0.7)" padding="0 0 25px" letter-spacing="2px"> WELLNESS FOR MIND, BODY & SOUL </mj-text>
+
+          <!-- Social Icons -->
+          <mj-text align="center" padding="0 0 25px">
+            <a href="#" style="display: inline-block; width: 40px; height: 40px; background-color: rgba(255, 255, 255, 0.1); border-radius: 50%; margin: 0 6px; text-align: center; line-height: 40px">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" width="18" alt="Instagram" style="vertical-align: middle" />
+            </a>
+            <a href="#" style="display: inline-block; width: 40px; height: 40px; background-color: rgba(255, 255, 255, 0.1); border-radius: 50%; margin: 0 6px; text-align: center; line-height: 40px">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/tiktok.png" width="18" alt="TikTok" style="vertical-align: middle" />
+            </a>
+            <a href="#" style="display: inline-block; width: 40px; height: 40px; background-color: rgba(255, 255, 255, 0.1); border-radius: 50%; margin: 0 6px; text-align: center; line-height: 40px">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" width="18" alt="Facebook" style="vertical-align: middle" />
+            </a>
+            <a href="#" style="display: inline-block; width: 40px; height: 40px; background-color: rgba(255, 255, 255, 0.1); border-radius: 50%; margin: 0 6px; text-align: center; line-height: 40px">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/pinterest.png" width="18" alt="Pinterest" style="vertical-align: middle" />
+            </a>
+            <a href="#" style="display: inline-block; width: 40px; height: 40px; background-color: rgba(255, 255, 255, 0.1); border-radius: 50%; margin: 0 6px; text-align: center; line-height: 40px">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/youtube-play.png" width="18" alt="YouTube" style="vertical-align: middle" />
+            </a>
+          </mj-text>
+
+          <!-- Footer Links -->
+          <mj-text align="center" font-size="12px" color="rgba(255,255,255,0.75)" padding="0 0 20px">
+            <a href="#" style="color: rgba(255, 255, 255, 0.75); margin: 0 12px">Shop</a>
+            <a href="#" style="color: rgba(255, 255, 255, 0.75); margin: 0 12px">About</a>
+            <a href="#" style="color: rgba(255, 255, 255, 0.75); margin: 0 12px">Journal</a>
+            <a href="#" style="color: rgba(255, 255, 255, 0.75); margin: 0 12px">FAQ</a>
+            <a href="#" style="color: rgba(255, 255, 255, 0.75); margin: 0 12px">Contact</a>
+          </mj-text>
+
+          <mj-divider border-color="rgba(255,255,255,0.15)" border-width="1px" padding="5px 50px 25px" />
+
+          <mj-text align="center" font-size="11px" color="rgba(255,255,255,0.5)" line-height="17px" padding="0">
+            © 2024 Herbal Haven. All rights reserved.<br />
+            123 Botanical Lane, Serenity Springs, CA 90210<br /><br />
+            <a href="#" style="color: rgba(255, 255, 255, 0.6); text-decoration: underline">Unsubscribe</a> · <a href="#" style="color: rgba(255, 255, 255, 0.6); text-decoration: underline">Privacy Policy</a> ·
+            <a href="#" style="color: rgba(255, 255, 255, 0.6); text-decoration: underline">Terms</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Bottom Spacing -->
+    <mj-section padding="20px 0" background-color="#E8E0D5">
+      <mj-column>
+        <mj-text padding="0">&nbsp;</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

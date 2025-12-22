@@ -1,0 +1,24 @@
+<mj-section background-color="#f5f5f5" padding="30px 0">
+  <mj-column width="70%">
+    <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1762820579/Group_1_tmcuhn.png" alt="" />
+  </mj-column>
+  <mj-column width="100%">
+
+
+    <mj-social align="center" padding="15px 0">
+      <mj-social-element background-color="red" name="facebook" href="#"></mj-social-element>
+      <mj-social-element name="twitter" href="#"></mj-social-element>
+      <mj-social-element name="instagram" href="#"></mj-social-element>
+    </mj-social>
+    <mj-text align="center" color="#777777" font-size="12px" padding="0 25px">
+      © 2025 Your Brand. All rights reserved.
+    </mj-text>
+    <mj-divider border-color="#CCCCCC" border-width="1px" />
+
+
+    <mj-text align="center" color="#999999" font-size="12px" padding="10px 25px 0">
+      If you no longer wish to receive our emails,
+      <a href="#" style="color: #999999">unsubscribe here</a>.
+    </mj-text>
+  </mj-column>
+</mj-section>

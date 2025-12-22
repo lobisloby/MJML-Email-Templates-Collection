@@ -1,0 +1,317 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Work Sans" href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="" Work Sans", sans-serif" />
+      <mj-text font-size="16px" color="#3C5536" />
+      <mj-button background-color="#6E9B82" color="#ffffff" font-size="16px" border-radius="4px" />
+    </mj-attributes>
+    <mj-style>
+      .shop-now-link a {
+        color: #6C8B5B !important;
+        text-decoration: underline !important;
+      }
+
+      .shop-now-link a:hover {
+        color: #7D9C6C !important;
+      }
+
+      .nav-link {
+        color: #ffffff !important;
+        text-decoration: none !important;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        font-size: 13px;
+      }
+
+      .footer-link {
+        color: #ffffff !important;
+        text-decoration: underline !important;
+      }
+    </mj-style>
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+      .hide-on-mobile {
+      display: none !important;
+      mso-hide: all !important;
+      }
+
+      .mobile-product-spacing td {
+      padding-bottom: 30px !important;
+      }
+      .nav-column div {
+      text-align: center !important;
+      }
+      .footer-wrapper > table > tbody > tr > td {
+      padding-left: 16px !important;
+      padding-right: 16px !important;
+      }
+      }
+    </mj-style>
+    <mj-preview>Preview text goes here</mj-preview>
+    <mj-title>Email Title</mj-title>
+  </mj-head>
+  <mj-body background-color="#6a6868ff">
+    <!-- HEADER TEXT: section -->
+    <mj-section background-color="#6E9B82" padding="4px 0">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="12px" letter-spacing="0.8px">
+          Free shipping for over $50 and a full one-year return policy.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- LOGO: section  -->
+    <mj-section background-color="#EBF4E9" padding="20px 0 10px 0">
+      <mj-column>
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1764689672/Flaw_Bee_bjagdc.png" alt="Logo" width="130px" align="center" />
+      </mj-column>
+    </mj-section>
+    <!-- NAVBAR: section -->
+    <mj-section css-class="mobile-nav-section" background-color="#EBF4E9" padding="0 0 1px 0">
+      <mj-column>
+        <mj-navbar hamburger="hamburger" ico-color="#3C5536">
+          <mj-navbar-link href="/SKINCARE" color="#3C5536" font-size="14px" padding="15px 30px">SKIN CARE</mj-navbar-link>
+          <mj-navbar-link href="/HANDBODY" color="#3C5536" font-size="14px" padding="15px 30px">HAND BODY</mj-navbar-link>
+          <mj-navbar-link href="/HAIR" color="#3C5536" font-size="14px" padding="15px 30px">HAIR</mj-navbar-link>
+          <mj-navbar-link href="/VITAMINS" color="#3C5536" font-size="14px" padding="15px 30px">VITAMINS</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+    <!-- Divider section -->
+    <mj-section css-class="hide-on-mobile" background-color="#EBF4E9" padding="0px">
+      <mj-column>
+        <mj-divider border-color="#3C5536" border-width="1px" width="80%" padding="5px 0" />
+      </mj-column>
+    </mj-section>
+    <!-- section: NEW PRODACT -->
+    <mj-section background-color="#EBF4E9" padding="20px 24px 0 ">
+      <!-- text TITLE -->
+      <mj-column>
+        <mj-text font-weight="500" font-size="20px">
+          Time to try something new.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#EBF4E9" padding=" 0 24px">
+      <!-- text TITLE -->
+      <mj-column>
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1764689679/Rectangle_1_w7g2rx.png" alt="" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#EBF4E9" padding="0px 24px 0 ">
+      <!-- text TITLE -->
+      <mj-column>
+        <mj-text font-size="12px">
+          This month, we’re encouraging a spirit of discovery. Every purchase will include a sweet little something - a sachet of Sootherup in Vine & Paisley and Once Upon & Time - to enliven your senses. Enjoy trying something new!
+        </mj-text>
+        <mj-button align="left" font-size="12px" inner-padding="12px 64px">
+          SHOP THE RANGE
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Header Section -->
+    <mj-section background-color="#F3F7F1" padding="50px 20px 30px 20px">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="30px" font-weight="500" color="#3C5A3F" padding-bottom="25px">
+          Latest Articles
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Article Row 1: Image Left, Text Right -->
+    <mj-section background-color="#F3F7F1" padding="0 20px 30px 20px">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1764689676/Rectangle_1_1_rr3kvq.png" fluid-on-mobile="true" alt="Hand holding an eco-friendly jar" width="248px" align="left" border-radius="0" padding="0" />
+      </mj-column>
+      <mj-column width="50%" padding-left="15px" vertical-align="middle">
+        <mj-text font-size="19px" color="#3C5A3F" line-height="25px" align="left" padding="0 0 30px 0">
+          Enjoy the convenience of eco‑friendly living delivered right to you.
+        </mj-text>
+        <mj-text font-size="12px" color="#3C5A3F" letter-spacing="1.5px" align="left" padding="0" css-class="read-more-link">
+          <a href="#" style="color: #3C5A3F; text-decoration: underline;">READ MORE</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Article Row 2: Text Left, Image Right -->
+    <mj-section background-color="#F3F7F1" padding="10px 20px 30px 20px" direction="rtl">
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1764689681/Rectangle_1_2_ulmmb5.png" fluid-on-mobile="true" alt="Dropper dispensing golden oil onto skin" width="248px" align="right" border-radius="0" padding="0" />
+      </mj-column>
+      <mj-column width="50%" padding-right="15px" vertical-align="middle" css-class="text-left-mobile">
+        <mj-text font-size="19px" color="#3C5A3F" line-height="25px" align="left" padding="0 0 30px 0">
+          Our products are designed to be easily replicated at any home.
+        </mj-text>
+        <mj-text font-size="12px" color="#3C5A3F" letter-spacing="1.5px" align="left" padding="0" css-class="read-more-link">
+          <a href="#" style="color: #3C5A3F; text-decoration: underline;">READ MORE</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Button Section -->
+    <mj-section background-color="#F3F7F1" padding="40px 20px 60px 20px">
+      <mj-column width="100%">
+        <mj-button background-color="#5E8167" color="#FFFFFF" font-size="12px" font-weight="500" border-radius="3px" inner-padding="12px 64px" align="center" href="#">
+          EXPLORE ARTICLES
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Section: Popular products -->
+    <mj-section background-color="#EBF4E9" padding="20px 24px 0 ">
+      <!-- text TITLE -->
+      <mj-column>
+        <mj-text font-weight="500" font-size="20px">
+          Popular Products
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Main Product Grid Section -->
+    <mj-section background-color="#EBF4E9" padding="50px 20px 25px 20px">
+      <!-- Top Row -->
+      <!-- Left Product: Hair, and Now -->
+      <mj-column width="48%" background-color="#EBF4E9" padding="8px 16px" vertical-align="top">
+        <mj-image fluid-on-mobile="true" src="https://res.cloudinary.com/dhneogiam/image/upload/v1764689677/Rectangle_2_lcmklr.png" alt="Hair Care Products" border-radius="0" padding="0" />
+        <mj-text align="center" color="#6C8B5B" font-size="17px" font-weight="600" padding="20px 10px 8px 10px">
+          Hair, and Now
+        </mj-text>
+        <mj-text align="center" color="#B6C4AA" font-size="13px" line-height="18px" padding="0 10px 14px 10px">
+          Shampoo, Conditioner, Minoxidil, and the Total Hair Package.
+        </mj-text>
+        <mj-text align="center" color="#6C8B5B" font-size="13px" letter-spacing="1.5px" padding="0 10px 20px 10px" css-class="shop-now-link">
+          <a href="#" style="color: #6C8B5B; text-decoration: underline;">SHOP NOW</a>
+        </mj-text>
+      </mj-column>
+
+      <!-- Right Product: Take Your Vitamins -->
+      <mj-column padding="8px 16px" width="48%" background-color="#EBF4E9" padding="0" vertical-align="top">
+        <mj-image fluid-on-mobile="true" src="https://res.cloudinary.com/dhneogiam/image/upload/v1764689676/Rectangle_2_1_qqxnat.png" alt="Vitamin Products" border-radius="0" padding="0" />
+        <mj-text align="center" color="#6C8B5B" font-size="17px" font-weight="600" padding="20px 10px 8px 10px">
+          Take Your Vitamins
+        </mj-text>
+        <mj-text align="center" color="#B6C4AA" font-size="13px" line-height="18px" padding="0 10px 14px 10px">
+          Who knew wellness could taste this good? Our Biotin &amp; Sleep.
+        </mj-text>
+        <mj-text align="center" color="#6C8B5B" font-size="13px" letter-spacing="1.5px" padding="0 10px 20px 10px" css-class="shop-now-link">
+          <a href="#" style="color: #6C8B5B; text-decoration: underline;">SHOP NOW</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Bottom Row -->
+    <mj-section background-color="#EBF4E9" padding="25px 20px 50px 20px">
+      <!-- Left Product: Face Value -->
+      <mj-column padding="8px 16px" width="48%" background-color="#EBF4E9" vertical-align="top">
+        <mj-image fluid-on-mobile="true" src="https://res.cloudinary.com/dhneogiam/image/upload/v1764780928/Rectangle_2_2_xycpfg.png" alt="Face Care Products" border-radius="0" padding="0" />
+        <mj-text align="center" color="#6C8B5B" font-size="17px" font-weight="600" padding="20px 10px 8px 10px">
+          Face Value
+        </mj-text>
+        <mj-text align="center" color="#B6C4AA" font-size="13px" line-height="18px" padding="0 10px 14px 10px">
+          Put a smile on your skin's face with Flaw &amp; Bee Everyday
+        </mj-text>
+        <mj-text align="center" color="#6C8B5B" font-size="13px" letter-spacing="1.5px" padding="0 10px 20px 10px" css-class="shop-now-link">
+          <a href="#" style="color: #6C8B5B; text-decoration: underline;">SHOP NOW</a>
+        </mj-text>
+      </mj-column>
+
+      <!-- Right Product: Organic Hair Care -->
+      <mj-column width="48%" background-color="#EBF4E9" padding="8px 16px" vertical-align="top">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1764780929/Rectangle_2_3_umoni8.png" alt="Organic Hair Care Products" fluid-on-mobile="true" border-radius="0" padding="0" />
+        <mj-text align="center" color="#6C8B5B" font-size="17px" font-weight="600" padding="20px 10px 8px 10px">
+          Organic Hair Care
+        </mj-text>
+        <mj-text align="center" color="#B6C4AA" font-size="13px" padding="0 10px 14px 10px">
+          Unleash your charm and make a difference with our shampoo solutions
+        </mj-text>
+        <mj-text align="center" color="#6C8B5B" font-size="13px" letter-spacing="1.5px" padding="0 10px 20px 10px" css-class="shop-now-link">
+          <a href="#" style="color: #6C8B5B; text-decoration: underline;">SHOP NOW</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="25px 20px 50px 20px" background-color="#F4FFF6">
+      <mj-column padding-top="40px">
+        <mj-image align="left" padding-bottom="2px" src="https://res.cloudinary.com/dhneogiam/image/upload/v1764689672/Flaw_Bee_bjagdc.png" width="133px" alt="" />
+        <mj-text font-size="12px" align="left">
+          LET’S TALK ABOUT IT... changing the conversation surrounding acne, hair loss, sexual desire, and women’s health.
+        </mj-text>
+        <mj-button align="left" font-size="12px" inner-padding="12px 64px">
+          FOLLOW US
+        </mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1764780928/Frame_17_tbcned.png" alt="" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+    <!-- Footer Wrapper -->
+    <mj-wrapper css-class="footer-wrapper" background-color="#6E9B82">
+
+      <!-- Navigation Links Row -->
+      <mj-section padding="0 0 18px 0">
+        <mj-column width="33.33%" css-class="nav-column">
+          <mj-text align="left" font-size="13px" font-weight="500" letter-spacing="1.5px">
+            <a href="https://example.com/about" class="nav-link" style="color: #ffffff; text-decoration: none; font-weight: 500;">ABOUT</a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33.33%">
+          <mj-text align="center" font-size="13px" font-weight="500" letter-spacing="1.5px">
+            <a href="https://example.com/career" class="nav-link" style="color: #ffffff; text-decoration: none; font-weight: 500;">CAREER</a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="33.33%" css-class="nav-column">
+          <mj-text align="right" font-size="13px" font-weight="500" letter-spacing="1.5px">
+            <a href="https://example.com/faq" class="nav-link" style="color: #ffffff; text-decoration: none; font-weight: 500;">FAQ</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Horizontal Divider -->
+      <mj-section padding="0 0 20px 0">
+        <mj-column>
+          <mj-divider border-color="rgba(255, 255, 255, 0.25)" border-width="1px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Preferences Paragraph -->
+      <mj-section padding="0 0 20px 0">
+        <mj-column>
+          <mj-text color="#ffffff" align="center" font-size="12px" line-height="16px" padding="0 10px">
+            Want to change which emails you receive from us? You can update your preferences
+            <a href="https://example.com/preferences" class="footer-link" style="color: #ffffff; text-decoration: underline;">here</a>
+            or unsubscribe
+            <a href="https://example.com/unsubscribe" class="footer-link" style="color: #ffffff; text-decoration: underline;">here</a>.
+            You can view our privacy policy
+            <a href="https://example.com/privacy" class="footer-link" style="color: #ffffff; text-decoration: underline;">here</a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Mailing Address -->
+      <mj-section padding="0 0 22px 0">
+        <mj-column>
+          <mj-text color="#ffffff" align="center" font-size="13px" letter-spacing="0.5px" line-height="15px">
+            4517 Washington Ave. Manchester, Kentucky 39495
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Social Media Icons -->
+      <mj-section padding="0">
+        <mj-column>
+          <mj-social align="center">
+            <!-- Facebook -->
+            <mj-social-element padding="10px" href="https://facebook.com" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNMTggMmgtM2E1IDUgMCAwIDAtNSA1djNIN3Y0aDN2OGg0di04aDNsMS00aC00VjdhMSAxIDAgMCAxIDEtMWgzeiIvPjwvc3ZnPg==" alt="Facebook" />
+            <!-- Instagram -->
+            <mj-social-element padding="10px" href="https://instagram.com" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHJ4PSI1IiByeT0iNSIvPjxwYXRoIGQ9Ik0xNiAxMS4zN0E0IDQgMCAxIDEgMTIuNjMgOCA0IDQgMCAwIDEgMTYgMTEuMzd6Ii8+PGxpbmUgeDE9IjE3LjUiIHkxPSI2LjUiIHgyPSIxNy41MSIgeTI9IjYuNSIvPjwvc3ZnPg==" alt="Instagram" />
+            <!-- Twitter/X -->
+            <mj-social-element padding="10px" href="https://twitter.com" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNMTguMjQ0IDIuMjVoMy4zMDhsLTcuMjI3IDguMjYgOC41MDIgMTEuMjRIMTYuMTdsLTUuMjE0LTYuODE3TDQuOTkgMjEuNzVIMS42OGw3LjczLTguODM1TDEuMjU0IDIuMjVINy44bDQuNzEzIDYuMjMxem0tMS4xNjEgMTcuNTJoMS44MzNMNy4wODQgNC4xMjZINS4xMTd6Ii8+PC9zdmc+" alt="Twitter" />
+            <!-- TikTok -->
+            <mj-social-element padding="10px" href="https://tiktok.com" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNMTkuNTkgNi42OWE0LjgzIDQuODMgMCAwIDEtMy43Ny00LjI1VjJoLTMuNDV2MTMuNjdhMi44OSAyLjg5IDAgMCAxLTUuMiAxLjc0IDIuODkgMi44OSAwIDAgMSAyLjMxLTQuNjQgMi45MyAyLjkzIDAgMCAxIC44OC4xM1Y5LjRhNi44NCA2Ljg0IDAgMCAwLTEtLjA3IDYuMzMgNi4zMyAwIDAgMC01IDEwLjIzIDYuMzQgNi4zNCAwIDAgMCAxMC44Ni00LjQzdi03YTguMTYgOC4xNiAwIDAgMCA0Ljc3IDEuNTJWNi43OWE0LjgxIDQuODEgMCAwIDEtMS40LS4xeiIvPjwvc3ZnPg==" alt="TikTok" />
+            <!-- YouTube -->
+            <mj-social-element padding="10px" href="https://youtube.com" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZmZmZmZmIj48cGF0aCBkPSJNMjIuNTQgNi40MmE2LjMzIDYuMzMgMCAwIDAtNi4zMy01LjQySDcuNzlBNi4zMyA2LjMzIDAgMCAwIDEuNDYgNi40MnY3LjE2YTYuMzMgNi4zMyAwIDAgMCA2LjMzIDYuMzNoOC40MmE2LjMzIDYuMzMgMCAwIDAgNi4zMy02LjMzVjYuNDJ6bS0xMi4zMyA5LjU5VjguMDFsNi41NCAzLjk5LTYuNTQgNC4wMXoiLz48L3N2Zz4=" alt="YouTube" />
+          </mj-social>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>

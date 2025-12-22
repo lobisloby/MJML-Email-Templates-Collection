@@ -1,0 +1,6 @@
+ <!-- MOBILE: Logo Above Hamburger -->
+    <mj-section css-class="mobile-logo-section" background-color="#3721D3" padding="20px 0 10px 0">
+      <mj-column>
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1764350534/Group_6_pnrjyq.png" alt="Logo" width="130px" align="center" />
+      </mj-column>
+    </mj-section>

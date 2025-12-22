@@ -1,0 +1,593 @@
+<mjml>
+  <mj-head>
+    <mj-title>Skin Zephyr - Glow This Season</mj-title>
+    <mj-preview>New Skincare & Makeup Picks - Discover your glow with 20% off</mj-preview>
+    
+    <!-- Google Fonts -->
+    <mj-font name="Playfair Display" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" />
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    
+    <!-- Global Attributes -->
+    <mj-attributes>
+      <mj-all font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" />
+      <mj-text font-size="14px" color="#3A2721" line-height="18px" />
+      <mj-button font-family="'Inter', Arial, sans-serif" font-size="13px" font-weight="500" background-color="#5B3A30" color="#ffffff" border-radius="4px" inner-padding="12px 30px" />
+      <mj-section padding="0" background-color="#FCEEEE" />
+      <mj-column padding="0" />
+    </mj-attributes>
+    
+    <!-- Custom Styles -->
+    <mj-style>
+      .serif-font {
+        font-family: 'Playfair Display', Georgia, 'Times New Roman', serif !important;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      .social-link {
+        color: #3A2721 !important;
+        text-decoration: none !important;
+      }
+      .social-link:hover {
+        color: #5B3A30 !important;
+        text-decoration: underline !important;
+      }
+      .product-card {
+        background-color: #F9D7DD;
+        border-radius: 8px;
+      }
+    </mj-style>
+    
+    <mj-style inline="inline">
+      .serif-heading { font-family: 'Playfair Display', Georgia, serif; }
+    </mj-style>
+    
+  </mj-head>
+  
+  <mj-body background-color="#E5E1DD">
+    
+    <!-- ============================================== -->
+    <!-- 1. ANNOUNCEMENT BAR                           -->
+    <!-- ============================================== -->
+    <mj-section background-color="#5B3A30" padding="10px 20px">
+      <mj-column>
+        <mj-text 
+          align="center" 
+          color="#ffffff" 
+          font-size="11px" 
+          letter-spacing="1.5px" 
+          text-transform="uppercase"
+          font-weight="500"
+        >
+          ✦ Carbon Neutral Shipping on Orders Over $50 ✦
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <!-- ============================================== -->
+    <!-- 2. BRAND HEADER / LOGO                        -->
+    <!-- ============================================== -->
+    <mj-section background-color="#FFFAF9" padding="22px 20px 24px">
+      <mj-column>
+        <mj-text 
+          align="center" 
+          font-size="32px" 
+          color="#2B1C18" 
+          font-weight="500"
+          css-class="serif-font"
+          padding="0"
+        >
+          <span style="font-family: 'Playfair Display', Georgia, serif;">Skin Zephyr</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <!-- ============================================== -->
+    <!-- 3. HERO IMAGE WITH OVERLAY TEXT & BUTTON      -->
+    <!-- ============================================== -->
+    <mj-hero 
+      mode="fixed-height" 
+      height="420px" 
+      background-width="600px"
+      background-height="420px"
+      background-url="https://imagine-public.x.ai/imagine-public/images/616a724f-91f5-4869-9304-c06aa6f68cdf.png?cache=1&dl=1"
+      background-color="#F5D6D6"
+      padding="40px 25px"
+      vertical-align="middle"
+    >
+      <mj-text 
+        align="center" 
+        font-size="36px" 
+        color="#f6f5ff" 
+        padding="10px 25px 8px"
+        line-height="30px"
+        font-weight="500"
+      >
+        <span style="font-family: 'Playfair Display', Georgia, serif;">Glow this Season</span>
+      </mj-text>
+      
+      <mj-text 
+        align="center" 
+        font-size="17px" 
+        color="#f6f5ff" 
+        padding="0 25px 25px"
+        font-weight="400"
+      >
+        New Skincare & Makeup Picks
+      </mj-text>
+      
+      <mj-button 
+        href="#" 
+        background-color="#5B3A30" 
+        color="#ffffff" 
+        font-size="14px"
+        font-weight="600"
+        border-radius="4px"
+        inner-padding="14px 38px"
+      >
+        Shop Now
+      </mj-button>
+    </mj-hero>
+    
+    <!-- ============================================== -->
+    <!-- 4. FEATURED BEST-SELLERS SECTION              -->
+    <!-- ============================================== -->
+    
+    <!-- Section Title -->
+    <mj-section background-color="#FCEEEE" padding="50px 20px 30px">
+      <mj-column>
+        <mj-text 
+          align="center" 
+          font-size="22px" 
+          color="#3A2721" 
+          font-weight="600"
+          padding="0"
+        >
+          Featured Best-Sellers
+        </mj-text>
+        <mj-text 
+          align="center" 
+          font-size="14px" 
+          color="#60463C" 
+          padding="10px 0 0"
+        >
+          Our most-loved skincare essentials, handpicked for your glow
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <!-- Product Grid - 3 Columns -->
+    <mj-section background-color="#FCEEEE" padding="0 15px 40px">
+      
+      <!-- Product 1 -->
+      <mj-column width="33.33%" padding="0 8px 20px">
+        <mj-text padding="0">
+          <div style="background-color: #F9D7DD; border-radius: 12px; padding: 20px 15px 22px; text-align: center;">
+            <!-- Product Image -->
+            <div style="padding: 10px 0 18px;">
+              <img 
+                src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=180&h=200&fit=crop" 
+                alt="Radiance Serum" 
+                style="width: 100%; max-width: 140px; height: 170px; object-fit: cover; border-radius: 8px;"
+              />
+            </div>
+            
+            <!-- Product Name -->
+            <div style="font-size: 15px; font-weight: 600; color: #3A2721; margin-bottom: 6px; line-height: 1.4;">
+              Glow Radiance Serum
+            </div>
+            
+            <!-- Benefit Text -->
+            <div style="font-size: 12px; color: #60463C; margin-bottom: 10px; line-height: 1.5;">
+              Vitamin C + Hyaluronic Acid
+            </div>
+            
+            <!-- Price -->
+            <div style="font-size: 16px; font-weight: 700; color: #3A2721; margin-bottom: 16px;">
+              $42.00
+            </div>
+            
+            <!-- Button -->
+            <a href="#" style="display: inline-block; background-color: #5B3A30; color: #ffffff; padding: 11px 24px; font-size: 12px; font-weight: 600; border-radius: 4px; text-decoration: none;">
+              View Best Sellers
+            </a>
+          </div>
+        </mj-text>
+      </mj-column>
+      
+      <!-- Product 2 -->
+      <mj-column width="33.33%" padding="0 8px 20px">
+        <mj-text padding="0">
+          <div style="background-color: #F9D7DD; border-radius: 12px; padding: 20px 15px 22px; text-align: center;">
+            <!-- Product Image -->
+            <div style="padding: 10px 0 18px;">
+              <img 
+                src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=180&h=200&fit=crop" 
+                alt="Hydra Moisturizer" 
+                style="width: 100%; max-width: 140px; height: 170px; object-fit: cover; border-radius: 8px;"
+              />
+            </div>
+            
+            <!-- Product Name -->
+            <div style="font-size: 15px; font-weight: 600; color: #3A2721; margin-bottom: 6px; line-height: 1.4;">
+              Hydra Cloud Cream
+            </div>
+            
+            <!-- Benefit Text -->
+            <div style="font-size: 12px; color: #60463C; margin-bottom: 10px; line-height: 1.5;">
+              72hr Deep Hydration
+            </div>
+            
+            <!-- Price -->
+            <div style="font-size: 16px; font-weight: 700; color: #3A2721; margin-bottom: 16px;">
+              $38.00
+            </div>
+            
+            <!-- Button -->
+            <a href="#" style="display: inline-block; background-color: #5B3A30; color: #ffffff; padding: 11px 24px; font-size: 12px; font-weight: 600; border-radius: 4px; text-decoration: none;">
+              Shop Now
+            </a>
+          </div>
+        </mj-text>
+      </mj-column>
+      
+      <!-- Product 3 -->
+      <mj-column width="33.33%" padding="0 8px 20px">
+        <mj-text padding="0">
+          <div style="background-color: #F9D7DD; border-radius: 12px; padding: 20px 15px 22px; text-align: center;">
+            <!-- Product Image -->
+            <div style="padding: 10px 0 18px;">
+              <img 
+                src="https://skin-zephyr.myshopify.com/cdn/shop/products/lassieelblue.png?v=1638909752&width=3000" 
+                alt="Primicare Deluxe Set" 
+                style="width: 100%; max-width: 140px; height: 170px; object-fit: cover; border-radius: 8px;"
+              />
+            </div>
+            
+            <!-- Product Name -->
+            <div style="font-size: 15px; font-weight: 600; color: #3A2721; margin-bottom: 6px; line-height: 1.4;">
+              Lassie'el Deeeep Focus Hydrogel Eye Patch: Blue
+            </div>
+            
+            <!-- Benefit Text -->
+            <div style="font-size: 12px; color: #60463C; margin-bottom: 10px; line-height: 1.5;">
+              Skin Zephyr
+            </div>
+            
+            <!-- Price -->
+            <div style="font-size: 16px; font-weight: 700; color: #3A2721; margin-bottom: 16px;">
+              $89.00
+            </div>
+            
+            <!-- Button -->
+            <a href="#" style="display: inline-block; background-color: #5B3A30; color: #ffffff; padding: 11px 24px; font-size: 12px; font-weight: 600; border-radius: 4px; text-decoration: none;">
+              Shop Now
+            </a>
+          </div>
+        </mj-text>
+      </mj-column>
+      
+    </mj-section>
+    
+    <!-- ============================================== -->
+    <!-- 5. NEW ARRIVALS SECTION                       -->
+    <!-- ============================================== -->
+    
+    <!-- Section Title -->
+    <mj-section background-color="#FCEEEE" padding="30px 20px 25px">
+      <mj-column>
+        <mj-divider border-color="#E8D5D5" border-width="1px" padding="0 40px 35px" />
+        <mj-text 
+          align="center" 
+          font-size="22px" 
+          color="#3A2721" 
+          font-weight="600"
+          padding="0"
+        >
+          New Arrivals
+        </mj-text>
+        <mj-text 
+          align="center" 
+          font-size="14px" 
+          color="#60463C" 
+          padding="10px 0 0"
+        >
+          Fresh looks and formulas, just dropped
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <!-- New Arrivals Grid - 3 Columns -->
+    <mj-section background-color="#FCEEEE" padding="10px 15px 40px">
+      
+      <!-- Arrival 1 -->
+      <mj-column width="33.33%" padding="0 8px 20px">
+        <mj-image 
+          src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=200&h=240&fit=crop&crop=faces" 
+          alt="Dewy Skin Look" 
+          border-radius="10px"
+          padding="0 0 15px"
+        />
+        <mj-text align="center" font-size="14px" font-weight="600" color="#3A2721" padding="0 0 5px">
+          Dewy Skin Essentials
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#60463C" padding="0 0 14px">
+          Fresh-faced & luminous
+        </mj-text>
+        <mj-button 
+          href="#" 
+          background-color="#5B3A30" 
+          font-size="11px" 
+          inner-padding="10px 22px"
+          border-radius="4px"
+        >
+          Quick Shop
+        </mj-button>
+      </mj-column>
+      
+      <!-- Arrival 2 -->
+      <mj-column width="33.33%" padding="0 8px 20px">
+        <mj-image 
+          src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=200&h=240&fit=crop&crop=faces" 
+          alt="Natural Makeup Look" 
+          border-radius="10px"
+          padding="0 0 15px"
+        />
+        <mj-text align="center" font-size="14px" font-weight="600" color="#3A2721" padding="0 0 5px">
+          Soft Glam Makeup
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#60463C" padding="0 0 14px">
+          Effortless everyday beauty
+        </mj-text>
+        <mj-button 
+          href="#" 
+          background-color="#5B3A30" 
+          font-size="11px" 
+          inner-padding="10px 22px"
+          border-radius="4px"
+        >
+          Quick Shop
+        </mj-button>
+      </mj-column>
+      
+      <!-- Arrival 3 -->
+      <mj-column width="33.33%" padding="0 8px 20px">
+        <mj-image 
+          src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=200&h=240&fit=crop&crop=faces" 
+          alt="Glow Collection" 
+          border-radius="10px"
+          padding="0 0 15px"
+        />
+        <mj-text align="center" font-size="14px" font-weight="600" color="#3A2721" padding="0 0 5px">
+          Glass Skin Collection
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#60463C" padding="0 0 14px">
+          K-beauty inspired glow
+        </mj-text>
+        <mj-button 
+          href="#" 
+          background-color="#5B3A30" 
+          font-size="11px" 
+          inner-padding="10px 22px"
+          border-radius="4px"
+        >
+          Unlock Shop
+        </mj-button>
+      </mj-column>
+      
+    </mj-section>
+    
+    <!-- ============================================== -->
+    <!-- 6. LIMITED TIME OFFER STRIP                   -->
+    <!-- ============================================== -->
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-text padding="0">
+          <div style="background: linear-gradient(135deg, #F5C6CB 0%, #F9D7DD 50%, #FADCE1 100%); padding: 35px 25px 38px; text-align: center;">
+            
+            <!-- Decorative Element -->
+            <div style="font-size: 24px; margin-bottom: 12px;">✨</div>
+            
+            <!-- Offer Title -->
+            <div style="font-size: 13px; color: #5B3A30; letter-spacing: 2px; text-transform: uppercase; font-weight: 600; margin-bottom: 10px;">
+              Limited Time Offer
+            </div>
+            
+            <!-- Discount -->
+            <div style="font-size: 42px; font-weight: 700; color: #3A2721; margin-bottom: 8px; line-height: 1.1; font-family: 'Playfair Display', Georgia, serif;">
+              20% OFF
+            </div>
+            
+            <!-- Supporting Text -->
+            <div style="font-size: 14px; color: #60463C; margin-bottom: 22px;">
+              On your first order with code <strong style="color: #3A2721;">GLOW20</strong>
+            </div>
+            
+            <!-- CTA Button -->
+            <a href="#" style="display: inline-block; background-color: #5B3A30; color: #ffffff; padding: 14px 36px; font-size: 14px; font-weight: 600; border-radius: 4px; text-decoration: none; box-shadow: 0 4px 15px rgba(91, 58, 48, 0.25);">
+              Unlock Discount
+            </a>
+            
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <!-- ============================================== -->
+    <!-- 7. CUSTOMER TESTIMONIALS                      -->
+    <!-- ============================================== -->
+    
+    <!-- Section Title -->
+    <mj-section background-color="#FCEEEE" padding="50px 20px 30px">
+      <mj-column>
+        <mj-text 
+          align="center" 
+          font-size="22px" 
+          color="#3A2721" 
+          font-weight="600"
+          padding="0"
+        >
+          Customer Testimonials
+        </mj-text>
+        <mj-text 
+          align="center" 
+          font-size="14px" 
+          color="#60463C" 
+          padding="10px 0 0"
+        >
+          Real stories from our glowing community
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <!-- Testimonials Grid - 3 Columns -->
+    <mj-section background-color="#FCEEEE" padding="10px 15px 45px">
+      
+      <!-- Testimonial 1 -->
+      <mj-column width="33.33%" padding="0 10px 20px">
+        <mj-image 
+          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces" 
+          alt="Meryl D." 
+          width="70px"
+          border-radius="50px"
+          padding="0 0 15px"
+          align="center"
+        />
+        <mj-text align="center" font-size="13px" color="#3A2721" padding="0 5px 12px" line-height="16px">
+          <em>"Truly transformed my skincare routine. My skin has never felt so hydrated and radiant!"</em>
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#5B3A30" font-weight="600" letter-spacing="1px" text-transform="uppercase" padding="0">
+          Meryl D.
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#60463C" padding="3px 0 0">
+          ★★★★★
+        </mj-text>
+      </mj-column>
+      
+      <!-- Testimonial 2 -->
+      <mj-column width="33.33%" padding="0 10px 20px">
+        <mj-image 
+          src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=faces" 
+          alt="Ava P." 
+          width="70px"
+          border-radius="50px"
+          padding="0 0 15px"
+          align="center"
+        />
+        <mj-text align="center" font-size="13px" color="#3A2721" padding="0 5px 12px" line-height="16px">
+          <em>"Something I'll always reorder. The serum absorbs beautifully and smells divine."</em>
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#5B3A30" font-weight="600" letter-spacing="1px" text-transform="uppercase" padding="0">
+          Ava P.
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#60463C" padding="3px 0 0">
+          ★★★★★
+        </mj-text>
+      </mj-column>
+      
+      <!-- Testimonial 3 -->
+      <mj-column width="33.33%" padding="0 10px 20px">
+        <mj-image 
+          src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces" 
+          alt="Ian O." 
+          width="70px"
+          border-radius="50px"
+          padding="0 0 15px"
+          align="center"
+        />
+        <mj-text align="center" font-size="13px" color="#3A2721" padding="0 5px 12px" line-height="16px">
+          <em>"Easy application, soft texture, true glow results. Perfect for my morning routine!"</em>
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#5B3A30" font-weight="600" letter-spacing="1px" text-transform="uppercase" padding="0">
+          Ian O.
+        </mj-text>
+        <mj-text align="center" font-size="11px" color="#60463C" padding="3px 0 0">
+          ★★★★★
+        </mj-text>
+      </mj-column>
+      
+    </mj-section>
+    
+    <!-- ============================================== -->
+    <!-- 8. SOCIAL LINKS + NEWSLETTER FOOTER           -->
+    <!-- ============================================== -->
+    
+    <!-- Social Links -->
+    <mj-section background-color="#FCEEEE" padding="10px 20px 25px">
+      <mj-column>
+        <mj-divider border-color="#E8D5D5" border-width="1px" padding="0 60px 30px" />
+        <mj-text align="center" font-size="13px" color="#3A2721" padding="0">
+          <a href="#" style="color: #3A2721; text-decoration: none; margin: 0 12px;">Instagram</a>
+          <span style="color: #C9B5B5;">•</span>
+          <a href="#" style="color: #3A2721; text-decoration: none; margin: 0 12px;">TikTok</a>
+          <span style="color: #C9B5B5;">•</span>
+          <a href="#" style="color: #3A2721; text-decoration: none; margin: 0 12px;">Facebook</a>
+          <span style="color: #C9B5B5;">•</span>
+          <a href="#" style="color: #3A2721; text-decoration: none; margin: 0 12px;">Pinterest</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <!-- Newsletter Signup Bar -->
+    <mj-section background-color="#F5E0E0" padding="22px 25px">
+      <mj-column width="68%" vertical-align="middle">
+        <mj-text font-size="13px" color="#3A2721" padding="0">
+          <strong>Newsletter by Skin Zephyr</strong>
+          <span style="color: #60463C;"> · Get exclusive offers & skincare tips</span>
+        </mj-text>
+      </mj-column>
+      <mj-column width="32%" vertical-align="middle">
+        <mj-button 
+          href="#" 
+          background-color="#5B3A30" 
+          font-size="12px" 
+          font-weight="600"
+          inner-padding="10px 28px"
+          border-radius="4px"
+          align="right"
+        >
+          Sign Up
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    
+    <!-- ============================================== -->
+    <!-- 9. FOOTER                                     -->
+    <!-- ============================================== -->
+    <mj-section background-color="#5B3A30" padding="35px 25px 30px">
+      <mj-column>
+        <!-- Brand Name -->
+        <mj-text 
+          align="center" 
+          font-size="24px" 
+          color="#ffffff" 
+          font-weight="500"
+          padding="0 0 15px"
+        >
+          <span style="font-family: 'Playfair Display', Georgia, serif;">Skin Zephyr</span>
+        </mj-text>
+        
+        <!-- Footer Links -->
+        <mj-text align="center" font-size="12px" color="rgba(255,255,255,0.75)" padding="0 0 20px">
+          <a href="#" style="color: rgba(255,255,255,0.75); text-decoration: none; margin: 0 10px;">Shop</a>
+          <a href="#" style="color: rgba(255,255,255,0.75); text-decoration: none; margin: 0 10px;">About</a>
+          <a href="#" style="color: rgba(255,255,255,0.75); text-decoration: none; margin: 0 10px;">Contact</a>
+          <a href="#" style="color: rgba(255,255,255,0.75); text-decoration: none; margin: 0 10px;">FAQ</a>
+        </mj-text>
+        
+        <mj-divider border-color="rgba(255,255,255,0.15)" border-width="1px" padding="5px 80px 20px" />
+        
+        <!-- Legal Text -->
+        <mj-text align="center" font-size="11px" color="rgba(255,255,255,0.5)" line-height="17px" padding="0">
+          © 2024 Skin Zephyr. All rights reserved.<br/>
+          123 Beauty Lane, Los Angeles, CA 90001<br/><br/>
+          <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: underline;">Unsubscribe</a> · 
+          <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: underline;">Privacy Policy</a> · 
+          <a href="#" style="color: rgba(255,255,255,0.6); text-decoration: underline;">Terms of Service</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+  </mj-body>
+</mjml>

@@ -1,0 +1,548 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" />
+
+    <mj-attributes>
+      <mj-all font-family="Nunito, sans-serif" />
+      <mj-text padding="0" color="#ffffff" />
+    </mj-attributes>
+
+    <mj-style>
+      /* Navigation link styles */
+      .nav-link {
+        display: inline-block;
+        padding: 10px 12px;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 13px;
+        font-family: 'Nunito', sans-serif;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+
+      .nav-link:hover {
+        color: #14e3a5ff;
+      }
+
+      .nav-links-wrapper {
+        white-space: nowrap;
+        display: inline-block;
+      }
+
+      /* Mobile/Desktop visibility */
+      .mobile-logo-section {
+        display: none;
+        mso-hide: all;
+      }
+
+      .desktop-nav-section {
+        display: table;
+        width: 100%;
+      }
+
+      .mobile-nav-section {
+        display: none;
+        mso-hide: all;
+      }
+
+      /* Card text overflow fix */
+      .card-heading div {
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+        word-break: break-word !important;
+      }
+
+      .card-description div {
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+      }
+
+      /* Hero backgrounds */
+      .hero-bg {
+        background-size: cover !important;
+        background-position: center center !important;
+      }
+
+      .editor-hero-bg {
+        background-size: cover !important;
+        background-position: center center !important;
+      }
+
+      /* Footer link styles */
+      .footer-link {
+        color: #ffffff !important;
+        text-decoration: underline !important;
+      }
+
+      .footer-link:hover {
+        color: #00FF83 !important;
+      }
+
+      /* Logo icon - fallback for email clients that don't support flex */
+      .logo-icon {
+        width: 45px;
+        height: 45px;
+        background-color: #00FF83;
+        border-radius: 6px;
+        text-align: center;
+        line-height: 45px;
+      }
+
+      .logo-icon-inner {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        vertical-align: middle;
+      }
+    </mj-style>
+
+    <mj-style>
+      @media only screen and (max-width: 480px) {
+      /* Mobile Navigation */
+      .mobile-logo-section {
+      display: block !important;
+      }
+      .mobile-logo-section > table {
+      display: table !important;
+      }
+
+      .desktop-nav-section {
+      display: none !important;
+      mso-hide: all !important;
+      max-height: 0 !important;
+      overflow: hidden !important;
+      }
+
+      .mobile-nav-section {
+      display: block !important;
+      }
+      .mobile-nav-section > table {
+      display: table !important;
+      }
+
+      /* Hero Section Mobile Styles */
+      .hero-section > table > tbody > tr > td {
+      padding: 25px 15px !important;
+      }
+
+      .hero-column > table > tbody > tr > td {
+      padding: 15px !important;
+      }
+
+      .hero-label div {
+      font-size: 11px !important;
+      padding-bottom: 8px !important;
+      }
+
+      .hero-heading div {
+      font-size: 26px !important;
+      line-height: 32px !important;
+      padding-bottom: 10px !important;
+      }
+
+      .hero-description div {
+      font-size: 11px !important;
+      line-height: 16px !important;
+      }
+
+      /* First Hero Image - MOBILE */
+      .hero-bg {
+      height: 280px !important;
+      background-size: cover !important;
+      background-position: center center !important;
+      }
+
+      .hero-bg > table {
+      height: 280px !important;
+      }
+
+      .hero-bg td {
+      height: 280px !important;
+      }
+
+      /* Cards Section - MOBILE */
+      .card-column {
+      width: 100% !important;
+      display: block !important;
+      }
+
+      .cards-section > table > tbody > tr > td {
+      padding: 30px 20px !important;
+      }
+
+      .card-column > table > tbody > tr > td {
+      padding-bottom: 40px !important;
+      }
+
+      .card-heading div {
+      font-size: 20px !important;
+      line-height: 26px !important;
+      }
+
+      .card-label div {
+      font-size: 11px !important;
+      }
+
+      .card-description div {
+      font-size: 11px !important;
+      }
+
+      .card-button table {
+      width: 100% !important;
+      }
+
+      .card-button a {
+      display: block !important;
+      text-align: center !important;
+      }
+
+      /* Editors section title */
+      .editors-title > table > tbody > tr > td {
+      padding: 40px 20px 15px 20px !important;
+      }
+
+      /* Editor hero text with spacing */
+      .editor-label div {
+      font-size: 11px !important;
+      padding: 0 10px 0px 10px !important;
+      }
+
+      .editor-heading div {
+      font-size: 22px !important;
+      line-height: 28px !important;
+      padding: 0 10px 0px 10px !important;
+      }
+
+      .editor-description div {
+      font-size: 11px !important;
+      line-height: 16px !important;
+      padding: 0 10px !important;
+      }
+      /* Stack columns on mobile */
+      .footer-column {
+      width: 100% !important;
+      max-width: 100% !important;
+      display: block !important;
+      }
+
+      /* Center logo on mobile */
+      .logo-column div {
+      text-align: center !important;
+      }
+
+      .logo-column table {
+      margin: 0 auto !important;
+      }
+
+      /* Center badges on mobile */
+      .badges-column {
+      padding-top: 25px !important;
+      }
+
+      .badges-column table {
+      margin: 0 auto !important;
+      }
+
+      .badge-wrapper table {
+      margin: 0 auto !important;
+      }
+
+      /* Reduce social icon spacing on mobile */
+      .social-icons td {
+      padding: 0 8px !important;
+      }
+
+      /* Footer text on mobile */
+      .footer-text div {
+      font-size: 10px !important;
+      line-height: 16px !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#ffffff">
+
+    <!-- Header: Text Above -->
+    <mj-section background-color="#00FF83" padding="10px 0">
+      <mj-column width="100%">
+        <mj-text align="center" color="#000000" font-size="12px">
+          The Best Dressed Men of the Week. If you have problems viewing this email,
+          <a href="#" style="color:#000000; text-decoration:underline;">click here.</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- MOBILE: Logo Above Hamburger -->
+    <mj-include path="./mobilelogo.mjml" />
+
+    <!-- MOBILE: Hamburger Menu -->
+    <mj-include path="./mobileMenu.mjml" />
+
+    <!-- DESKTOP: Full Navigation with Centered Logo -->
+    <mj-section css-class="desktop-nav-section" background-color="#3721D3" padding="15px 0" border-top="5px solid #000000">
+
+      <!-- Left Links -->
+      <mj-column width="35%" vertical-align="middle">
+        <mj-text align="center">
+          <span class="nav-links-wrapper">
+            <!--
+            --><a href="/home" class="nav-link">Home</a>
+            <!--
+            --><a href="/products" class="nav-link">Products</a>
+            <!--
+          --></span>
+        </mj-text>
+      </mj-column>
+
+      <!-- Center Logo -->
+      <mj-column width="30%" vertical-align="middle">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1764350534/Group_6_pnrjyq.png" alt="Logo" width="200px" align="center" />
+      </mj-column>
+
+      <!-- Right Links -->
+      <mj-column width="35%" vertical-align="middle">
+        <mj-text align="center">
+          <span class="nav-links-wrapper">
+            <!--
+            --><a href="/about" class="nav-link">About</a>
+            <!--
+            --><a href="/blog" class="nav-link">Blog</a>
+            <!--
+          --></span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Content -->
+    <mj-section padding="33px" background-color="#3721D3">
+      <mj-column width="100%" padding="30px" css-class="hero-column">
+        <mj-text color="#00FF83" align="left" text-transform="uppercase" letter-spacing="2px" padding="0 5px" css-class="hero-label">
+          Sam DAILY Selects
+        </mj-text>
+        <mj-text align="center" font-size="34px" line-height="42px" css-class="hero-heading">
+          The One Suit You'll Wear With Everything This Fall
+        </mj-text>
+        <mj-text padding="5px 0" font-size="12px" letter-spacing="0.4px" css-class="hero-description">
+          You'll need this suit's workhorse tailoring in your life.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero Image Section -->
+    <mj-hero mode="fixed-height" height="400px" background-url="https://res.cloudinary.com/dhneogiam/image/upload/v1764350543/Untitled_design_zem4f4.png" background-width="600px" background-height="400px" background-position="center center" padding="0" css-class="hero-bg">
+    </mj-hero>
+
+    <!-- presentation: Section 1 -->
+    <mj-section background-color="#002333" padding="56px 32px">
+      <mj-column width="100%">
+        <mj-text color="#00FF83" align="center" text-transform="uppercase" letter-spacing="2px" padding="0 5px" css-class="hero-label">
+          FEATURED ON SAM DAILY
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Cards Row 1 -->
+    <mj-section background-color="#002333" padding="5px 32px" css-class="cards-section">
+
+      <!-- Card 1 -->
+      <mj-column width="50%" padding="0 10px" css-class="card-column">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1764350537/Rectangle_12_hzfkiq.png" alt="" padding="0" fluid-on-mobile="true" />
+        <mj-text color="#00FF83" align="left" text-transform="uppercase" letter-spacing="2px" padding-top="16px" padding-bottom="5px" font-size="12px" css-class="card-label">
+          BUZZKILL
+        </mj-text>
+        <mj-text align="left" font-size="24px" line-height="30px" padding="0 0 10px 0" css-class="card-heading">
+          Is This the Magic Pill for Growing a Better, Thicker Beard?
+        </mj-text>
+        <mj-text padding="5px 0 30px 0" font-size="12px" letter-spacing="0.4px" color="#eaf2ff" line-height="18px" css-class="card-description">
+          Is This the Magic Pill for Growing a Better, Thicker Beard?
+        </mj-text>
+        <mj-button align="left" background-color="#00FF83" color="#002333" padding="0" font-weight="600" font-size="14px" inner-padding="12px 24px" css-class="card-button">
+          READ NOW
+        </mj-button>
+      </mj-column>
+
+      <!-- Card 2 -->
+      <mj-column width="50%" padding="0 10px" css-class="card-column">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1764350538/Rectangle_12_1_mdwacx.png" alt="" padding="0" fluid-on-mobile="true" />
+        <mj-text color="#00FF83" align="left" text-transform="uppercase" letter-spacing="2px" padding-top="16px" padding-bottom="5px" font-size="12px" css-class="card-label">
+          BACK TO THE FUTURE
+        </mj-text>
+        <mj-text align="left" font-size="24px" line-height="30px" padding="0 0 10px 0" css-class="card-heading">
+          Vans's Self-Lacing Sneakers Will Only Cost you $10
+        </mj-text>
+        <mj-text padding="5px 0 30px 0" font-size="12px" letter-spacing="0.4px" color="#eaf2ff" line-height="18px" css-class="card-description">
+          If you act fast.
+        </mj-text>
+        <mj-button align="left" background-color="#00FF83" color="#002333" padding="0" font-weight="600" font-size="14px" inner-padding="12px 24px" css-class="card-button">
+          READ NOW
+        </mj-button>
+      </mj-column>
+
+    </mj-section>
+
+    <!-- Cards Row 2 -->
+    <mj-section background-color="#002333" padding="30px 32px" css-class="cards-section">
+
+      <!-- Card 3 -->
+      <mj-column width="50%" padding="0 10px" css-class="card-column">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1764350541/Rectangle_12_2_mbf48m.png" alt="" padding="0" fluid-on-mobile="true" />
+        <mj-text color="#00FF83" align="left" text-transform="uppercase" letter-spacing="2px" padding-top="16px" padding-bottom="5px" font-size="12px" css-class="card-label">
+          SHOP SMART
+        </mj-text>
+        <mj-text align="left" font-size="24px" line-height="30px" padding="0 0 10px 0" css-class="card-heading">
+          The Best New Gear You Can Buy For Under $100
+        </mj-text>
+        <mj-text padding="5px 0 30px 0" font-size="12px" letter-spacing="0.4px" color="#eaf2ff" line-height="18px" css-class="card-description">
+          Looking expensive doesn't have to be expensive.
+        </mj-text>
+        <mj-button align="left" background-color="#00FF83" color="#002333" padding="0" font-weight="600" font-size="14px" inner-padding="12px 24px" css-class="card-button">
+          READ NOW
+        </mj-button>
+      </mj-column>
+
+      <!-- Card 4 -->
+      <mj-column width="50%" padding="0 10px" css-class="card-column">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1764350540/Rectangle_12_3_xrjffp.png" alt="" padding="0" fluid-on-mobile="true" />
+        <mj-text color="#00FF83" align="left" text-transform="uppercase" letter-spacing="2px" padding-top="16px" padding-bottom="5px" font-size="12px" css-class="card-label">
+          FALL TRENDS
+        </mj-text>
+        <mj-text align="left" font-size="24px" line-height="30px" padding="0 0 10px 0" css-class="card-heading">
+          10 of the Best Fall Jackets You Can Buy Right Now
+        </mj-text>
+        <mj-text padding="5px 0 30px 0" font-size="12px" letter-spacing="0.4px" color="#eaf2ff" line-height="18px" css-class="card-description">
+          Want instant swagger? Grab a flight jacket.
+        </mj-text>
+        <mj-button align="left" background-color="#00FF83" color="#002333" padding="0" font-weight="600" font-size="14px" inner-padding="12px 24px" css-class="card-button">
+          READ NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Editors : Section Title -->
+    <mj-section background-color="#002333" padding="56px 32px 20px 32px" css-class="editors-title">
+      <mj-column width="100%">
+        <mj-text color="#00FF83" align="left" text-transform="uppercase" letter-spacing="2px" padding="0" font-size="12px">
+          EDITORS' PICKS
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Editor's Picks Hero -->
+    <mj-hero mode="fluid-height" height="536px" background-url="https://res.cloudinary.com/dhneogiam/image/upload/v1764350538/77be41e93ae99df1eaf14efc9e32fd2654602118_twyrs2.jpg" background-width="600px" background-height="536px" background-position="center center" padding="34px" vertical-align="bottom">
+      <!-- Label -->
+      <mj-text color="#00FF83" align="left" font-size="14px" padding="0 20px 12px 20px" font-weight="bold" css-class="editor-label">
+        <span style="text-transform: uppercase; letter-spacing: 3px;">
+          Jet SET
+        </span>
+      </mj-text>
+
+      <!-- Heading -->
+      <mj-text color="#ffffff" align="center" font-size="34px" line-height="42px" font-weight="bold" padding="0 20px 15px 20px" css-class="editor-heading">
+        How to Fold and Pack a Suit the Right Way
+      </mj-text>
+
+      <!-- Description -->
+      <mj-text color="#ffffff" align="left" font-size="14px" line-height="20px" letter-spacing="0.4px" padding="0 20px" css-class="editor-description">
+        No more wrinkled messes.
+      </mj-text>
+    </mj-hero>
+    <!-- style: section -->
+    <mj-section background-color="#002333" padding="30px 32px">
+      <mj-column padding="0">
+        <mj-image padding="16px 10px 20px 0" fluid-on-mobile="true" src="https://res.cloudinary.com/dhneogiam/image/upload/v1764627297/Rectangle_13_qqx3il.png" alt="" />
+      </mj-column>
+      <mj-column padding="8px">
+        <mj-text color="#00FF83" align="left" text-transform="uppercase" letter-spacing="2px" padding-top="16px" padding-bottom="5px" font-size="12px" css-class="card-label">
+          STYLE GODS
+        </mj-text>https://res.cloudinary.com/dhneogiam/image/upload/v1764627297/Rectangle_13_qqx3il.png
+        <mj-text align="left" font-size="38px" line-height="40px" padding="0 0 10px 0" css-class="card-heading">
+          The Best-Dressed Men of The Week
+        </mj-text>
+        <mj-text padding="5px 0 30px 0" font-size="12px" letter-spacing="0.4px" color="#eaf2ff" line-height="18px" css-class="card-description">
+          Our weekly roundup of GQ-approved kits from across the globe.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#002333" padding="30px 32px">
+      <mj-column padding="8px">
+        <mj-text color="#00FF83" align="left" text-transform="uppercase" letter-spacing="2px" padding-top="16px" padding-bottom="5px" font-size="12px" css-class="card-label">
+          DRESS UP
+        </mj-text>https://res.cloudinary.com/dhneogiam/image/upload/v1764627297/Rectangle_13_qqx3il.png
+        <mj-text align="left" font-size="38px" line-height="40px" padding="0 0 10px 0" css-class="card-heading">
+          9 Sexy T-Shirt Simple
+        </mj-text>
+        <mj-text padding="5px 0 30px 0" font-size="12px" letter-spacing="0.4px" color="#eaf2ff" line-height="18px" css-class="card-description">
+          This October, put that dad bod you’ve been working on to good use! </mj-text>
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image padding="16px 10px 20px 0" fluid-on-mobile="true" src="https://res.cloudinary.com/dhneogiam/image/upload/v1764627296/Rectangle_13_1_rqwupt.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================
+         FOOTER - TOP ROW: Logo + Store Badges
+         ============================================ -->
+
+    <mj-section background-color="#002333" padding="45px 30px 35px 0px">
+
+      <!-- Left Column: Brand Logo -->
+      <mj-column width="50%" css-class="footer-column logo-column" vertical-align="middle" padding="0">
+        <mj-image padding="0" src="https://res.cloudinary.com/dhneogiam/image/upload/v1764350534/Group_6_pnrjyq.png" alt="" width="140px" />
+      </mj-column>
+
+      <!-- Right Column: App Store Badges -->
+      <mj-column width="50%" css-class="footer-column badges-column" vertical-align="middle">
+        <!-- Google Play Badge -->
+        <mj-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/270px-Google_Play_Store_badge_EN.svg.png" alt="Get it on Google Play" width="140px" align="right" padding="0 0 12px 0" href="https://play.google.com/store" css-class="badge-wrapper" />
+        <!-- App Store Badge -->
+        <mj-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/270px-Download_on_the_App_Store_Badge.svg.png" alt="Download on the App Store" width="140px" align="right" padding="0" href="https://apps.apple.com" css-class="badge-wrapper" />
+      </mj-column>
+
+    </mj-section>
+
+    <!-- ============================================
+         FOOTER - SOCIAL ICONS ROW
+         ============================================ -->
+    <mj-section background-color="#002333" padding="25px 30px 30px 0px">
+      <mj-column width="100%">
+        <mj-social mode="horizontal" align="center" border-radius="0" css-class="social-icons">
+          <!-- Facebook -->
+          <mj-social-element name="facebook-noshare" href="https://facebook.com/samdaily" src="https://res.cloudinary.com/dhneogiam/image/upload/v1764631355/Frame_26086142_whuh3h.png" alt="Facebook" icon-size="50px" background-color="transparent" />
+          <!-- Instagram -->
+          <mj-social-element name="instagram" href="https://instagram.com/samdaily" src="https://res.cloudinary.com/dhneogiam/image/upload/v1764631356/Frame_26086143_qmp5vz.png" alt="Instagram" icon-size="50px" background-color="transparent" />
+          <!-- Twitter/X -->
+          <mj-social-element name="twitter-noshare" href="https://twitter.com/samdaily" src="https://res.cloudinary.com/dhneogiam/image/upload/v1764631355/Frame_26086144_yk2kuj.png" alt="Twitter" icon-size="50px" background-color="transparent" />
+          <!-- TikTok -->
+          <mj-social-element name="tiktok" href="https://tiktok.com/@samdaily" src="https://res.cloudinary.com/dhneogiam/image/upload/v1764631355/Frame_26086145_gpjkpj.png" alt="TikTok" icon-size="50px" background-color="transparent" />
+          <!-- YouTube -->
+          <mj-social-element name="youtube" href="https://youtube.com/samdaily" src="https://res.cloudinary.com/dhneogiam/image/upload/v1764631356/Frame_26086146_yw8ev4.png" alt="YouTube" icon-size="50px" background-color="transparent" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================
+         FOOTER - LEGAL TEXT
+         ============================================ -->
+    <mj-section background-color="#002333" padding="15px 30px 50px 30px">
+      <mj-column width="100%">
+        <!-- Address Line -->
+        <mj-text align="center" font-size="14px" line-height="18px" color="#888888" padding="0 20px 12px 20px" css-class="footer-text">
+          You are receiving this email because you signed up with Sam Daily<br />
+          Chicago 222 W. Merchandise Mart Plaza, Chicago, IL 60654
+        </mj-text>
+
+        <!-- Unsubscribe Line -->
+        <mj-text align="center" font-size="11px" line-height="18px" color="#888888" padding="0 20px" css-class="footer-text">
+          Want to stop receiving messages from Sam Daily?
+          <a href="https://samdaily.com/unsubscribe" style="color: #ffffff; text-decoration: underline;">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

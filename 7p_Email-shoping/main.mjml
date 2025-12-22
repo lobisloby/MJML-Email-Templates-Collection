@@ -1,0 +1,335 @@
+<mjml>
+  <mj-head>
+    <mj-title>Bnailh - Your Premium Product</mj-title>
+    <mj-preview>Discover our revolutionary premium wellness products</mj-preview>
+    
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" />
+    
+    <mj-attributes>
+      <mj-all font-family="'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif" />
+      <mj-text font-size="14px" color="#333333" line-height="16px" />
+      <mj-button font-size="14px" font-weight="600" />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+    </mj-attributes>
+    
+    <mj-style>
+      .email-card {
+        box-shadow: 0 20px 60px rgba(30, 27, 75, 0.15) !important;
+        border-radius: 20px !important;
+        overflow: hidden !important;
+      }
+      .nav-link:hover {
+        color: #FF7A00 !important;
+      }
+      a {
+        text-decoration: none;
+      }
+      .product-card-inner {
+        transition: transform 0.3s ease;
+      }
+    </mj-style>
+    
+    <mj-style inline="inline">
+      .gradient-text {
+        background: linear-gradient(135deg, #FF7A00 0%, #FF3D7F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    </mj-style>
+    
+  </mj-head>
+  
+  <mj-body background-color="#EAECF0">
+    
+    <!-- Top Page Spacer -->
+    <mj-section padding="30px 15px 0 15px" background-color="#EAECF0">
+      <mj-column>
+        <mj-text padding="0">&nbsp;</mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <!-- ========== MAIN EMAIL CARD ========== -->
+    <mj-wrapper background-color="#1E1B4B" padding="0" css-class="email-card" border-radius="20px">
+      
+      <!-- ========== NAVIGATION BAR ========== -->
+      <mj-section background-color="#1E1B4B" padding="28px 25px 20px">
+        <mj-column>
+          <mj-text align="center" padding="0">
+            <!-- White Pill Navigation -->
+            <table cellpadding="0" cellspacing="0" border="0" align="center" style="background-color: #ffffff; border-radius: 50px; padding: 10px 8px; max-width: 480px; width: 95%; margin: 0 auto;">
+              <tr>
+                <!-- Left: Logo + Brand -->
+                <td style="width: 2%; text-align: left; padding-left: 18px; vertical-align: middle;">
+                  <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td style="vertical-align: middle;">
+                        <div style="width: 32px; height: 32px; background: linear-gradient(135deg, #FF7A00 0%, #FF3D7F 100%); border-radius: 50%; display: inline-block; text-align: center; line-height: 32px;">
+                          <span style="color: white; font-weight: 700; font-size: 16px;">B</span>
+                        </div>
+                      </td>
+                      <td style="vertical-align: middle; padding-left: 10px;">
+                        <span style="font-weight: 700; color: #1E1B4B; font-size: 16px; letter-spacing: -0.5px; text-wrap:nowrap">Bnailh</span>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                
+                <!-- Center: Nav Links -->
+                <td style="width: 50%; text-align: center; vertical-align: middle;">
+  <span style="display: inline-block; padding: 8px 0;">
+    <a href="#" class="nav-link" style="color: #1E1B4B; font-size: 13px; font-weight: 500; text-decoration: none; padding: 8px 10px; display: inline-block;">Home</a>
+    <a href="#" class="nav-link" style="color: #1E1B4B; font-size: 13px; font-weight: 500; text-decoration: none; padding: 8px 10px; display: inline-block;">Product</a>
+    <a href="#" class="nav-link" style="color: #1E1B4B; font-size: 13px; font-weight: 500; text-decoration: none; padding: 8px 10px; display: inline-block;">Shop</a>
+  </span>
+</td>
+
+              </tr>
+            </table>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+      <!-- ========== HERO SECTION ========== -->
+      <mj-section background-color="#1E1B4B" padding="45px 30px 70px">
+        <!-- Left Column: Content -->
+        <mj-column width="52%" vertical-align="middle" padding="0 20px 0 10px">
+          <mj-text color="rgba(255,255,255,0.5)" font-size="12px" letter-spacing="3px" text-transform="uppercase" padding-bottom="12px" font-weight="500">
+            ✦ Premium Collection
+          </mj-text>
+          <mj-text color="#ffffff" font-size="38px" font-weight="800" line-height="40px" padding-bottom="18px" letter-spacing="-1px">
+            Your<br/>Premium<br/>Product
+          </mj-text>
+          <mj-text color="#9694C0" font-size="15px" line-height="19.5px" padding-bottom="30px">
+            Discover our revolutionary formula designed to enhance your daily wellness routine with premium, science-backed ingredients.
+          </mj-text>
+          <!-- Gradient CTA Button -->
+          <mj-text padding="0">
+            <a href="#" style="display: inline-block; background: linear-gradient(135deg, #FF7A00 0%, #FF3D7F 100%); color: #ffffff; padding: 16px 36px; font-size: 14px; font-weight: 600; border-radius: 50px; box-shadow: 0 8px 25px rgba(255, 122, 0, 0.35); letter-spacing: 0.3px;">
+              Boost Now →
+            </a>
+          </mj-text>
+        </mj-column>
+        
+        <!-- Right Column: Product Image -->
+        <mj-column width="48%" vertical-align="middle" padding="20px 0 0 0">
+          <mj-image 
+            src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=420&h=500&fit=crop" 
+            alt="Premium Capsule Product with Orange Liquid" 
+            border-radius="24px" 
+            padding="0"
+            css-class="hero-product-img"
+          />
+        </mj-column>
+      </mj-section>
+      
+      <!-- ========== PRODUCTS SECTION - WHITE BG ========== -->
+      <!-- Curved transition into white section -->
+      <mj-section background-color="#ffffff" padding="35px 25px 15px" border-radius="30px 30px 0 0">
+        <mj-column>
+          <mj-text align="center" font-size="12px" color="#FF7A00" letter-spacing="2.5px" text-transform="uppercase" padding-bottom="8px" font-weight="600">
+            Our Collection
+          </mj-text>
+          <mj-text align="center" font-size="32px" font-weight="700" color="#1E1B4B" padding-bottom="12px" letter-spacing="-0.5px">
+            Products
+          </mj-text>
+          <mj-text align="center" font-size="15px" color="#6B6B8D" padding-bottom="40px" line-height="17px">
+            Explore our carefully curated selection of premium wellness<br/>products designed for your optimal health journey.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+      <!-- Product Cards Grid -->
+      <mj-section background-color="#ffffff" padding="0 18px 20px">
+        
+        <!-- Left: Large Feature Card -->
+        <mj-column width="58%" padding="0 8px 15px">
+          <mj-text padding="0">
+            <div style="background: linear-gradient(145deg, #F8F9FC 0%, #F0F2F8 100%); border-radius: 24px; padding: 28px; min-height: 380px;">
+              <!-- Hero Label -->
+              <div style="margin-bottom: 20px;">
+                <span style="background: linear-gradient(135deg, #FF7A00 0%, #FF3D7F 100%); color: white; padding: 7px 18px; border-radius: 25px; font-size: 11px; font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase;">Hero</span>
+              </div>
+              
+              <!-- Product Image -->
+              <div style="text-align: center; padding: 25px 0 30px;">
+                <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=380&h=220&fit=crop" alt="Digital Suite - Desktop and Mobile" style="width: 100%; max-width: 320px; border-radius: 16px; box-shadow: 0 15px 40px rgba(30, 27, 75, 0.12);" />
+              </div>
+              
+              <!-- Product Info -->
+              <div style="font-size: 18px; font-weight: 700; color: #1E1B4B; margin-bottom: 10px;">Complete Digital Suite</div>
+              <div style="font-size: 13px; color: #8B8BA8; margin-bottom: 12px;">All-in-one productivity toolkit</div>
+              <div>
+                <span style="color: #AEAEC5; font-size: 14px; text-decoration: line-through; margin-right: 12px;">$29,900</span>
+                <span style="color: #1E1B4B; font-size: 26px; font-weight: 800;">$19,900</span>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+        
+        <!-- Right: Two Stacked Cards -->
+        <mj-column width="42%" padding="0 8px">
+          <!-- Top Card -->
+          <mj-text padding="0 0 15px 0">
+            <div style="background: linear-gradient(145deg, #F8F9FC 0%, #F0F2F8 100%); border-radius: 20px; padding: 22px;">
+              <!-- Product Image -->
+              <div style="text-align: center; padding: 10px 0 18px;">
+                <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=220&h=140&fit=crop" alt="Premium Health Capsules" style="width: 100%; max-width: 180px; border-radius: 12px; box-shadow: 0 10px 25px rgba(30, 27, 75, 0.1);" />
+              </div>
+              
+              <!-- Product Info -->
+              <div style="font-size: 15px; font-weight: 600; color: #1E1B4B; margin-bottom: 6px;">Premium Capsules</div>
+              <div style="color: #1E1B4B; font-size: 22px; font-weight: 800;">$38,900</div>
+            </div>
+          </mj-text>
+          
+          <!-- Bottom Card -->
+          <mj-text padding="0">
+            <div style="background: linear-gradient(145deg, #F8F9FC 0%, #F0F2F8 100%); border-radius: 20px; padding: 22px;">
+              <!-- Product Image -->
+              <div style="text-align: center; padding: 10px 0 18px;">
+                <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=220&h=140&fit=crop" alt="Vitamin Jar with Orange Liquid" style="width: 100%; max-width: 180px; border-radius: 12px; box-shadow: 0 10px 25px rgba(30, 27, 75, 0.1);" />
+              </div>
+              
+              <!-- Product Info -->
+              <div style="font-size: 15px; font-weight: 600; color: #1E1B4B; margin-bottom: 6px;">Vitamin Complex</div>
+              <div style="color: #1E1B4B; font-size: 22px; font-weight: 800;">$19,900</div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+      <!-- View All Products Button -->
+      <mj-section background-color="#ffffff" padding="20px 25px 5px">
+        <mj-column>
+          <mj-button background-color="#1E1B4B" color="#ffffff" font-size="13px" font-weight="600" border-radius="50px" inner-padding="14px 40px" href="#">
+            View All Products
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      
+      <!-- ========== BENEFITS / FEATURES ROW ========== -->
+      <mj-section background-color="#ffffff" padding="10px 25px 15px">
+        <mj-column>
+          <mj-divider border-color="#F0F2F8" border-width="1px" padding="0 0 45px" />
+        </mj-column>
+      </mj-section>
+      
+      <mj-section background-color="#ffffff" padding="0 30px 60px">
+        <!-- Left Benefit -->
+        <mj-column width="48%" padding="0 15px 10px 0" vertical-align="top">
+          <mj-text padding="0">
+            <div style="background: linear-gradient(135deg, #FFF5F0 0%, #FFF0F5 100%); border-radius: 18px; padding: 28px;">
+              <div style="font-size: 32px; margin-bottom: 15px;">❤️</div>
+              <div style="font-size: 19px; font-weight: 700; color: #1E1B4B; margin-bottom: 12px; line-height: 1.3;">Give Your Heart</div>
+              <div style="font-size: 14px; color: #6B6B8D; line-height: 1.75;">
+                Our premium formula supports cardiovascular health with natural ingredients. Enhance your daily wellness routine with science-backed nutrition and feel the difference.
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+        
+        <!-- Right Benefit -->
+        <mj-column width="48%" padding="0 15px 10px 0" vertical-align="top">
+          <mj-text padding="0">
+            <div style="background: linear-gradient(135deg, #F0F5FF 0%, #F5F0FF 100%); border-radius: 18px; padding: 28px;">
+              <div style="font-size: 32px; margin-bottom: 15px;">🛡️</div>
+              <div style="font-size: 19px; font-weight: 700; color: #1E1B4B; margin-bottom: 12px; line-height: 1.3;">Benefit Our Frontline</div>
+              <div style="font-size: 14px; color: #6B6B8D; line-height: 1.75;">
+                Support your immune defense with powerful antioxidants. Our carefully selected ingredients work synergistically to protect what matters most to you.
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+      <!-- ========== FOOTER CONTACT SECTION ========== -->
+      <mj-section background-color="#1E1B4B" padding="60px 30px 50px">
+        <mj-column>
+          <mj-text align="center" color="#ffffff" font-size="28px" font-weight="700" padding-bottom="12px" letter-spacing="-0.5px">
+            Contact Us
+          </mj-text>
+          <mj-text align="center" color="#9694C0" font-size="14px" padding-bottom="35px" line-height="16px">
+            Have questions? We'd love to hear from you.<br/>Reach out anytime and our team will respond promptly.
+          </mj-text>
+          
+          <!-- Social Icons Row -->
+          <mj-text align="center" padding="0 0 10px">
+            <!-- Facebook -->
+            <a href="#" style="display: inline-block; margin: 0 10px;">
+              <div style="width: 50px; height: 50px; background-color: rgba(255,255,255,0.08); border-radius: 50%; display: inline-block; text-align: center; line-height: 50px;">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" width="22" alt="Facebook" style="vertical-align: middle;" />
+              </div>
+            </a>
+            
+            <!-- Twitter/X -->
+            <a href="#" style="display: inline-block; margin: 0 10px;">
+              <div style="width: 50px; height: 50px; background-color: rgba(255,255,255,0.08); border-radius: 50%; display: inline-block; text-align: center; line-height: 50px;">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/twitterx--v1.png" width="22" alt="X Twitter" style="vertical-align: middle;" />
+              </div>
+            </a>
+            
+            <!-- Instagram -->
+            <a href="#" style="display: inline-block; margin: 0 10px;">
+              <div style="width: 50px; height: 50px; background-color: rgba(255,255,255,0.08); border-radius: 50%; display: inline-block; text-align: center; line-height: 50px;">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" width="22" alt="Instagram" style="vertical-align: middle;" />
+              </div>
+            </a>
+            
+            <!-- LinkedIn -->
+            <a href="#" style="display: inline-block; margin: 0 10px;">
+              <div style="width: 50px; height: 50px; background-color: rgba(255,255,255,0.08); border-radius: 50%; display: inline-block; text-align: center; line-height: 50px;">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" width="22" alt="LinkedIn" style="vertical-align: middle;" />
+              </div>
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+      <!-- Contact Info Row -->
+      <mj-section background-color="#1E1B4B" padding="0 25px 40px">
+        <mj-column width="33%">
+          <mj-text align="center" color="#9694C0" font-size="12px">
+            <strong style="color: #ffffff; display: block; margin-bottom: 5px;">Email</strong>
+            hello@bnailh.com
+          </mj-text>
+        </mj-column>
+        <mj-column width="33%">
+          <mj-text align="center" color="#9694C0" font-size="12px">
+            <strong style="color: #ffffff; display: block; margin-bottom: 5px;">Phone</strong>
+            +1 (555) 123-4567
+          </mj-text>
+        </mj-column>
+        <mj-column width="33%">
+          <mj-text align="center" color="#9694C0" font-size="12px">
+            <strong style="color: #ffffff; display: block; margin-bottom: 5px;">Hours</strong>
+            Mon-Fri, 9am-6pm
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+      <!-- Legal Footer -->
+      <mj-section background-color="#151236" padding="28px 25px">
+        <mj-column>
+          <mj-divider border-color="#2A2660" border-width="1px" padding="0 0 25px" />
+          <mj-text align="center" color="#5D5B8D" font-size="11px" line-height="17px">
+            © 2025 Email-Craft Inc. All rights reserved.<br/>
+            123 Premium Street, Suite 100, San Francisco, CA 94102<br/><br/>
+            <a href="#" style="color: #7A78A8; margin: 0 8px;">Unsubscribe</a> · 
+            <a href="#" style="color: #7A78A8; margin: 0 8px;">Privacy Policy</a> · 
+            <a href="#" style="color: #7A78A8; margin: 0 8px;">Terms of Service</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+    </mj-wrapper>
+    
+    <!-- Bottom Page Spacer -->
+    <mj-section padding="30px 15px" background-color="#EAECF0">
+      <mj-column>
+        <mj-text padding="0">&nbsp;</mj-text>
+      </mj-column>
+    </mj-section>
+    
+  </mj-body>
+</mjml>

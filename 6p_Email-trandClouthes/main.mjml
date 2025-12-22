@@ -1,0 +1,381 @@
+<mjml>
+  <mj-head>
+    <mj-title>Fashion Newsletter - Autumn Collection</mj-title>
+    <mj-preview>Upgrade Your Style - New Collection Out Now</mj-preview>
+
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+
+    <mj-attributes>
+      <mj-all font-family="'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif" />
+      <mj-text font-size="14px" color="#333333" line-height="16px" />
+      <mj-button font-size="13px" font-weight="500" />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+    </mj-attributes>
+
+    <mj-style>
+      .shadow-card {
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08) !important;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+
+      .nav-link {
+        text-decoration: none !important;
+        color: #333333 !important;
+        font-weight: 500;
+      }
+
+      .nav-link:hover {
+        color: #000000 !important;
+      }
+
+      .product-card {
+        transition: transform 0.2s ease;
+      }
+
+      .cta-primary {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+      }
+
+      .cta-secondary {
+        background-color: #ffffff !important;
+        color: #333333 !important;
+        border: 1px solid #333333 !important;
+      }
+
+      .no-wrap div {
+        white-space: nowrap;
+      }
+
+      /* Mobile styles */
+      @media only screen and (max-width: 480px) {
+        .product-card {
+          margin-bottom: 30px !important;
+        }
+
+        /* Remove margin from last card */
+        .product-card:last-child {
+          margin-bottom: 0 !important;
+        }
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      a {
+        text-decoration: none;
+      }
+
+      .star {
+        color: #F4B942;
+        font-size: 12px;
+      }
+    </mj-style>
+
+    <mj-breakpoint width="480px" />
+
+
+
+  </mj-head>
+
+  <mj-body background-color="#F5F0EB">
+
+    <!-- Spacer for page padding -->
+    <!-- <mj-section padding="0px" background-color="#F5F0EB">
+      <mj-column><mj-text>&nbsp;</mj-text></mj-column>
+    </mj-section> -->
+
+    <!-- ========== MAIN EMAIL CARD WRAPPER ========== -->
+    <mj-wrapper background-color="#ffffff" padding="0" css-class="shadow-card" border-radius="4px">
+
+      <!-- ========== TOP BLACK TAGLINE BAR ========== -->
+      <mj-section background-color="#0a0a0a" padding="12px 25px">
+        <mj-column>
+          <mj-text align="center" color="#ffffff" font-size="11px" letter-spacing="2px" font-weight="400" text-transform="uppercase">
+            ✦ Autumn & Clothes Collection ✦
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ========== NAVIGATION BAR ========== -->
+      <mj-section background-color="#ffffff" padding="18px 25px" border-bottom="1px solid #f0f0f0">
+        <!-- Hamburger Menu -->
+        <!-- <mj-column width="10%" vertical-align="middle">
+          <mj-image src="https://img.icons8.com/ios/100/000000/menu--v1.png" width="22px" alt="Menu" padding="0" />
+        </mj-column> -->
+
+        <!-- Nav Links -->
+        <mj-column width="65%" vertical-align="middle">
+          <mj-text align="left" font-size="13px" padding="0">
+            <a href="#" class="nav-link" style="color: #333; margin: 0 14px; font-weight: 500;">Men</a>
+            <a href="#" class="nav-link" style="color: #333; margin: 0 14px; font-weight: 500;">Women</a>
+            <a href="#" class="nav-link" style="color: #333; margin: 0 14px; font-weight: 500;">New Arrivals</a>
+            <a href="#" class="nav-link" style="color: #d4442e; margin: 0 14px; font-weight: 600;">Sale</a>
+          </mj-text>
+        </mj-column>
+
+        <!-- Icons -->
+        <mj-column width="25%" vertical-align="middle">
+          <mj-text align="right" padding="0">
+            <a href="#" style="margin-right: 18px; display: inline-block; vertical-align: middle;">
+              <img src="https://img.icons8.com/ios/100/000000/search--v1.png" width="20" alt="Search" style="vertical-align: middle;" />
+            </a>
+            <a href="#" style="display: inline-block; vertical-align: middle;">
+              <img src="https://img.icons8.com/ios/100/000000/shopping-bag--v1.png" width="20" alt="Cart" style="vertical-align: middle;" />
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ========== HERO SECTION ========== -->
+      <mj-section background-color="#ffffff" padding="50px 25px 50px 35px">
+        <!-- Left: Content -->
+        <mj-column width="48%" vertical-align="middle" padding="0 10px 0 0">
+          <mj-text font-size="11px" color="#888888" letter-spacing="3px" text-transform="uppercase" padding-bottom="12px">
+            New Season
+          </mj-text>
+          <mj-text css-class="no-wrap " font-size="34px" font-weight="700" color="#0a0a0a" line-height="36px" padding-bottom="12px">
+            Upgrade<br />Your Style
+          </mj-text>
+          <mj-text font-size="18px" font-weight="500" color="#444444" padding-bottom="8px">
+            New Collection Out Now
+          </mj-text>
+          <mj-text font-size="14px" color="#777777" line-height="17px" padding-bottom="28px">
+            Discover carefully curated pieces that blend timeless elegance with modern sophistication. Quality fabrics, impeccable tailoring.
+          </mj-text>
+          <mj-text padding="0">
+            <a href="#" style="display: inline-block; background-color: #0a0a0a; color: #ffffff; padding: 14px 28px; font-size: 13px; font-weight: 600; border-radius: 4px; margin: 8px; letter-spacing: 0.5px;">Shop Now</a>
+            <a href="#" style="display: inline-block; background-color: #ffffff; color: #333333; padding: 13px 26px; font-size: 13px; font-weight: 500; border: 1.5px solid #333333; border-radius: 4px; letter-spacing: 0.5px;margin: 8px;">Explore Collection</a>
+          </mj-text>
+        </mj-column>
+
+        <!-- Right: Hero Image -->
+        <mj-column width="52%" padding="0">
+          <mj-image src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=600&h=720&fit=crop&crop=faces" alt="Models in neutral autumn outfits" border-radius="6px" padding="0" />
+        </mj-column>
+      </mj-section>
+
+      <!-- ========== HERO SECTIONS STRIP ========== -->
+      <mj-section background-color="#fafafa" padding="45px 25px 25px">
+        <mj-column width="38%" vertical-align="top" padding="20px">
+          <mj-text font-size="10px" color="#888888" letter-spacing="2px" text-transform="uppercase" padding-bottom="8px">
+            Featured
+          </mj-text>
+          <mj-text font-size="14px" color="#666666" line-height="17px" padding-bottom="18px">
+            Explore our handpicked selection of seasonal essentials and trending statement pieces.
+          </mj-text>
+          <mj-text font-size="13px" font-weight="600" color="#0a0a0a" padding="0">
+            <a href="#" style="color: #0a0a0a; border-bottom: 2px solid #0a0a0a; padding-bottom: 2px;">Shop Now →</a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="62%">
+          <mj-image src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=200&h=260&fit=crop" alt="Outfit 1" border-radius="6px" padding="0" />
+        </mj-column>
+      </mj-section>
+
+      <!-- 4 Image Tiles Row -->
+      <mj-section background-color="#fafafa" padding="0 20px 45px">
+        <mj-group>
+          <mj-column width="35%" padding="0 5px">
+            <mj-image src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=200&h=260&fit=crop" alt="Outfit 2" border-radius="6px" padding="0" />
+          </mj-column>
+          <mj-column width="25%" padding="0 5px">
+            <mj-image src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=200&h=260&fit=crop" alt="Outfit 3" border-radius="6px" padding="0" />
+          </mj-column>
+          <mj-column width="35%" padding="0 5px">
+            <mj-image src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=200&h=260&fit=crop" alt="Outfit 4" border-radius="6px" padding="0" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <!-- ========== PRODUCT CARDS SECTION ========== -->
+      <mj-section background-color="#ffffff" padding="50px 25px 20px">
+        <mj-column>
+          <mj-text align="center" font-size="10px" color="#888888" letter-spacing="2px" text-transform="uppercase" padding-bottom="8px">
+            Shop the Collection
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Product Cards Row -->
+      <mj-section background-color="#ffffff" padding="0 15px 50px">
+        <!-- Product 1 -->
+        <mj-column width="33.33%" padding="0 10px" css-class="product-card">
+          <mj-image src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=320&h=400&fit=crop" alt="Classic Wool Coat" border-radius="8px" padding="0" />
+          <mj-text font-size="15px" font-weight="600" color="#0a0a0a" align="center" padding="18px 0 6px">
+            Classic Wool Coat
+          </mj-text>
+          <mj-text font-size="14px" color="#666666" align="center" padding="0 0 8px">
+            $189.00
+          </mj-text>
+          <mj-text align="center" padding="0 0 15px" font-size="11px">
+            <span style="color: #F4B942;">★★★★★</span>
+            <span style="color: #999; font-size: 11px;"> (42)</span>
+          </mj-text>
+          <mj-button background-color="#0a0a0a" color="#ffffff" font-size="12px" font-weight="500" padding="0" inner-padding="11px 24px" border-radius="4px" href="#">
+            Shop Now
+          </mj-button>
+        </mj-column>
+
+        <!-- Product 2 -->
+        <mj-column width="33.33%" padding="0 10px" css-class="product-card">
+          <mj-image src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=320&h=400&fit=crop" alt="Autumn Knit Sweater" border-radius="8px" padding="0" />
+          <mj-text font-size="15px" font-weight="600" color="#0a0a0a" align="center" padding="18px 0 6px">
+            Autumn Knit Sweater
+          </mj-text>
+          <mj-text font-size="14px" color="#666666" align="center" padding="0 0 8px">
+            $89.00
+          </mj-text>
+          <mj-text align="center" padding="0 0 15px" font-size="11px">
+            <span style="color: #F4B942;">★★★★★</span>
+            <span style="color: #999; font-size: 11px;"> (78)</span>
+          </mj-text>
+          <mj-button background-color="#0a0a0a" color="#ffffff" font-size="12px" font-weight="500" padding="0" inner-padding="11px 24px" border-radius="4px" href="#">
+            Shop Now
+          </mj-button>
+        </mj-column>
+
+        <!-- Product 3 -->
+        <mj-column width="33.33%" padding="0 10px" css-class="product-card">
+          <mj-image src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=320&h=400&fit=crop" alt="Premium Denim Jeans" border-radius="8px" padding="0" />
+          <mj-text font-size="15px" font-weight="600" color="#0a0a0a" align="center" padding="18px 0 6px">
+            Premium Denim Jeans
+          </mj-text>
+          <mj-text font-size="14px" color="#666666" align="center" padding="0 0 8px">
+            $129.00
+          </mj-text>
+          <mj-text align="center" padding="0 0 15px" font-size="11px">
+            <span style="color: #F4B942;">★★★★★</span>
+            <span style="color: #999; font-size: 11px;"> (56)</span>
+          </mj-text>
+          <mj-button background-color="#0a0a0a" color="#ffffff" font-size="12px" font-weight="500" padding="0" inner-padding="11px 24px" border-radius="4px" href="#">
+            Shop Now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- ========== LIFESTYLE / SOCIAL PROOF SECTION ========== -->
+      <mj-section background-color="#f8f5f2" padding="50px 25px 20px">
+        <mj-column>
+          <mj-text align="center" font-size="10px" color="#888888" letter-spacing="2px" text-transform="uppercase" padding-bottom="8px">
+            Real Stories
+          </mj-text>
+          <mj-text align="center" font-size="26px" font-weight="600" color="#0a0a0a" padding-bottom="35px">
+            Lifestyle / Social Proof
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#f8f5f2" padding="0 25px 50px">
+        <!-- Left: Lifestyle Image -->
+        <mj-column width="48%" padding="0 10px 0 0" vertical-align="top">
+          <mj-image src="https://images.unsplash.com/photo-1523359346063-d879354c0ea5?w=420&h=500&fit=crop&crop=faces" alt="Lifestyle - Couple Walking" border-radius="8px" padding="0" />
+          <mj-text align="center" padding="15px 0 0" font-size="11px">
+            <span style="color: #F4B942;">★★★★★</span>
+            <span style="color: #777; font-size: 12px; margin-left: 8px;">"Absolutely love the quality!"</span>
+          </mj-text>
+        </mj-column>
+
+        <!-- Right: Testimonial/Promo Box -->
+        <mj-column width="52%" padding="0 0 0 10px" vertical-align="middle">
+          <mj-text background-color="#efe9e3" padding="35px 30px">
+            <div style="font-family: Georgia, serif; font-size: 60px; color: #c4b8aa; line-height: 0.8; margin-bottom: 20px;">"</div>
+            <div style="font-size: 20px; font-weight: 600; color: #0a0a0a; margin-bottom: 15px; line-height: 1.4;">Limited-Time Offers or Seasonal Sales</div>
+            <div style="font-size: 14px; color: #666666; line-height: 1.7; margin-bottom: 25px;">Don't miss out on our exclusive autumn collection. Premium materials, timeless designs, and unbeatable prices — all available for a limited time only. Join thousands of satisfied customers.</div>
+            <div style="text-align: center;">
+              <a href="#" style="display: inline-block; background-color: #0a0a0a; color: #ffffff; padding: 14px 32px; font-size: 13px; font-weight: 600; border-radius: 4px; letter-spacing: 0.5px;">Open Now!</a>
+            </div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- ========== PROMOTIONAL / DISCOUNT SECTION ========== -->
+      <mj-section background-color="#ffffff" padding="55px 25px 60px">
+        <mj-column>
+          <mj-text align="center" font-size="10px" color="#888888" letter-spacing="2px" text-transform="uppercase" padding-bottom="8px">
+            Special Offer
+          </mj-text>
+          <mj-text align="center" font-size="26px" font-weight="600" color="#0a0a0a" padding-bottom="12px" line-height="22px">
+            Promotional / Discount Section
+          </mj-text>
+          <mj-text align="center" font-size="15px" color="#666666" padding-bottom="30px" line-height="16px">
+            Exclusive deals for our valued subscribers.<br />Use code <strong style="color: #0a0a0a;">AUTUMN25</strong> for 25% off your first order.
+          </mj-text>
+          <mj-button background-color="#0a0a0a" color="#ffffff" font-size="14px" font-weight="600" border-radius="50px" inner-padding="16px 55px" href="#">
+            Store Newbie
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- ========== FOOTER ========== -->
+      <mj-section background-color="#0a0a0a" padding="45px 25px 35px">
+        <!-- Left: Brand + Social -->
+        <mj-column width="50%" padding="0 10px" vertical-align="top">
+          <mj-text color="#ffffff" font-size="22px" font-weight="700" padding-bottom="18px" letter-spacing="-0.5px">
+            Emaily
+          </mj-text>
+          <mj-text padding="0">
+            <a href="#" style="display: inline-block; margin-right: 12px;">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" width="20" alt="Facebook" />
+            </a>
+            <a href="#" style="display: inline-block; margin-right: 12px;">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/twitterx--v1.png" width="20" alt="X/Twitter" />
+            </a>
+            <a href="#" style="display: inline-block; margin-right: 12px;">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" width="20" alt="Instagram" />
+            </a>
+            <a href="#" style="display: inline-block;">
+              <img src="https://img.icons8.com/ios-filled/50/ffffff/pinterest.png" width="20" alt="Pinterest" />
+            </a>
+          </mj-text>
+        </mj-column>
+
+        <!-- Center: Links -->
+        <mj-column width="50%" padding="0 10px" vertical-align="top">
+          <mj-text color="#888888" font-size="11px" letter-spacing="1.5px" text-transform="uppercase" padding-bottom="15px" font-weight="500">
+            Quick Links
+          </mj-text>
+          <mj-text color="#cccccc" font-size="13px" padding="4px 0">
+            <a href="#" style="color: #cccccc;">Contact</a>
+          </mj-text>
+          <mj-text color="#cccccc" font-size="13px" padding="4px 0">
+            <a href="#" style="color: #cccccc;">Privacy Policy</a>
+          </mj-text>
+          <mj-text color="#cccccc" font-size="13px" padding="4px 0">
+            <a href="#" style="color: #cccccc;">Returns & Exchanges</a>
+          </mj-text>
+          <mj-text color="#cccccc" font-size="13px" padding="4px 0">
+            <a href="#" style="color: #cccccc;">Terms of Service</a>
+          </mj-text>
+        </mj-column>
+
+      </mj-section>
+
+
+      <!-- Footer Divider & Legal -->
+      <mj-section background-color="#0a0a0a" padding="0 25px 35px">
+        <mj-column>
+          <mj-divider border-color="#222222" border-width="1px" padding="0 0 25px" />
+          <mj-text align="center" color="#555555" font-size="11px" line-height="16px">
+            © 2024 Emaily Fashion Inc. All rights reserved.<br />
+            123 Fashion Avenue, New York, NY 10001<br /><br />
+            This email was sent to you because you subscribed to our newsletter.<br />
+            <a href="#" style="color: #777777; text-decoration: underline;">Unsubscribe</a> ·
+            <a href="#" style="color: #777777; text-decoration: underline;">Manage Preferences</a> ·
+            <a href="#" style="color: #777777; text-decoration: underline;">View in Browser</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+    <!-- Bottom spacer -->
+    <!-- <mj-section padding="30px 0" background-color="#F5F0EB">
+      <mj-column>
+        <mj-text>&nbsp;</mj-text>
+      </mj-column>
+    </mj-section> -->
+
+  </mj-body>
+</mjml>

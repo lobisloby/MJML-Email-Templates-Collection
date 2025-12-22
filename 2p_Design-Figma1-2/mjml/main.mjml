@@ -1,0 +1,227 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" />
+    <mj-attributes>
+      <mj-all font-family="Roboto, Arial, sans-serif" />
+      <!-- <mj-text font-size="16px" color="#555555" /> -->
+      <mj-button background-color="#007BFF" color="#ffffff" font-size="16px" border-radius="4px" />
+    </mj-attributes>
+    <mj-preview>Preview text goes here</mj-preview>
+    <mj-title>Email Title</mj-title>
+    <!-- Inlined styles (applied always) -->
+    <mj-style>
+      .inner-section {
+      max-width: 536px !important;
+      width: 100% !important;
+      margin: 0 auto !important;
+      }
+      .inner-section > table {
+      margin: 0 auto !important;
+      }
+    </mj-style>
+
+
+    <!-- Responsive overrides (media queries) -->
+    <mj-style inline="inline">
+      @media only screen and (max-width:480px) {
+        .logo-mobile-hide {
+          display: none !important;
+          max-height: 0 !important;
+          overflow: hidden !important;
+        }
+
+
+        .body-text {
+          font-size: 12px !important;
+          line-height: 22px !important;
+          color: red !important;
+        }
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body background-color="#f4f4f4">
+    <!-- Include header -->
+    <mj-include path="./header.mjml" />
+    <!-- SECTION : HERO TEXT -->
+    <mj-section background-color="#3AECB9">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="32px" color="black" letter-spacing="1px" font-weight="bold" font-family="Lato, Arial, sans-serif">
+          Celebrating dance <br />
+          floor fillers <br />
+          everywhere
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+    <!-- SECTION:HERO  -->
+    <mj-hero mode="fixed-height" height="469px" background-width="600px" background-height="469px" background-url="https://res.cloudinary.com/dhneogiam/image/upload/v1762820597/photo1_ab5dvn.png" background-color="#2a3448" padding="100px 0px">
+    </mj-hero>
+    <!-- SECTION: text content -->
+    <mj-section>
+      <mj-column>
+        <mj-text color="#555555" letter-spacing="1px">10/05/2024</mj-text>
+        <mj-text font-size="28px" color="black" letter-spacing="2px" font-weight="600" padding-top="0px">
+          NOTES FROM THE EDITOR
+        </mj-text>
+        <mj-text css-class="body-text" font-size="16px" color="#79767f" line-height="24px" letter-spacing="0.5px">
+          It’s been a little over a month since we launched Redistribute Magazine, and we’ve been absolutely thrilled with the response we’ve received. So many of you have messaged and emailed us, or shared articles you’ve enjoyed reading, and we’ve loved seeing every one of them. We’ve also received a ton of messages from new up-and-coming artists who’ve sent us their music, and we’ve enjoyed listening to them all. We have many more exciting features planned for the coming months. Thank you so much for reading, and we hope you’ll continue this journey with us.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- SECTION PROFIEL AUTHOR -->
+    <mj-section padding="0px 25px">
+      <mj-column>
+        <mj-text font-size="16px" color="#333333" padding="0px" font-weight="bold">
+          <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1762820579/Ellipse_4_e9bp45.png" width="30" height="30" style="vertical-align: middle; border-radius: 50%; margin-right: 10px;" alt="Author" />
+          James Dinsdale - Editor
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- SECTION BUTTON  -->
+    <mj-section>
+      <mj-column>
+        <mj-button align="left" inner-padding="10px 20px" font-size="14px" background-color="#3AECB9" color="black"> Read Now
+          <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1763941196/chevron-right_wq963y.png" alt="" width="16" style="vertical-align: middle; margin-right: 8px;" />
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- SECTION POPOLAR -->
+    <mj-wrapper padding="0px">
+      <!-- SECTION 1 -->
+      <mj-section padding="32px 32px 16px 32px" background-color="#EFEFEF" css-class="inner-section">
+        <mj-column padding="0">
+          <mj-text font-size="32px" font-weight="700" font-family="Inter">
+            Popular
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- SECTION 2 -->
+      <mj-section padding="0 32px 32px 32px" background-color="#EFEFEF" css-class="inner-section">
+        <mj-group>
+          <mj-column padding="0 4px">
+            <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1762820588/Rectangle_1_vetu4q.png" padding="0" fluid-on-mobile="true" />
+          </mj-column>
+          <mj-column padding="0 4px">
+            <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1762820588/Rectangle_12_gztttw.png" padding="0" fluid-on-mobile="true" />
+          </mj-column>
+          <mj-column padding="0 4px">
+            <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1762820590/Rectangle_13_duvpl5.png" padding="0" fluid-on-mobile="true" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding="0 32px 32px 32px" background-color="#EFEFEF" css-class="inner-section">
+        <mj-column>
+          <mj-text align="center" css-class="body-text" font-size="14px" color="#79767f" line-height="24px" letter-spacing="0.5px">
+            In our first month we’ve published reviews of some great new music by artists such as
+            <strong style="color: #000000;">Apanorama</strong>,
+            <strong style="color: #000000;">Janus Rasmussen</strong>, and
+            <strong style="color: #000000;">Shibui Nigai</strong>.<br><br>
+            There’s many more online now. Enjoy reading.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 32px 32px 32px" background-color="#EFEFEF" css-class="inner-section">
+        <mj-column>
+          <mj-button href="https://documentation.mjml.io/#mj-button" align="center" inner-padding="10px 20px" font-size="14px" background-color="#3AECB9" color="black"> View all
+            <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1763941196/chevron-right_wq963y.png" alt="" width="16" style="vertical-align: middle; margin-right: 8px;" />
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- SECTION INSPIRATION -->
+    <mj-wrapper padding="30px 0px">
+      <!-- SECTION 1 -->
+      <mj-section padding="32px 32px 16px 32px" background-color="#1C4942" css-class="inner-section">
+        <mj-column padding="0">
+          <mj-text font-size="32px" font-weight="700" font-family="Inter" color="#FFFFFF" letter-spacing="1px">
+            Inspirations
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px 32px 16px 32px" background-color="#1C4942" css-class="inner-section">
+        <mj-column>
+          <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1762820589/Rectangle_12_1_qmmhu0.png" alt="" />
+          <mj-text font-size="18px" font-family="monocpace" color="#c7c5cf" letter-spacing="2px">11/05/2024</mj-text>
+          <mj-text font-size="24px" letter-spacing="3px" font-weight="400" padding-top="0px" color="#ffffff" font-family="inter">
+            HOWLING - COLURE
+          </mj-text>
+          <mj-text font-size="14px" padding-top="0px" line-height="20px" color="#c7c5cf">
+            This is a great album; a fantastic showcase of the collective skills of these three talented producers.”
+          </mj-text>
+          <mj-button align="left" inner-padding="10px 20px" font-size="14px" background-color="#3AECB9" color="black"> Read Now
+            <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1763941196/chevron-right_wq963y.png" alt="" width="16" style="vertical-align: middle; margin-right: 8px;" />
+          </mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px 32px 16px 32px" background-color="#1C4942" css-class="inner-section">
+        <mj-column>
+          <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1762820597/Rectangle_12_2_glr1f7.png" alt="" />
+          <mj-text font-size="18px" font-family="monocpace" color="#c7c5cf" letter-spacing="2px">12/05/2024</mj-text>
+          <mj-text font-size="24px" letter-spacing="3px" font-weight="400" padding-top="0px" color="#ffffff" font-family="inter">
+            59 PERLEN - BY FAR
+          </mj-text>
+          <mj-text font-size="14px" padding-top="0px" line-height="20px" color="#c7c5cf">
+            The new single By Far from 59 Perlen is a rousing techno track which is sure to get your feet tapping.
+          </mj-text>
+          <mj-button align="left" inner-padding="10px 20px" font-size="14px" background-color="#3AECB9" color="black"> Read Now
+            <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1763941196/chevron-right_wq963y.png" alt="" width="16" style="vertical-align: middle; margin-right: 8px;" />
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- SECTION HOTSPOTS -->
+    <mj-wrapper padding="0px">
+      <!-- SECTION 1 -->
+      <mj-section padding="32px 32px 16px 32px" background-color="#2D2D2F" css-class="inner-section">
+        <mj-column padding="0">
+          <mj-text font-size="32px" font-weight="700" font-family="Inter" color="#ffffff">
+            Hotspots
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- SECTION 2 -->
+      <mj-section padding="0px 32px 16px 32px" background-color="#2D2D2F" css-class="inner-section">
+        <mj-column>
+          <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1762820586/Rectangle_12_3_hh9u9d.png" alt="" padding="20px" fluid-on-mobile="true" />
+          <mj-text font-size="15px" font-family="monocpace" color="#c7c5cf" letter-spacing="2px">13/05/2024</mj-text>
+          <mj-text font-size="18px" letter-spacing="3px" font-weight="400" padding-top="0px" color="#ffffff" font-family="inter">
+            HOW WAS THAT SO EASY
+          </mj-text>
+          <mj-text font-size="14px" padding-top="0px" line-height="20px" color="#c7c5cf">
+            The new single By Far from 59 Perlen is a rousing techno track which is sure to get your feet tapping.
+          </mj-text>
+          <mj-button align="left" inner-padding="10px 20px" font-size="14px" background-color="#2D2D2F" border="1px solid " color="#ffffff"> Read Now
+            <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1763979949/chevron-right_wtxq3f.png" alt="" width="16" style="vertical-align: middle; margin-right: 8px;" />
+          </mj-button>
+        </mj-column>
+
+        <mj-column>
+          <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1762820593/Rectangle_12_4_hdmzui.png" alt="" padding="20px" fluid-on-mobile="true" />
+          <mj-text font-size="15px" font-family="monocpace" color="#c7c5cf" letter-spacing="2px">12/05/2024</mj-text>
+          <mj-text font-size="18px" letter-spacing="3px" font-weight="400" padding-top="0px" color="#ffffff" font-family="inter">
+            PEEN STATE? TEXAS A&M??
+          </mj-text>
+          <mj-text font-size="14px" padding-top="0px" line-height="20px" color="#c7c5cf">
+            The new single By Far from 59 Perlen is a rousing techno track which is sure to get your feet tapping.
+          </mj-text>
+          <mj-button align="left" inner-padding="10px 20px" font-size="14px" background-color="#2D2D2F" border="1px solid " color="#ffffff"> Read Now
+            <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1763979949/chevron-right_wtxq3f.png" alt="" width="16" style="vertical-align: middle; margin-right: 8px;" />
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+
+
+
+
+
+    <!-- Include footer -->
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+</mjml> 

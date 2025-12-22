@@ -1,0 +1,17 @@
+email-project/
+│
+├─ mjml/                  # All MJML templates
+│   ├─ main.mjml          # Main email template
+│   ├─ header.mjml        # Reusable header
+│   ├─ footer.mjml        # Reusable footer
+│   └─ sections/          # Optional: reusable content blocks
+│       ├─ promo.mjml
+│       └─ hero.mjml
+│
+├─ css/                   # External CSS files
+│   ├─ styles.css         # Global styles
+│   └─ buttons.css        # Optional: button-specific styles
+│
+└─ assets/                # Images, icons
+    ├─ logo.png
+    └─ banner.jpg
