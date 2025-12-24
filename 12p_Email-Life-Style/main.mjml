@@ -1,0 +1,454 @@
+<mjml>
+  <mj-head>
+    <mj-title>John and The Rockstar Music Newsletter</mj-title>
+    <mj-preview>A Night of Nick Drake at Spiritland Discover what's new in music</mj-preview>
+
+    <!-- Google Fonts -->
+    <mj-font name="Oswald" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" />
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" />
+
+    <!-- Global Attributes -->
+    <mj-attributes>
+      <mj-all font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" />
+      <mj-text font-size="14px" color="#111111" line-height="22px" />
+      <mj-button
+        font-family="'Oswald', Arial, sans-serif"
+        font-size="13px"
+        font-weight="600"
+        background-color="transparent"
+        color="#ffffff"
+        border-radius="0"
+        border="2px solid #ffffff"
+        inner-padding="12px 28px"
+        text-transform="uppercase"
+      />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+    </mj-attributes>
+
+    <!-- Custom Styles -->
+    <mj-style>
+      .heading-font { font-family: 'Oswald', Arial, sans-serif !important; } a { text-decoration: none; color: inherit; } .hot-pink { color: #FF1493 !important; } @media only screen and (max-width: 480px) { .mobile-hero-heading { font-size:
+      28px !important; line-height: 32px !important; } .mobile-stack { display: block !important; width: 100% !important; } .mobile-center { text-align: center !important; } .mobile-padding { padding-left: 20px !important; padding-right:
+      20px !important; } .mobile-hide { display: none !important; } .live-talk-text { font-size: 48px !important; line-height: 52px !important; } }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#ffffff">
+    <!-- ============================================== -->
+    <!-- 1. TOP NAVIGATION / HEADER                    -->
+    <!-- ============================================== -->
+    <mj-section background-color="#CFEEE0" padding="25px 20px 20px">
+      <mj-column>
+        <mj-text padding="0">
+          <table cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width: 320px; max-width: 500px; margin: 0 auto; table-layout: fixed">
+            <tr>
+              <!-- Left Links -->
+              <td style="width: 25%; text-align: center; vertical-align: middle; white-space: nowrap">
+                <a href="#" style="font-family: 'Inter', Arial, sans-serif; font-size: 10px; color: #111111; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; margin-right: 10px">Events</a>
+                <a href="#" style="font-family: 'Inter', Arial, sans-serif; font-size: 10px; color: #111111; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px">News</a>
+              </td>
+
+              <!-- Center Logo -->
+              <td style="width: 50%; text-align: center; vertical-align: middle; padding: 0">
+                <img src="https://res.cloudinary.com/dhneogiam/image/upload/v1766480136/Group_1_u492rw.png" alt="Logo" style="max-width: 120px; height: auto; display: inline-block" />
+              </td>
+
+              <!-- Right Links -->
+              <td style="width: 25%; text-align: center; vertical-align: middle; white-space: nowrap">
+                <a href="#" style="font-family: 'Inter', Arial, sans-serif; font-size: 10px; color: #111111; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; margin-right: 10px">Blog</a>
+                <a href="#" style="font-family: 'Inter', Arial, sans-serif; font-size: 10px; color: #111111; text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px">Contact</a>
+              </td>
+            </tr>
+          </table>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 2. MAIN HERO SECTION                          -->
+    <!-- ============================================== -->
+    <mj-section background-color="#CFEEE0" padding="20px 20px 0">
+      <mj-column padding="0">
+        <mj-text padding="0">
+          <!--[if gte mso 9]>
+          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:560px;height:420px;">
+            <v:fill type="frame" src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&h=420&fit=crop&sat=-100" color="#333333" />
+            <v:textbox inset="0,0,0,0">
+          <![endif]-->
+
+          <div
+            style="
+              background-image: url('https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&h=420&fit=crop&sat=-100');
+              background-size: cover;
+              background-position: center center;
+              background-color: #333333;
+              border-radius: 8px;
+              box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+            "
+          >
+            <!-- Dark Gradient Overlay -->
+            <div style="background: linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.2) 100%); padding: 60px 40px 70px; border-radius: 8px">
+              <!-- Main Headline -->
+              <h1
+                class="mobile-hero-heading"
+                style="font-family: 'Oswald', Arial, sans-serif; font-size: 38px; color: #ffffff; margin: 0 0 5px 0; line-height: 42px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; max-width: 320px"
+              >
+                A Night of
+              </h1>
+              <h1
+                class="mobile-hero-heading"
+                style="font-family: 'Oswald', Arial, sans-serif; font-size: 38px; color: #ffffff; margin: 0 0 5px 0; line-height: 42px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; max-width: 320px"
+              >
+                Nick Drake at
+              </h1>
+              <h1
+                class="mobile-hero-heading"
+                style="font-family: 'Oswald', Arial, sans-serif; font-size: 38px; color: #ff1493; margin: 0 0 25px 0; line-height: 42px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; max-width: 320px"
+              >
+                Spiritland
+              </h1>
+
+              <!-- Description -->
+              <p style="font-family: 'Inter', Arial, sans-serif; font-size: 14px; color: rgba(255, 255, 255, 0.9); margin: 0 0 30px 0; line-height: 24px; max-width: 280px">
+                An intimate evening celebrating the timeless music and legacy of Nick Drake. Join us for an unforgettable acoustic experience.
+              </p>
+
+              <!-- CTA Button -->
+              <a
+                href="#"
+                style="
+                  display: inline-block;
+                  background-color: transparent;
+                  color: #ffffff;
+                  padding: 12px 30px;
+                  font-family: 'Oswald', Arial, sans-serif;
+                  font-size: 13px;
+                  font-weight: 600;
+                  text-decoration: none;
+                  border: 2px solid #ffffff;
+                  text-transform: uppercase;
+                  letter-spacing: 2px;
+                "
+              >
+                Read Now
+              </a>
+            </div>
+          </div>
+
+          <!--[if gte mso 9]>
+            </v:textbox>
+          </v:rect>
+          <![endif]-->
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 3. "LIVE TALK" STRIP                          -->
+    <!-- ============================================== -->
+    <mj-section background-color="#CFEEE0" padding="20px 20px">
+      <mj-column>
+        <mj-text align="center" padding="0" font-family="'Oswald', Arial, sans-serif" font-size="80px" font-weight="700" color="#FF1493" line-height="85px" letter-spacing="8px" text-transform="uppercase"> LIVE TALK </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 4. THREE-IMAGE FEATURE ROW                    -->
+    <!-- ============================================== -->
+    <mj-section background-color="#CFEEE0" padding="40px 15px">
+      <mj-group>
+        <!-- Image 1 -->
+        <mj-column width="33.33%" padding="0 5px 15px">
+          <mj-image src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=320&fit=crop&sat=-100" alt="Musician 1" border-radius="6px" padding="0" />
+        </mj-column>
+
+        <!-- Image 2 (with overlay text) -->
+        <mj-column width="33.33%" padding="0 5px 15px">
+          <mj-text padding="0">
+            <div style="position: relative; border-radius: 6px; overflow: hidden">
+              <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=200&h=320&fit=crop&sat=-100" alt="Musician 2" style="width: 100%; display: block" />
+
+              <!-- Overlay Text -->
+              <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 50%, transparent 100%); padding: 80px 15px 20px; text-align: center">
+                <div style="font-family: 'Oswald', Arial, sans-serif; font-size: 12px; font-weight: 700; color: #ff1493; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px; line-height: 16px">Hello Music Lovers</div>
+                <div style="font-family: 'Inter', Arial, sans-serif; font-size: 11px; color: rgba(255, 255, 255, 0.85); line-height: 17px">Discover the stories behind the music that moves you.</div>
+              </div>
+            </div>
+          </mj-text>
+        </mj-column>
+
+        <!-- Image 3 -->
+        <mj-column width="33.33%" padding="0 5px 15px">
+          <mj-image src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=200&h=320&fit=crop&sat=-100" alt="Musician 3" border-radius="6px" padding="0" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 5. "DISCOVER MORE" SECTION                    -->
+    <!-- ============================================== -->
+    <mj-section background-color="#F5C6D6" padding="55px 20px 30px">
+      <mj-column>
+        <mj-text align="center" font-size="32px" color="#111111" font-weight="700" padding="0 0 40px" line-height="38px" text-transform="uppercase" letter-spacing="3px">
+          <span style="font-family: 'Oswald', Arial, sans-serif">Discover More of<br />What's New</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Main Featured Artist -->
+    <mj-section background-color="#F5C6D6" padding="0 20px 40px">
+      <mj-column padding="0">
+        <mj-image src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=560&h=350&fit=crop&sat=-100" alt="Kazi Jay performing" border-radius="6px" padding="0 0 25px" />
+
+        <mj-text font-size="24px" color="#111111" font-weight="700" padding="0 0 12px" line-height="30px" text-transform="uppercase" letter-spacing="2px">
+          <span style="font-family: 'Oswald', Arial, sans-serif">Kazi Jay</span>
+        </mj-text>
+
+        <mj-text font-size="14px" color="#333333" padding="0 0 25px" line-height="24px">
+          Rising from the underground scene, Kazi Jay brings a fresh perspective to modern soul music. His debut album "Midnight Confessions" is available now on all streaming platforms.
+        </mj-text>
+
+        <mj-button href="#" background-color="transparent" color="#111111" border="2px solid #111111" font-size="12px" inner-padding="12px 26px" align="left"> Start Listening </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Two Smaller Artist Cards -->
+    <mj-section background-color="#F5C6D6" padding="20px 15px 50px">
+      <!-- Artist Card 1 -->
+      <mj-column width="50%" padding="0 8px 20px">
+        <mj-image src="https://images.unsplash.com/photo-1501612780327-45045538702b?w=280&h=280&fit=crop&sat=-100" alt="Pink Laundry" border-radius="6px" padding="0 0 18px" fluid-on-mobile="true" />
+
+        <mj-text font-size="18px" color="#111111" font-weight="700" padding="0 0 8px" line-height="24px" text-transform="uppercase" letter-spacing="1px">
+          <span style="font-family: 'Oswald', Arial, sans-serif">Pink Laundry</span>
+        </mj-text>
+
+        <mj-text font-size="13px" color="#333333" padding="0 0 18px" line-height="22px"> Dreamy synth-pop meets indie rock in this Brooklyn-based duo's latest EP. </mj-text>
+
+        <mj-button href="#" background-color="transparent" color="#111111" border="2px solid #111111" font-size="11px" inner-padding="10px 20px" align="left"> Start Listening </mj-button>
+      </mj-column>
+
+      <!-- Artist Card 2 -->
+      <mj-column width="50%" padding="0 8px 20px">
+        <mj-image src="https://images.unsplash.com/photo-1471478331149-c72f17e33c73?w=280&h=280&fit=crop&sat=-100" alt="Londøn" border-radius="6px" padding="0 0 18px" fluid-on-mobile="true" />
+
+        <mj-text font-size="18px" color="#111111" font-weight="700" padding="0 0 8px" line-height="24px" text-transform="uppercase" letter-spacing="1px">
+          <span style="font-family: 'Oswald', Arial, sans-serif">Londøn</span>
+        </mj-text>
+
+        <mj-text font-size="13px" color="#333333" padding="0 0 18px" line-height="22px"> Electronic beats fused with haunting vocals create an atmospheric journey. </mj-text>
+
+        <mj-button href="#" background-color="transparent" color="#111111" border="2px solid #111111" font-size="11px" inner-padding="10px 20px" align="left"> Start Listening </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 6. QUOTE / TESTIMONIAL HERO                   -->
+    <!-- ============================================== -->
+    <mj-section background-color="#CFEEE0" padding="40px 20px">
+      <mj-column padding="0">
+        <mj-text padding="0">
+          <!--[if gte mso 9]>
+          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:560px;height:480px;">
+            <v:fill type="frame" src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=600&h=480&fit=crop&sat=-100" color="#333333" />
+            <v:textbox inset="0,0,0,0">
+          <![endif]-->
+
+          <div
+            style="
+              background-image: url('https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=600&h=480&fit=crop&sat=-100');
+              background-size: cover;
+              background-position: center center;
+              background-color: #333333;
+              border-radius: 8px;
+            "
+          >
+            <!-- Dark Overlay -->
+            <div style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 100%); padding: 70px 40px 60px; border-radius: 8px; text-align: center">
+              <!-- Quote Text -->
+              <div style="max-width: 420px; margin: 0 auto">
+                <h2 style="font-family: 'Oswald', Arial, sans-serif; font-size: 36px; color: #ffffff; margin: 0 0 5px 0; line-height: 42px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px">"I don't look for</h2>
+                <h2 style="font-family: 'Oswald', Arial, sans-serif; font-size: 36px; color: #ff1493; margin: 0 0 5px 0; line-height: 42px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px">Music</h2>
+                <h2 style="font-family: 'Oswald', Arial, sans-serif; font-size: 36px; color: #ffffff; margin: 0 0 5px 0; line-height: 42px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px">anywhere</h2>
+                <h2 style="font-family: 'Oswald', Arial, sans-serif; font-size: 36px; color: #ff1493; margin: 0 0 30px 0; line-height: 42px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px">else."</h2>
+
+                <!-- Attribution -->
+                <p style="font-family: 'Inter', Arial, sans-serif; font-size: 14px; color: rgba(255, 255, 255, 0.85); margin: 0 0 35px 0; line-height: 24px">
+                  Marcus Chen, lead guitarist of The Midnight Echo, shares his journey from garage band to sold-out arenas.
+                </p>
+
+                <!-- CTA Button -->
+                <a
+                  href="#"
+                  style="
+                    display: inline-block;
+                    background-color: transparent;
+                    color: #ffffff;
+                    padding: 12px 32px;
+                    font-family: 'Oswald', Arial, sans-serif;
+                    font-size: 13px;
+                    font-weight: 600;
+                    text-decoration: none;
+                    border: 2px solid #ffffff;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                  "
+                >
+                  Read Now
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--[if gte mso 9]>
+            </v:textbox>
+          </v:rect>
+          <![endif]-->
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 7. UPCOMING EVENTS SECTION                    -->
+    <!-- ============================================== -->
+    <mj-section background-color="#CFEEE0" padding="30px 20px 50px">
+      <mj-column>
+        <mj-text align="center" font-size="28px" color="#111111" font-weight="700" padding="0 0 35px" line-height="34px" text-transform="uppercase" letter-spacing="3px">
+          <span style="font-family: 'Oswald', Arial, sans-serif">Upcoming Events</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Event Cards -->
+    <mj-section background-color="#CFEEE0" padding="0 15px 50px">
+      <!-- Event 1 -->
+      <mj-column width="50%" padding="0 8px 20px">
+        <mj-text padding="0">
+          <div style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08)">
+            <img src="https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=280&h=180&fit=crop&sat=-100" alt="Jazz Night" style="width: 100%; display: block" />
+            <div style="padding: 20px">
+              <div style="font-family: 'Oswald', Arial, sans-serif; font-size: 11px; font-weight: 600; color: #ff1493; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px; line-height: 14px">Dec 15, 2024</div>
+              <div style="font-family: 'Oswald', Arial, sans-serif; font-size: 18px; font-weight: 700; color: #111111; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; line-height: 24px">Jazz Night at Blue Note</div>
+              <div style="font-family: 'Inter', Arial, sans-serif; font-size: 13px; color: #666666; line-height: 20px; margin-bottom: 15px">New York, NY</div>
+              <a
+                href="#"
+                style="
+                  font-family: 'Oswald', Arial, sans-serif;
+                  font-size: 12px;
+                  font-weight: 600;
+                  color: #111111;
+                  text-decoration: none;
+                  text-transform: uppercase;
+                  letter-spacing: 1px;
+                  border-bottom: 2px solid #ff1493;
+                  padding-bottom: 2px;
+                "
+              >
+                Get Tickets →
+              </a>
+            </div>
+          </div>
+        </mj-text>
+      </mj-column>
+
+      <!-- Event 2 -->
+      <mj-column width="50%" padding="0 8px 20px">
+        <mj-text padding="0">
+          <div style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08)">
+            <img src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=280&h=180&fit=crop&sat=-100" alt="Acoustic Sessions" style="width: 100%; display: block" />
+            <div style="padding: 20px">
+              <div style="font-family: 'Oswald', Arial, sans-serif; font-size: 11px; font-weight: 600; color: #ff1493; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px; line-height: 14px">Dec 22, 2024</div>
+              <div style="font-family: 'Oswald', Arial, sans-serif; font-size: 18px; font-weight: 700; color: #111111; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; line-height: 24px">Acoustic Sessions</div>
+              <div style="font-family: 'Inter', Arial, sans-serif; font-size: 13px; color: #666666; line-height: 20px; margin-bottom: 15px">Los Angeles, CA</div>
+              <a
+                href="#"
+                style="
+                  font-family: 'Oswald', Arial, sans-serif;
+                  font-size: 12px;
+                  font-weight: 600;
+                  color: #111111;
+                  text-decoration: none;
+                  text-transform: uppercase;
+                  letter-spacing: 1px;
+                  border-bottom: 2px solid #ff1493;
+                  padding-bottom: 2px;
+                "
+              >
+                Get Tickets →
+              </a>
+            </div>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 8. NEWSLETTER SIGNUP                          -->
+    <!-- ============================================== -->
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-text padding="0">
+          <div style="background: linear-gradient(135deg, #f5c6d6 0%, #cfeee0 50%, #f5c6d6 100%); padding: 50px 30px; text-align: center">
+            <div style="font-family: 'Oswald', Arial, sans-serif; font-size: 11px; font-weight: 600; color: #ff1493; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 15px; line-height: 14px">Stay Connected</div>
+
+            <div style="font-family: 'Oswald', Arial, sans-serif; font-size: 28px; font-weight: 700; color: #111111; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 15px; line-height: 34px">Never Miss a Beat</div>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ============================================== -->
+    <!-- 9. FOOTER                                     -->
+    <!-- ============================================== -->
+    <mj-section background-color="#1A1A1A" padding="50px 25px 35px">
+      <mj-column>
+        <!-- Brand Description -->
+        <mj-text align="center" font-size="13px" color="#AAAAAA" padding="0 30px 25px" line-height="22px">
+          John and The Rockstar is a part of FM Media Group, bringing you the best in independent music coverage, artist interviews, and live event experiences since 2015.
+        </mj-text>
+
+        <mj-divider border-color="rgba(255,255,255,0.15)" border-width="1px" padding="0 60px 25px" />
+
+        <!-- Footer Links -->
+        <mj-text align="center" font-size="11px" color="#888888" padding="0 0 25px" line-height="18px" letter-spacing="1px">
+          <a href="#" style="color: #888888; margin: 0 12px">Unsubscribe</a>
+          <span style="color: #555555">|</span>
+          <a href="#" style="color: #888888; margin: 0 12px">Manage Preferences</a>
+          <span style="color: #555555">|</span>
+          <a href="#" style="color: #888888; margin: 0 12px">View Online</a>
+        </mj-text>
+
+        <!-- Social Icons -->
+        <mj-text align="center" padding="0 0 30px" line-height="26px">
+          <a href="#" style="display: inline-block; margin: 0 10px">
+            <img src="https://img.icons8.com/ios-filled/50/888888/facebook-new.png" width="22" alt="Facebook" style="vertical-align: middle" />
+          </a>
+          <a href="#" style="display: inline-block; margin: 0 10px">
+            <img src="https://img.icons8.com/ios-filled/50/888888/instagram-new.png" width="22" alt="Instagram" style="vertical-align: middle" />
+          </a>
+          <a href="#" style="display: inline-block; margin: 0 10px">
+            <img src="https://img.icons8.com/ios-filled/50/888888/twitter-circled--v1.png" width="22" alt="Twitter" style="vertical-align: middle" />
+          </a>
+          <a href="#" style="display: inline-block; margin: 0 10px">
+            <img src="https://img.icons8.com/ios-filled/50/888888/tiktok--v1.png" width="22" alt="TikTok" style="vertical-align: middle" />
+          </a>
+          <a href="#" style="display: inline-block; margin: 0 10px">
+            <img src="https://img.icons8.com/ios-filled/50/888888/youtube-play.png" width="22" alt="YouTube" style="vertical-align: middle" />
+          </a>
+        </mj-text>
+
+        <!-- Address -->
+        <mj-text align="center" font-size="11px" color="#666666" padding="0" line-height="18px"> John and The Rockstar | 9555 Harmon Road, Fort Worth, TX 76177 </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Final Brand Bar -->
+    <mj-section background-color="#000000" padding="25px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="22px" color="#FF1493" font-weight="700" padding="0" line-height="28px" text-transform="uppercase" letter-spacing="4px">
+          <span style="font-family: 'Oswald', Arial, sans-serif">John and The Rockstar</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
