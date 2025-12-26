@@ -1,0 +1,324 @@
+<mjml>
+  <mj-head>
+    <mj-title>10X Athletic - Unlock Your Full Potential</mj-title>
+    <mj-preview>Transform your performance with 10X Athletic</mj-preview>
+    
+    <mj-attributes>
+      <mj-all font-family="Helvetica, Arial, sans-serif" />
+      <mj-text font-size="16px" color="#333333" line-height="1.6" />
+      <mj-button background-color="#FF4500" color="#ffffff" font-weight="700" border-radius="4px" />
+    </mj-attributes>
+    
+    <mj-style>
+      .bold { font-weight: 700; }
+      .orange { color: #FF4500; }
+      .uppercase { text-transform: uppercase; letter-spacing: 2px; }
+    </mj-style>
+    
+    <mj-font name="Oswald" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" />
+  </mj-head>
+
+  <mj-body background-color="#f4f4f4">
+    
+    <!-- HEADER / NAVIGATION -->
+    <mj-section background-color="#000000" padding="15px 20px">
+      <mj-column width="50%">
+        <mj-image 
+          src="https://res.cloudinary.com/dhneogiam/image/upload/v1766740742/removebg-removebg-preview_sgqrof.png" 
+          alt="10X Athletic Logo" 
+          width="50px" 
+          align="center"
+          href="https://www.10xathletic.com/"
+        />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" color="#ffffff" font-size="12px" padding-top="15px">
+          <a href="https://www.10xathletic.com/shop" style="color: #ffffff; text-decoration: none; margin-right: 20px;">SHOP</a>
+          <a href="https://www.10xathletic.com/programs" style="color: #ffffff; text-decoration: none; margin-right: 20px;">PROGRAMS</a>
+          <a href="https://www.10xathletic.com/about" style="color: #ffffff; text-decoration: none;">ABOUT</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 1: HERO BANNER -->
+    <mj-section 
+      background-url="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80" 
+      background-size="cover" 
+      background-repeat="no-repeat"
+      padding="80px 20px"
+    >
+      <mj-column>
+        <mj-text 
+          align="center" 
+          color="#ffffff" 
+          font-size="14px" 
+          font-weight="700" 
+          letter-spacing="3px"
+          padding-bottom="10px"
+        >
+          ELEVATE YOUR PERFORMANCE
+        </mj-text>
+        <mj-text 
+          align="center" 
+          color="#ffffff" 
+          font-size="48px" 
+          font-weight="700" 
+          font-family="Oswald, Helvetica, sans-serif"
+          line-height="1.1"
+          padding-bottom="20px"
+        >
+          BECOME <span style="color: #FF4500;">10X</span><br/>STRONGER
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="18px" padding-bottom="30px">
+          Premium athletic gear and training programs designed<br/>for those who refuse to settle for average.
+        </mj-text>
+        <mj-button 
+          href="https://www.10xathletic.com/shop" 
+          background-color="#FF4500" 
+          color="#ffffff"
+          font-size="16px"
+          padding="15px 40px"
+          inner-padding="15px 40px"
+        >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 2: FEATURES / WHY 10X -->
+    <mj-section background-color="#ffffff" padding="60px 20px">
+      <mj-column>
+        <mj-text 
+          align="center" 
+          font-size="12px" 
+          color="#FF4500" 
+          font-weight="700" 
+          letter-spacing="3px"
+          padding-bottom="5px"
+        >
+          WHY CHOOSE US
+        </mj-text>
+        <mj-text 
+          align="center" 
+          font-size="32px" 
+          font-weight="700" 
+          color="#000000"
+          font-family="Oswald, Helvetica, sans-serif"
+          padding-bottom="40px"
+        >
+          THE 10X DIFFERENCE
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0 20px 50px">
+      <mj-column width="33%">
+        <mj-image 
+          src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80" 
+          alt="Elite Training"
+          border-radius="8px"
+          padding-bottom="15px"
+        />
+        <mj-text align="center" font-size="18px" font-weight="700" color="#000000" padding-bottom="10px">
+          🏋️ ELITE TRAINING
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="#666666">
+          Science-backed programs designed by professional athletes and coaches.
+        </mj-text>
+      </mj-column>
+      
+      <mj-column width="33%">
+        <mj-image 
+          src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=400&q=80" 
+          alt="Premium Gear"
+          border-radius="8px"
+          padding-bottom="15px"
+        />
+        <mj-text align="center" font-size="18px" font-weight="700" color="#000000" padding-bottom="10px">
+          👟 PREMIUM GEAR
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="#666666">
+          High-performance apparel and equipment built to last.
+        </mj-text>
+      </mj-column>
+      
+      <mj-column width="33%">
+        <mj-image 
+          src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&q=80" 
+          alt="Community"
+          border-radius="8px"
+          padding-bottom="15px"
+        />
+        <mj-text align="center" font-size="18px" font-weight="700" color="#000000" padding-bottom="10px">
+          🤝 COMMUNITY
+        </mj-text>
+        <mj-text align="center" font-size="14px" color="#666666">
+          Join thousands of athletes pushing their limits together.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 3: FEATURED PRODUCTS -->
+    <mj-section background-color="#1a1a1a" padding="60px 20px">
+      <mj-column>
+        <mj-text 
+          align="center" 
+          font-size="12px" 
+          color="#FF4500" 
+          font-weight="700" 
+          letter-spacing="3px"
+          padding-bottom="5px"
+        >
+          NEW ARRIVALS
+        </mj-text>
+        <mj-text 
+          align="center" 
+          font-size="32px" 
+          font-weight="700" 
+          color="#ffffff"
+          font-family="Oswald, Helvetica, sans-serif"
+          padding-bottom="40px"
+        >
+          FEATURED PRODUCTS
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#1a1a1a" padding="0 20px 60px">
+      <mj-column width="50%">
+        <mj-image 
+          src="https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=500&q=80" 
+          alt="Performance T-Shirt"
+          border-radius="8px"
+          href="https://www.10xathletic.com/shop"
+        />
+        <mj-text align="center" color="#ffffff" font-size="18px" font-weight="700" padding-top="15px">
+          Performance Pro Tee
+        </mj-text>
+        <mj-text align="center" color="#FF4500" font-size="20px" font-weight="700">
+          $49.99
+        </mj-text>
+        <mj-button 
+          href="https://www.10xathletic.com/shop" 
+          background-color="transparent"
+          border="2px solid #FF4500"
+          color="#FF4500"
+          font-size="12px"
+        >
+          VIEW PRODUCT
+        </mj-button>
+      </mj-column>
+      
+      <mj-column width="50%">
+        <mj-image 
+          src="https://images.unsplash.com/photo-1562771379-eafdca7a02f8?w=500&q=80" 
+          alt="Training Shorts"
+          border-radius="8px"
+          href="https://www.10xathletic.com/shop"
+        />
+        <mj-text align="center" color="#ffffff" font-size="18px" font-weight="700" padding-top="15px">
+          Elite Training Shorts
+        </mj-text>
+        <mj-text align="center" color="#FF4500" font-size="20px" font-weight="700">
+          $59.99
+        </mj-text>
+        <mj-button 
+          href="https://www.10xathletic.com/shop" 
+          background-color="transparent"
+          border="2px solid #FF4500"
+          color="#FF4500"
+          font-size="12px"
+        >
+          VIEW PRODUCT
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 4: CALL TO ACTION -->
+    <mj-section 
+      background-url="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&q=80"
+      background-size="cover"
+      padding="80px 20px"
+    >
+      <mj-column>
+        <mj-text 
+          align="center" 
+          color="#ffffff" 
+          font-size="36px" 
+          font-weight="700"
+          font-family="Oswald, Helvetica, sans-serif"
+          padding-bottom="15px"
+        >
+          READY TO GO <span style="color: #FF4500;">10X</span>?
+        </mj-text>
+        <mj-text align="center" color="#ffffff" font-size="18px" padding-bottom="30px">
+          Join our community and get exclusive access to training tips,<br/>early product releases, and special discounts.
+        </mj-text>
+        <mj-button 
+          href="https://www.10xathletic.com/signup" 
+          background-color="#FF4500" 
+          color="#ffffff"
+          font-size="16px"
+          padding="15px 50px"
+          inner-padding="15px 50px"
+        >
+          JOIN THE MOVEMENT
+        </mj-button>
+        <mj-text align="center" color="#ffffff" font-size="14px" padding-top="20px">
+          🎁 Get <strong>20% OFF</strong> your first order when you sign up!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SOCIAL PROOF -->
+    <mj-section background-color="#ffffff" padding="40px 20px">
+      <mj-column>
+        <mj-text align="center" color="#333333" font-size="20px" font-style="italic" padding-bottom="15px">
+          "10X Athletic completely transformed my training. The gear is top-notch and the community keeps me motivated every day!"
+        </mj-text>
+        <mj-text align="center" color="#FF4500" font-size="14px" font-weight="700">
+          — MARCUS R., PRO ATHLETE
+        </mj-text>
+        <mj-text align="center" color="#FFD700" font-size="20px" padding-top="10px">
+          ★★★★★
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER -->
+    <mj-section background-color="#000000" padding="40px 20px">
+      <mj-column>
+        <mj-image 
+          src="https://res.cloudinary.com/dhneogiam/image/upload/v1766740742/removebg-removebg-preview_sgqrof.png" 
+          alt="10X Athletic Logo" 
+          width="90px" 
+          align="center"
+          padding-bottom="20px"
+        />
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="center" padding-bottom="20px">
+          <mj-social-element name="facebook" href="https://facebook.com/10xathletic" background-color="#FF4500" />
+          <mj-social-element name="instagram" href="https://instagram.com/10xathletic" background-color="#FF4500" />
+          <mj-social-element name="twitter" href="https://twitter.com/10xathletic" background-color="#FF4500" />
+          <mj-social-element name="youtube" href="https://youtube.com/10xathletic" background-color="#FF4500" />
+        </mj-social>
+        <mj-text align="center" color="#888888" font-size="12px" padding-bottom="10px">
+          <a href="https://www.10xathletic.com/shop" style="color: #888888; text-decoration: none; margin: 0 10px;">Shop</a> |
+          <a href="https://www.10xathletic.com/programs" style="color: #888888; text-decoration: none; margin: 0 10px;">Programs</a> |
+          <a href="https://www.10xathletic.com/support" style="color: #888888; text-decoration: none; margin: 0 10px;">Support</a> |
+          <a href="https://www.10xathletic.com/contact" style="color: #888888; text-decoration: none; margin: 0 10px;">Contact</a>
+        </mj-text>
+        <mj-divider border-color="#333333" padding="20px 0" />
+        <mj-text align="center" color="#666666" font-size="11px">
+          © 2024 10X Athletic. All rights reserved.<br/>
+          123 Performance Way, Fitness City, FC 12345
+        </mj-text>
+        <mj-text align="center" color="#666666" font-size="11px" padding-top="15px">
+          You received this email because you subscribed to 10X Athletic.<br/>
+          <a href="{{unsubscribe_url}}" style="color: #FF4500; text-decoration: underline;">Unsubscribe</a> | 
+          <a href="{{preferences_url}}" style="color: #FF4500; text-decoration: underline;">Update Preferences</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
