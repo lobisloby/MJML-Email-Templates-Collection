@@ -118,6 +118,7 @@
           alt="Elite Training"
           border-radius="8px"
           padding-bottom="15px"
+          fluid-on-mobile="true"
         />
         <mj-text align="center" font-size="18px" font-weight="700" color="#000000" padding-bottom="10px">
           🏋️ ELITE TRAINING
@@ -133,6 +134,7 @@
           alt="Premium Gear"
           border-radius="8px"
           padding-bottom="15px"
+          fluid-on-mobile="true"
         />
         <mj-text align="center" font-size="18px" font-weight="700" color="#000000" padding-bottom="10px">
           👟 PREMIUM GEAR
@@ -148,6 +150,7 @@
           alt="Community"
           border-radius="8px"
           padding-bottom="15px"
+          fluid-on-mobile="true"
         />
         <mj-text align="center" font-size="18px" font-weight="700" color="#000000" padding-bottom="10px">
           🤝 COMMUNITY
@@ -191,6 +194,7 @@
           alt="Performance T-Shirt"
           border-radius="8px"
           href="https://www.10xathletic.com/shop"
+
         />
         <mj-text align="center" color="#ffffff" font-size="18px" font-weight="700" padding-top="15px">
           Performance Pro Tee

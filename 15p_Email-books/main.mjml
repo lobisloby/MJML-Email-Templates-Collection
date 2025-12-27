@@ -1,0 +1,283 @@
+<mjml>
+  <mj-head>
+    <mj-title>Literary Emporium - Gifts for Book Lovers</mj-title>
+    <mj-preview>Discover beautiful literary gifts for the book lover in your life 📚</mj-preview>
+
+    <mj-font name="Playfair Display" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" />
+    <mj-font name="Lora" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" />
+
+    <mj-attributes>
+      <mj-all font-family="Georgia, 'Times New Roman', serif" />
+      <mj-text font-size="16px" color="#2C2C2C" line-height="27px" padding="0" />
+      <mj-button background-color="#722F37" color="#ffffff" font-weight="400" border-radius="0" font-family="Georgia, serif"  />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+    </mj-attributes>
+
+    <mj-style inline="inline"> .literary-link { color: #722F37; text-decoration: underline; } .gold-text { color: #C9A962; } </mj-style>
+
+    <mj-style>
+      @media only screen and (max-width: 480px) { .mobile-headline { font-size: 28px !important; line-height: 34px !important; } .mobile-text { font-size: 14px !important; line-height: 24px !important; } .mobile-nav { font-size: 11px
+      !important; } }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#F5F1E6">
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- TOP BAR -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#722F37" padding="12px 20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="12px" letter-spacing="2px" font-family="Georgia, serif" line-height="18px"> ✨ FREE UK SHIPPING ON ORDERS OVER £35 ✨ </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- HEADER / LOGO -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#333333" padding="20px 20px 25px">
+      <mj-column>
+        <mj-image
+          src="https://www.literaryemporium.co.uk/cdn/shop/files/LE_Logos_Final_Roundel_RESIZE_CREAM_400x.png?v=1613724493"
+          alt="Literary Emporium - Gifts for Book Lovers"
+          width="120px"
+          align="center"
+          href="https://www.literaryemporium.co.uk/"
+          title="Literary Emporium"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- NAVIGATION -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FAF8F3" padding="20px 20px 25px">
+      <mj-column>
+        <mj-text align="center" font-size="13px" color="#2C2C2C" line-height="20px" css-class="mobile-nav">
+          <a href="https://www.literaryemporium.co.uk/collections/new-arrivals" style="color: #2c2c2c; text-decoration: none; margin: 0 15px">NEW IN</a>
+          <a href="https://www.literaryemporium.co.uk/collections/jewellery" style="color: #2c2c2c; text-decoration: none; margin: 0 15px">JEWELLERY</a>
+          <a href="https://www.literaryemporium.co.uk/collections/gifts" style="color: #2c2c2c; text-decoration: none; margin: 0 15px">GIFTS</a>
+          <a href="https://www.literaryemporium.co.uk/collections/homeware" style="color: #2c2c2c; text-decoration: none; margin: 0 15px">HOME</a>
+          <a href="https://www.literaryemporium.co.uk/collections/sale" style="color: #722f37; text-decoration: none; margin: 0 15px">SALE</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FAF8F3" padding="0 20px 10px">
+      <mj-column>
+        <mj-divider border-color="#E5DFD3" border-width="1px" padding="0 60px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 1: HERO BANNER -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section padding="0" background-color="#FAF8F3">
+      <mj-column width="100%">
+        <mj-image src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1200&q=80" alt="Beautiful library with books" fluid-on-mobile="true" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FAF8F3" padding="50px 20px">
+      <mj-column width="80%">
+        <mj-text align="center" color="#C9A962" font-size="13px" letter-spacing="4px" padding="0 0 10px" font-family="Georgia, serif" line-height="20px"> NEW COLLECTION </mj-text>
+        <mj-text align="center" color="#2C2C2C" font-size="38px" font-family="'Playfair Display', Georgia, serif" line-height="46px" padding="0 0 20px" css-class="mobile-headline"> Gifts for<br /><em>Book Lovers</em> </mj-text>
+        <mj-text align="center" color="#5C5C5C" font-size="16px" padding="0 0 30px" font-family="'Lora', Georgia, serif" line-height="27px" css-class="mobile-text">
+          Discover our carefully curated collection of literary treasures — from delicate book-inspired jewellery to beautifully crafted homeware, each piece is designed to delight the bibliophile in your life.
+        </mj-text>
+        <mj-button href="https://www.literaryemporium.co.uk/collections/all" background-color="#722F37" color="#ffffff" font-size="13px" inner-padding="16px 40px"> EXPLORE COLLECTION </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 2: FEATURED PRODUCTS -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FFFFFF" padding="60px 20px 30px">
+      <mj-column>
+        <mj-text align="center" color="#C9A962" font-size="12px" letter-spacing="4px" padding="0 0 8px" line-height="18px"> HAND-PICKED FOR YOU </mj-text>
+        <mj-text align="center" color="#2C2C2C" font-size="32px" font-family="'Playfair Display', Georgia, serif" padding="0 0 15px" line-height="42px"> <em>Bestselling</em> Literary Gifts </mj-text>
+        <mj-text align="center" color="#5C5C5C" font-size="15px" padding="0 0 40px" font-family="'Lora', Georgia, serif" line-height="25px"> Our most-loved pieces, cherished by readers around the world </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFFFFF" padding="0 15px 60px">
+      <!-- Product 1 -->
+      <mj-column width="33.33%" padding="10px">
+        <mj-image src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&q=80" alt="Book Locket Necklace" border-radius="0" href="https://www.literaryemporium.co.uk/collections/jewellery" padding="0 0 15px" />
+        <mj-text align="center" color="#2C2C2C" font-size="16px" font-family="'Playfair Display', Georgia, serif" padding="0 0 5px" line-height="22px"> Book Locket Necklace </mj-text>
+        <mj-text align="center" color="#888888" font-size="12px" padding="0 0 8px" font-family="'Lora', Georgia, serif" line-height="18px"> Sterling Silver </mj-text>
+        <mj-text align="center" color="#722F37" font-size="18px" font-weight="600" line-height="24px"> £28.00 </mj-text>
+      </mj-column>
+
+      <!-- Product 2 -->
+      <mj-column width="33.33%" padding="10px">
+        <mj-image src="https://images.unsplash.com/photo-1603006905003-be475563bc59?w=400&q=80" alt="Library Scented Candle" border-radius="0" href="https://www.literaryemporium.co.uk/collections/candles" padding="0 0 15px" />
+        <mj-text align="center" color="#2C2C2C" font-size="16px" font-family="'Playfair Display', Georgia, serif" padding="0 0 5px" line-height="22px"> Library Scented Candle </mj-text>
+        <mj-text align="center" color="#888888" font-size="12px" padding="0 0 8px" font-family="'Lora', Georgia, serif" line-height="18px"> Old Books &amp; Vanilla </mj-text>
+        <mj-text align="center" color="#722F37" font-size="18px" font-weight="600" line-height="24px"> £18.50 </mj-text>
+      </mj-column>
+
+      <!-- Product 3 -->
+      <mj-column width="33.33%" padding="10px">
+        <mj-image src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&q=80" alt="Literary Quote Print" border-radius="0" href="https://www.literaryemporium.co.uk/collections/prints" padding="0 0 15px" />
+        <mj-text align="center" color="#2C2C2C" font-size="16px" font-family="'Playfair Display', Georgia, serif" padding="0 0 5px" line-height="22px"> Literary Quote Print </mj-text>
+        <mj-text align="center" color="#888888" font-size="12px" padding="0 0 8px" font-family="'Lora', Georgia, serif" line-height="18px"> Jane Austen Collection </mj-text>
+        <mj-text align="center" color="#722F37" font-size="18px" font-weight="600" line-height="24px"> £12.00 </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Shop All Button -->
+    <mj-section background-color="#FFFFFF" padding="0 20px 60px">
+      <mj-column>
+        <mj-button href="https://www.literaryemporium.co.uk/collections/all" background-color="transparent" color="#722F37" border="1px solid #722F37" font-size="12px" inner-padding="14px 35px"> VIEW ALL PRODUCTS </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 3: SHOP BY CATEGORY -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#2C2C2C" padding="60px 20px 30px">
+      <mj-column>
+        <mj-text align="center" color="#C9A962" font-size="12px" letter-spacing="4px" padding="0 0 8px" line-height="18px"> BROWSE OUR COLLECTIONS </mj-text>
+        <mj-text align="center" color="#FFFFFF" font-size="32px" font-family="'Playfair Display', Georgia, serif" padding="0 0 40px" line-height="42px"> Shop by <em>Category</em> </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#2C2C2C" padding="0 15px 20px">
+      <!-- Category 1: Jewellery -->
+      <mj-column width="50%" padding="10px">
+        <mj-image src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=500&q=80" alt="Literary Jewellery Collection" border-radius="0" href="https://www.literaryemporium.co.uk/collections/jewellery" padding="0" />
+        <mj-text align="center" color="#FFFFFF" font-size="20px" font-family="'Playfair Display', Georgia, serif" padding="20px 0 5px" line-height="28px"> Jewellery </mj-text>
+        <mj-text align="center" color="#AAAAAA" font-size="13px" padding="0 0 15px" font-family="'Lora', Georgia, serif" line-height="20px"> Book-inspired necklaces, earrings &amp; more </mj-text>
+        <mj-button href="https://www.literaryemporium.co.uk/collections/jewellery" background-color="transparent" color="#C9A962" border="1px solid #C9A962" font-size="11px" inner-padding="10px 25px"> SHOP NOW </mj-button>
+      </mj-column>
+
+      <!-- Category 2: Homeware -->
+      <mj-column width="50%" padding="10px">
+        <mj-image src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=500&q=80" alt="Literary Homeware Collection" border-radius="0" href="https://www.literaryemporium.co.uk/collections/homeware" padding="0" />
+        <mj-text align="center" color="#FFFFFF" font-size="20px" font-family="'Playfair Display', Georgia, serif" padding="20px 0 5px" line-height="28px"> Homeware </mj-text>
+        <mj-text align="center" color="#AAAAAA" font-size="13px" padding="0 0 15px" font-family="'Lora', Georgia, serif" line-height="20px"> Mugs, cushions &amp; literary décor </mj-text>
+        <mj-button href="https://www.literaryemporium.co.uk/collections/homeware" background-color="transparent" color="#C9A962" border="1px solid #C9A962" font-size="11px" inner-padding="10px 25px"> SHOP NOW </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#2C2C2C" padding="0 15px 60px">
+      <!-- Category 3: Candles -->
+      <mj-column width="50%" padding="10px">
+        <mj-image src="https://images.unsplash.com/photo-1602028915047-37269d1a73f7?w=500&q=80" alt="Book Scented Candles" border-radius="0" href="https://www.literaryemporium.co.uk/collections/candles" padding="0" />
+        <mj-text align="center" color="#FFFFFF" font-size="20px" font-family="'Playfair Display', Georgia, serif" padding="20px 0 5px" line-height="28px"> Candles </mj-text>
+        <mj-text align="center" color="#AAAAAA" font-size="13px" padding="0 0 15px" font-family="'Lora', Georgia, serif" line-height="20px"> Book-inspired scents &amp; literary fragrances </mj-text>
+        <mj-button href="https://www.literaryemporium.co.uk/collections/candles" background-color="transparent" color="#C9A962" border="1px solid #C9A962" font-size="11px" inner-padding="10px 25px"> SHOP NOW </mj-button>
+      </mj-column>
+
+      <!-- Category 4: Prints & Art -->
+      <mj-column width="50%" padding="10px">
+        <mj-image src="https://images.unsplash.com/photo-1582561424760-0321d75e81fa?w=500&q=80" alt="Literary Prints and Art" border-radius="0" href="https://www.literaryemporium.co.uk/collections/prints" padding="0" />
+        <mj-text align="center" color="#FFFFFF" font-size="20px" font-family="'Playfair Display', Georgia, serif" padding="20px 0 5px" line-height="28px"> Prints &amp; Art </mj-text>
+        <mj-text align="center" color="#AAAAAA" font-size="13px" padding="0 0 15px" font-family="'Lora', Georgia, serif" line-height="20px"> Literary quotes &amp; book illustrations </mj-text>
+        <mj-button href="https://www.literaryemporium.co.uk/collections/prints" background-color="transparent" color="#C9A962" border="1px solid #C9A962" font-size="11px" inner-padding="10px 25px"> SHOP NOW </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 4: NEWSLETTER / CTA -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FAF8F3" padding="70px 20px">
+      <mj-column width="70%">
+        <mj-text align="center" color="#C9A962" font-size="24px" padding="0 0 15px" line-height="32px"> 📖 </mj-text>
+        <mj-text align="center" color="#2C2C2C" font-size="30px" font-family="'Playfair Display', Georgia, serif" line-height="39px" padding="0 0 20px"> Join the <em>Literary Society</em> </mj-text>
+        <mj-text align="center" color="#5C5C5C" font-size="15px" padding="0 0 30px" font-family="'Lora', Georgia, serif" line-height="26px">
+          Subscribe to our newsletter and be the first to discover new arrivals, exclusive offers, and literary inspiration delivered straight to your inbox.
+        </mj-text>
+
+        <mj-button href="https://www.literaryemporium.co.uk/pages/newsletter" background-color="#722F37" color="#ffffff" font-size="13px" inner-padding="16px 40px"> SUBSCRIBE NOW </mj-button>
+
+        <mj-text align="center" color="#888888" font-size="13px" padding="25px 0 0" font-family="'Lora', Georgia, serif" line-height="20px">
+          🎁 <em>Get <strong style="color: #722f37">10% OFF</strong> your first order when you subscribe!</em>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- QUOTE SECTION -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#722F37" padding="50px 20px">
+      <mj-column width="75%">
+        <mj-text align="center" color="#FFFFFF" font-size="22px" font-family="'Playfair Display', Georgia, serif" font-style="italic" line-height="35px" padding="0 0 20px">
+          "A reader lives a thousand lives before he dies. The man who never reads lives only one."
+        </mj-text>
+        <mj-text align="center" color="#C9A962" font-size="13px" line-height="20px"> — GEORGE R.R. MARTIN </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- WHY SHOP WITH US -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FFFFFF" padding="50px 20px">
+      <mj-column width="25%" padding="10px">
+        <mj-text align="center" color="#C9A962" font-size="28px" padding="0 0 10px" line-height="36px"> 📦 </mj-text>
+        <mj-text align="center" color="#2C2C2C" font-size="13px" font-weight="600" letter-spacing="1px" padding="0 0 5px" line-height="20px"> FREE UK SHIPPING </mj-text>
+        <mj-text align="center" color="#888888" font-size="12px" line-height="18px"> On orders over £35 </mj-text>
+      </mj-column>
+      <mj-column width="25%" padding="10px">
+        <mj-text align="center" color="#C9A962" font-size="28px" padding="0 0 10px" line-height="36px"> 🎁 </mj-text>
+        <mj-text align="center" color="#2C2C2C" font-size="13px" font-weight="600" letter-spacing="1px" padding="0 0 5px" line-height="20px"> GIFT WRAPPING </mj-text>
+        <mj-text align="center" color="#888888" font-size="12px" line-height="18px"> Beautiful presentation </mj-text>
+      </mj-column>
+      <mj-column width="25%" padding="10px">
+        <mj-text align="center" color="#C9A962" font-size="28px" padding="0 0 10px" line-height="36px"> 🌍 </mj-text>
+        <mj-text align="center" color="#2C2C2C" font-size="13px" font-weight="600" letter-spacing="1px" padding="0 0 5px" line-height="20px"> WORLDWIDE DELIVERY </mj-text>
+        <mj-text align="center" color="#888888" font-size="12px" line-height="18px"> We ship globally </mj-text>
+      </mj-column>
+      <mj-column width="25%" padding="10px">
+        <mj-text align="center" color="#C9A962" font-size="28px" padding="0 0 10px" line-height="36px"> 💚 </mj-text>
+        <mj-text align="center" color="#2C2C2C" font-size="13px" font-weight="600" letter-spacing="1px" padding="0 0 5px" line-height="20px"> ECO-FRIENDLY </mj-text>
+        <mj-text align="center" color="#888888" font-size="12px" line-height="18px"> Sustainable packaging </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- FOOTER -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#2C2C2C" padding="50px 20px 30px">
+      <mj-column>
+        <!-- FOOTER LOGO -->
+        <mj-image
+          src="https://www.literaryemporium.co.uk/cdn/shop/files/LE_Logos_Final_Roundel_RESIZE_CREAM_400x.png?v=1613724493"
+          alt="Literary Emporium"
+          width="80px"
+          align="center"
+          padding="0 0 25px"
+          href="https://www.literaryemporium.co.uk/"
+        />
+
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="center" padding="0 0 30px">
+          <mj-social-element name="facebook" href="https://facebook.com/literaryemporium" background-color="#722F37" border-radius="50px" />
+          <mj-social-element name="instagram" href="https://instagram.com/literaryemporium" background-color="#722F37" border-radius="50px" />
+          <mj-social-element name="pinterest" href="https://pinterest.com/literaryemporium" background-color="#722F37" border-radius="50px" />
+          <mj-social-element name="twitter" href="https://twitter.com/literaryemporium" background-color="#722F37" border-radius="50px" />
+        </mj-social>
+
+        <mj-text align="center" color="#888888" font-size="13px" padding="0 0 20px" font-family="Georgia, serif" line-height="20px">
+          <a href="https://www.literaryemporium.co.uk/collections/all" style="color: #888888; text-decoration: none; margin: 0 12px">Shop</a> |
+          <a href="https://www.literaryemporium.co.uk/pages/about" style="color: #888888; text-decoration: none; margin: 0 12px">About</a> |
+          <a href="https://www.literaryemporium.co.uk/pages/contact" style="color: #888888; text-decoration: none; margin: 0 12px">Contact</a> |
+          <a href="https://www.literaryemporium.co.uk/pages/faq" style="color: #888888; text-decoration: none; margin: 0 12px">FAQ</a>
+        </mj-text>
+
+        <mj-divider border-color="#444444" padding="20px 60px" />
+
+        <mj-text align="center" color="#666666" font-size="11px" line-height="19px" font-family="Georgia, serif">
+          © 2024 Literary Emporium. All rights reserved.<br />
+          Handcrafted with love in the United Kingdom 🇬🇧
+        </mj-text>
+
+        <mj-text align="center" color="#666666" font-size="11px" padding="20px 0 0" line-height="19px" font-family="Georgia, serif">
+          You're receiving this email because you're part of our literary community.<br />
+          <a href="{{unsubscribe_url}}" style="color: #c9a962; text-decoration: underline">Unsubscribe</a> | <a href="{{preferences_url}}" style="color: #c9a962; text-decoration: underline">Email Preferences</a> |
+          <a href="{{view_in_browser}}" style="color: #c9a962; text-decoration: underline">View in Browser</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
