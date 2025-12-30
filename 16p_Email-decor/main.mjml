@@ -1,0 +1,468 @@
+<mjml>
+  <mj-head>
+    <mj-title>Wayfair - A Zillion Things Home</mj-title>
+    <mj-preview>Discover amazing deals on furniture, décor & more for every room 🏠</mj-preview>
+
+    <mj-attributes>
+      <mj-all font-family="Helvetica Neue, Helvetica, Arial, sans-serif" />
+      <mj-text font-size="16px" color="#232F3E" line-height="26px" padding="0" />
+      <mj-button background-color="#7B189F" color="#ffffff" font-weight="700" border-radius="4px" text-transform="uppercase"  />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      a { color: #7B189F; text-decoration: none; } .purple-text { color: #7B189F; } .strike { text-decoration: line-through; color: #888888; } .sale-price { color: #C41E3A; font-weight: 700; } .product-card { background-color: #FFFFFF;
+      border-radius: 8px; }
+    </mj-style>
+
+    <mj-style>
+      @media only screen and (max-width: 480px) { .mobile-hero-title { font-size: 36px !important; line-height: 40px !important; } .mobile-hero-subtitle { font-size: 22px !important; line-height: 28px !important; } .mobile-section-title {
+      font-size: 26px !important; line-height: 32px !important; } .mobile-nav-hide { display: none !important; mso-hide: all !important; } .mobile-nav-text { font-size: 10px !important; letter-spacing: 0px !important; } .mobile-text-sm {
+      font-size: 14px !important; line-height: 22px !important; } .mobile-product-title { font-size: 16px !important; line-height: 22px !important; } .mobile-full-width { width: 100% !important; max-width: 100% !important; } .mobile-center
+      { text-align: center !important; } .mobile-padding { padding-left: 15px !important; padding-right: 15px !important; } }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#333">
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- TOP PROMO BAR -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#7B189F" padding="12px 20px">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="14px" font-weight="600" line-height="20px" css-class="mobile-text-sm"> ⭐ UP TO 70% OFF THOUSANDS OF ITEMS ⭐ FREE SHIPPING ON ORDERS OVER $35 </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <!-- 🌊 1WAVE DIVIDER: Purple Promo → White Header -->
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-column width="100%" padding="0">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1766941846/Vector_1_a9astj.png" alt="" padding="0" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- HEADER / LOGO & NAVIGATION -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FFFFFF" padding="15px 20px">
+      <mj-column width="30%" vertical-align="middle">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1766939428/logo_wvitlk.png" alt="Wayfair - A Zillion Things Home" width="150px" align="left" href="https://www.wayfair.com/" title="Wayfair" padding="0" />
+      </mj-column>
+      <mj-column width="70%" vertical-align="middle">
+        <mj-text align="right" font-size="12px" color="#232F3E" font-weight="600" letter-spacing="0.5px" line-height="18px" css-class="mobile-nav-text">
+          <a href="https://www.wayfair.com/furniture" style="color: #232f3e; text-decoration: none; margin: 0 8px">FURNITURE</a>
+          <a href="https://www.wayfair.com/outdoor" style="color: #232f3e; text-decoration: none; margin: 0 8px">OUTDOOR</a>
+          <a href="https://www.wayfair.com/bed-bath" style="color: #232f3e; text-decoration: none; margin: 0 8px" class="mobile-nav-hide">BEDDING</a>
+          <a href="https://www.wayfair.com/decor-pillows" style="color: #232f3e; text-decoration: none; margin: 0 8px" class="mobile-nav-hide">DÉCOR</a>
+          <a href="https://www.wayfair.com/daily-sales" style="color: #c41e3a; text-decoration: none; margin: 0 8px; font-weight: 700">SALE</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 1: HERO BANNER - MAJOR SALE EVENT -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-url="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&q=80" background-size="cover" background-repeat="no-repeat" padding="80px 30px">
+      <mj-column width="100%">
+        <mj-text align="center" color="#FFFFFF" font-size="14px" font-weight="700" letter-spacing="3px" padding="0 0 10px" line-height="20px"> LIMITED TIME ONLY </mj-text>
+        <mj-text align="center" color="#FFFFFF" font-size="52px" font-weight="700" line-height="57px" padding="0 0 10px" css-class="mobile-hero-title"> BIG FURNITURE SALE </mj-text>
+        <mj-text align="center" color="#FFD700" font-size="28px" font-weight="700" padding="0 0 20px" line-height="34px" css-class="mobile-hero-subtitle"> UP TO 70% OFF </mj-text>
+        <mj-text align="center" color="#FFFFFF" font-size="16px" padding="0 0 30px" line-height="24px" css-class="mobile-text-sm"> Refresh every room with unbeatable prices on sofas, beds, tables &amp; more </mj-text>
+        <mj-button href="https://www.wayfair.com/daily-sales" background-color="#FFFFFF" color="#7B189F" font-size="14px" font-weight="700" inner-padding="16px 45px" border-radius="4px"> SHOP THE SALE </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- URGENCY BAR -->
+    <mj-section background-color="#FFF3CD" padding="12px 20px">
+      <mj-column>
+        <mj-text align="center" color="#856404" font-size="14px" font-weight="600" line-height="20px" css-class="mobile-text-sm"> ⏰ HURRY! Sale ends Sunday at midnight. Don't miss out! </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 2: SHOP BY ROOM / CATEGORY -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FFFFFF" padding="20px 20px 30px">
+      <mj-column>
+        <mj-text align="center" color="#7B189F" font-size="12px" font-weight="700" letter-spacing="3px" padding="0 0 8px" line-height="18px"> EXPLORE OUR COLLECTIONS </mj-text>
+        <mj-text align="center" color="#232F3E" font-size="32px" font-weight="700" padding="0 0 10px" line-height="40px" css-class="mobile-section-title"> Shop by Room </mj-text>
+        <mj-text align="center" color="#666666" font-size="16px" padding="0 0 40px" line-height="24px"> Find everything you need to transform your space </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Room Categories Row 1 -->
+    <mj-section background-color="#FFFFFF" padding="0 15px">
+      <!-- Living Room -->
+      <mj-column width="33.33%" padding="8px">
+        <mj-image src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&q=80" alt="Living Room Furniture" border-radius="8px" href="https://www.wayfair.com/furniture/sb0/living-room-furniture-c45974.html" padding="0" />
+        <mj-text align="center" color="#232F3E" font-size="18px" font-weight="700" padding="15px 0 5px" line-height="24px" css-class="mobile-product-title"> Living Room </mj-text>
+        <mj-text align="center" color="#C41E3A" font-size="14px" font-weight="600" padding="0 0 10px" line-height="20px"> Up to 65% Off </mj-text>
+        <mj-button
+          href="https://www.wayfair.com/furniture/sb0/living-room-furniture-c45974.html"
+          background-color="transparent"
+          color="#7B189F"
+          font-size="12px"
+          font-weight="600"
+          inner-padding="8px 20px"
+          border="2px solid #7B189F"
+          border-radius="4px"
+        >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+
+      <!-- Bedroom -->
+      <mj-column width="33.33%" padding="8px">
+        <mj-image src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=400&q=80" alt="Bedroom Furniture" border-radius="8px" href="https://www.wayfair.com/furniture/sb0/bedroom-furniture-c45976.html" padding="0" />
+        <mj-text align="center" color="#232F3E" font-size="18px" font-weight="700" padding="15px 0 5px" line-height="24px" css-class="mobile-product-title"> Bedroom </mj-text>
+        <mj-text align="center" color="#C41E3A" font-size="14px" font-weight="600" padding="0 0 10px" line-height="20px"> Up to 60% Off </mj-text>
+        <mj-button
+          href="https://www.wayfair.com/furniture/sb0/bedroom-furniture-c45976.html"
+          background-color="transparent"
+          color="#7B189F"
+          font-size="12px"
+          font-weight="600"
+          inner-padding="8px 20px"
+          border="2px solid #7B189F"
+          border-radius="4px"
+        >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+
+      <!-- Kitchen & Dining -->
+      <mj-column width="33.33%" padding="8px">
+        <mj-image src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80" alt="Kitchen and Dining" border-radius="8px" href="https://www.wayfair.com/furniture/sb0/kitchen-dining-room-furniture-c45979.html" padding="0" />
+        <mj-text align="center" color="#232F3E" font-size="18px" font-weight="700" padding="15px 0 5px" line-height="24px" css-class="mobile-product-title"> Kitchen &amp; Dining </mj-text>
+        <mj-text align="center" color="#C41E3A" font-size="14px" font-weight="600" padding="0 0 10px" line-height="20px"> Up to 55% Off </mj-text>
+        <mj-button
+          href="https://www.wayfair.com/furniture/sb0/kitchen-dining-room-furniture-c45979.html"
+          background-color="transparent"
+          color="#7B189F"
+          font-size="12px"
+          font-weight="600"
+          inner-padding="8px 20px"
+          border="2px solid #7B189F"
+          border-radius="4px"
+        >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Room Categories Row 2 -->
+    <mj-section background-color="#FFFFFF" padding="10px 15px 50px">
+      <!-- Outdoor -->
+      <mj-column width="33.33%" padding="8px">
+        <mj-image src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=400&q=80" alt="Outdoor and Patio" border-radius="8px" href="https://www.wayfair.com/outdoor/cat/outdoor-c32702.html" padding="0" />
+        <mj-text align="center" color="#232F3E" font-size="18px" font-weight="700" padding="15px 0 5px" line-height="24px" css-class="mobile-product-title"> Outdoor &amp; Patio </mj-text>
+        <mj-text align="center" color="#C41E3A" font-size="14px" font-weight="600" padding="0 0 10px" line-height="20px"> Up to 70% Off </mj-text>
+        <mj-button href="https://www.wayfair.com/outdoor/cat/outdoor-c32702.html" background-color="transparent" color="#7B189F" font-size="12px" font-weight="600" inner-padding="8px 20px" border="2px solid #7B189F" border-radius="4px">
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+
+      <!-- Home Office -->
+      <mj-column width="33.33%" padding="8px">
+        <mj-image src="https://images.unsplash.com/photo-1593062096033-9a26b09da705?w=400&q=80" alt="Home Office" border-radius="8px" href="https://www.wayfair.com/furniture/sb0/home-office-furniture-c45975.html" padding="0" />
+        <mj-text align="center" color="#232F3E" font-size="18px" font-weight="700" padding="15px 0 5px" line-height="24px" css-class="mobile-product-title"> Home Office </mj-text>
+        <mj-text align="center" color="#C41E3A" font-size="14px" font-weight="600" padding="0 0 10px" line-height="20px"> Up to 50% Off </mj-text>
+        <mj-button
+          href="https://www.wayfair.com/furniture/sb0/home-office-furniture-c45975.html"
+          background-color="transparent"
+          color="#7B189F"
+          font-size="12px"
+          font-weight="600"
+          inner-padding="8px 20px"
+          border="2px solid #7B189F"
+          border-radius="4px"
+        >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+
+      <!-- Bathroom -->
+      <mj-column width="33.33%" padding="8px">
+        <mj-image src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&q=80" alt="Bathroom" border-radius="8px" href="https://www.wayfair.com/home-improvement/sb0/bathroom-c1764824.html" padding="0" />
+        <mj-text align="center" color="#232F3E" font-size="18px" font-weight="700" padding="15px 0 5px" line-height="24px" css-class="mobile-product-title"> Bathroom </mj-text>
+        <mj-text align="center" color="#C41E3A" font-size="14px" font-weight="600" padding="0 0 10px" line-height="20px"> Up to 45% Off </mj-text>
+        <mj-button
+          href="https://www.wayfair.com/home-improvement/sb0/bathroom-c1764824.html"
+          background-color="transparent"
+          color="#7B189F"
+          font-size="12px"
+          font-weight="600"
+          inner-padding="8px 20px"
+          border="2px solid #7B189F"
+          border-radius="4px"
+        >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <!-- 🌊 WAVE DIVIDER: White Shop by Room → Light Purple Deals -->
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-column width="100%" padding="0">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1766942150/Vector_3_vlktxm.png" alt="" padding="0" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 3: TODAY'S TOP DEALS - FEATURED PRODUCTS -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#F8F4FB" padding="40px 20px 30px">
+      <mj-column>
+        <mj-text align="center" color="#7B189F" font-size="12px" font-weight="700" letter-spacing="3px" padding="0 0 8px" line-height="18px"> 🔥 DON'T MISS THESE </mj-text>
+        <mj-text align="center" color="#232F3E" font-size="32px" font-weight="700" padding="0 0 10px" line-height="40px" css-class="mobile-section-title"> Today's Top Deals </mj-text>
+        <mj-text align="center" color="#666666" font-size="16px" padding="0 0 40px" line-height="24px"> Our best-selling items at their lowest prices </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Products Row - Product 1 & 2 -->
+    <mj-section background-color="#F8F4FB" padding="0 10px">
+      <!-- Product 1 -->
+      <mj-column width="25%" padding="8px" background-color="#FFFFFF" border-radius="8px">
+        <mj-image
+          src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=350&q=80"
+          alt="Modern Sectional Sofa"
+          border-radius="8px 8px 0 0"
+          href="https://www.wayfair.com/furniture/pdp/sectional-sofa.html"
+          padding="0"
+          fluid-on-mobile="true"
+        />
+        <mj-text align="left" color="#232F3E" font-size="14px" font-weight="600" padding="12px 10px 5px" line-height="20px"> Modern Sectional Sofa </mj-text>
+        <mj-text align="left" color="#888888" font-size="12px" padding="0 10px 8px" line-height="18px"> ⭐⭐⭐⭐⭐ (2,847) </mj-text>
+        <mj-text align="left" padding="0 10px 5px" line-height="20px">
+          <span style="color: #888888; text-decoration: line-through; font-size: 14px">$1,299.99</span>
+        </mj-text>
+        <mj-text align="left" color="#C41E3A" font-size="22px" font-weight="700" padding="0 10px 15px" line-height="28px"> $649.99 </mj-text>
+      </mj-column>
+
+      <!-- Product 2 -->
+      <mj-column width="25%" padding="8px" background-color="#FFFFFF" border-radius="8px">
+        <mj-image
+          src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=350&q=80"
+          alt="Queen Platform Bed Frame"
+          border-radius="8px 8px 0 0"
+          href="https://www.wayfair.com/furniture/pdp/platform-bed.html"
+          padding="0"
+          fluid-on-mobile="true"
+        />
+        <mj-text align="left" color="#232F3E" font-size="14px" font-weight="600" padding="12px 10px 5px" line-height="20px"> Queen Platform Bed </mj-text>
+        <mj-text align="left" color="#888888" font-size="12px" padding="0 10px 8px" line-height="18px"> ⭐⭐⭐⭐⭐ (5,102) </mj-text>
+        <mj-text align="left" padding="0 10px 5px" line-height="20px">
+          <span style="color: #888888; text-decoration: line-through; font-size: 14px">$599.99</span>
+        </mj-text>
+        <mj-text align="left" color="#C41E3A" font-size="22px" font-weight="700" padding="0 10px 15px" line-height="28px"> $249.99 </mj-text>
+      </mj-column>
+
+      <!-- Product 3 -->
+      <mj-column width="25%" padding="8px" background-color="#FFFFFF" border-radius="8px">
+        <mj-image
+          src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=350&q=80"
+          alt="Modern Dining Table Set"
+          border-radius="8px 8px 0 0"
+          href="https://www.wayfair.com/furniture/pdp/dining-set.html"
+          padding="0"
+          fluid-on-mobile="true"
+        />
+        <mj-text align="left" color="#232F3E" font-size="14px" font-weight="600" padding="12px 10px 5px" line-height="20px"> 5-Piece Dining Set </mj-text>
+        <mj-text align="left" color="#888888" font-size="12px" padding="0 10px 8px" line-height="18px"> ⭐⭐⭐⭐⭐ (1,203) </mj-text>
+        <mj-text align="left" padding="0 10px 5px" line-height="20px">
+          <span style="color: #888888; text-decoration: line-through; font-size: 14px">$899.99</span>
+        </mj-text>
+        <mj-text align="left" color="#C41E3A" font-size="22px" font-weight="700" padding="0 10px 15px" line-height="28px"> $449.99 </mj-text>
+      </mj-column>
+
+      <!-- Product 4 -->
+      <mj-column width="25%" padding="8px" background-color="#FFFFFF" border-radius="8px">
+        <mj-image src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=350&q=80" alt="Area Rug" border-radius="8px 8px 0 0" href="https://www.wayfair.com/rugs/pdp/area-rug.html" padding="0" fluid-on-mobile="true" />
+        <mj-text align="left" color="#232F3E" font-size="14px" font-weight="600" padding="12px 10px 5px" line-height="20px"> 8x10 Area Rug </mj-text>
+        <mj-text align="left" color="#888888" font-size="12px" padding="0 10px 8px" line-height="18px"> ⭐⭐⭐⭐⭐ (8,456) </mj-text>
+        <mj-text align="left" padding="0 10px 5px" line-height="20px">
+          <span style="color: #888888; text-decoration: line-through; font-size: 14px">$299.99</span>
+        </mj-text>
+        <mj-text align="left" color="#C41E3A" font-size="22px" font-weight="700" padding="0 10px 15px" line-height="28px"> $89.99 </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- View All Deals Button -->
+    <mj-section background-color="#F8F4FB" padding="30px 20px 60px">
+      <mj-column>
+        <mj-button href="https://www.wayfair.com/daily-sales" background-color="#7B189F" color="#ffffff" font-size="14px" font-weight="700" inner-padding="16px 50px" border-radius="4px"> VIEW ALL DEALS </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <!-- 🌊 WAVE DIVIDER: Light Purple Deals → Purple App Section -->
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-column width="100%" padding="0">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1766942686/Frame_13_m8illa.png" alt="" padding="0" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- SECTION 4: APP DOWNLOAD + PERKS -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#7B189F" padding="40px 20px 60px">
+      <mj-column width="55%" vertical-align="middle">
+        <mj-text color="#FFFFFF" font-size="12px" font-weight="700" letter-spacing="3px" padding="0 0 10px" line-height="18px"> DOWNLOAD THE APP </mj-text>
+        <mj-text color="#FFFFFF" font-size="32px" font-weight="700" line-height="38px" padding="0 0 15px" css-class="mobile-section-title"> Shop smarter with the Wayfair App </mj-text>
+        <mj-text color="#E8D5F0" font-size="16px" padding="0 0 25px" line-height="26px"> Get exclusive app-only deals, use AR to preview furniture in your home, and track your orders on the go. </mj-text>
+        <mj-text color="#FFD700" font-size="16px" font-weight="600" padding="0 0 25px" line-height="24px"> 📱 Get an EXTRA 10% OFF your first app order! </mj-text>
+        <!-- App Store Buttons -->
+        <mj-image src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" width="140px" align="left" href="https://apps.apple.com/app/wayfair" padding="0 0 10px" />
+        <mj-image
+          src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+          alt="Get it on Google Play"
+          width="140px"
+          align="left"
+          href="https://play.google.com/store/apps/details?id=com.wayfair.wayfair"
+          padding="0"
+        />
+      </mj-column>
+      <mj-column width="45%" vertical-align="middle">
+        <mj-image src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=500&q=80" alt="Beautiful Home Interior" border-radius="8px" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <!-- 🌊 WAVE DIVIDER: Purple App Section → White Trust Badges -->
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-column width="100%" padding="0">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1766941846/Vector_1_a9astj.png" alt="" width="600px" padding="0" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- WHY WAYFAIR - TRUST BADGES -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FFFFFF" padding="30px 20px 50px">
+      <mj-column width="25%" padding="10px">
+        <mj-text align="center" color="#7B189F" font-size="32px" padding="0 0 10px" line-height="40px"> 🚚 </mj-text>
+        <mj-text align="center" color="#232F3E" font-size="14px" font-weight="700" padding="0 0 5px" line-height="20px"> FREE SHIPPING </mj-text>
+        <mj-text align="center" color="#666666" font-size="12px" line-height="18px"> On orders over $35 </mj-text>
+      </mj-column>
+      <mj-column width="25%" padding="10px">
+        <mj-text align="center" color="#7B189F" font-size="32px" padding="0 0 10px" line-height="40px"> ↩️ </mj-text>
+        <mj-text align="center" color="#232F3E" font-size="14px" font-weight="700" padding="0 0 5px" line-height="20px"> EASY RETURNS </mj-text>
+        <mj-text align="center" color="#666666" font-size="12px" line-height="18px"> 30-day return policy </mj-text>
+      </mj-column>
+      <mj-column width="25%" padding="10px">
+        <mj-text align="center" color="#7B189F" font-size="32px" padding="0 0 10px" line-height="40px"> 💳 </mj-text>
+        <mj-text align="center" color="#232F3E" font-size="14px" font-weight="700" padding="0 0 5px" line-height="20px"> FLEXIBLE PAYMENT </mj-text>
+        <mj-text align="center" color="#666666" font-size="12px" line-height="18px"> Pay over time options </mj-text>
+      </mj-column>
+      <mj-column width="25%" padding="10px">
+        <mj-text align="center" color="#7B189F" font-size="32px" padding="0 0 10px" line-height="40px"> 💬 </mj-text>
+        <mj-text align="center" color="#232F3E" font-size="14px" font-weight="700" padding="0 0 5px" line-height="20px"> 24/7 SUPPORT </mj-text>
+        <mj-text align="center" color="#666666" font-size="12px" line-height="18px"> We're here to help </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- CUSTOMER REVIEW -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#F5F5F5" padding="30px 20px 50px">
+      <mj-column width="70%">
+        <mj-text align="center" color="#FFD700" font-size="24px" padding="0 0 15px" line-height="32px"> ★★★★★ </mj-text>
+        <mj-text align="center" color="#232F3E" font-size="20px" font-style="italic" line-height="30px" padding="0 0 20px">
+          "Amazing selection and unbeatable prices! My new sofa arrived quickly and looks even better than the photos. Wayfair has become my go-to for home furniture!"
+        </mj-text>
+        <mj-text align="center" color="#7B189F" font-size="14px" font-weight="600" line-height="20px"> — Sarah M., Verified Buyer </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <!-- 🌊 WAVE DIVIDER: Gray Testimonial → White Recently Viewed -->
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-column width="100%" padding="0">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1767045520/Vector-grayDown_pbblzf.png" alt="" width="600px" padding="0" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- RECENTLY VIEWED / PERSONALIZED -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#FFFFFF" padding="30px 20px 30px">
+      <mj-column>
+        <mj-text align="center" color="#232F3E" font-size="24px" font-weight="700" padding="0 0 10px" line-height="32px"> Still thinking about these? </mj-text>
+        <mj-text align="center" color="#666666" font-size="15px" padding="0 0 30px" line-height="22px"> Items in your cart are selling fast! </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFFFFF" padding="0 20px 50px">
+      <mj-column width="33.33%" padding="10px">
+        <mj-image src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=300&q=80" alt="Table Lamp" border-radius="8px" href="https://www.wayfair.com/lighting" padding="0" />
+        <mj-text align="center" color="#232F3E" font-size="14px" font-weight="600" padding="10px 0 5px" line-height="20px"> Modern Table Lamp </mj-text>
+        <mj-text align="center" color="#C41E3A" font-size="16px" font-weight="700" line-height="22px"> $49.99 </mj-text>
+      </mj-column>
+      <mj-column width="33.33%" padding="10px">
+        <mj-image src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=300&q=80" alt="Throw Pillows" border-radius="8px" href="https://www.wayfair.com/decor-pillows" padding="0" />
+        <mj-text align="center" color="#232F3E" font-size="14px" font-weight="600" padding="10px 0 5px" line-height="20px"> Throw Pillow Set (4) </mj-text>
+        <mj-text align="center" color="#C41E3A" font-size="16px" font-weight="700" line-height="22px"> $34.99 </mj-text>
+      </mj-column>
+      <mj-column width="33.33%" padding="10px">
+        <mj-image src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=300&q=80" alt="Wall Art" border-radius="8px" href="https://www.wayfair.com/decor-pillows/sb0/wall-art-c1861980.html" padding="0" />
+        <mj-text align="center" color="#232F3E" font-size="14px" font-weight="600" padding="10px 0 5px" line-height="20px"> Canvas Wall Art Set </mj-text>
+        <mj-text align="center" color="#C41E3A" font-size="16px" font-weight="700" line-height="22px"> $79.99 </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <!-- 🌊 WAVE DIVIDER: White Recently Viewed → Dark Footer -->
+    <!-- ════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column width="100%" padding="0">
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1767045519/Vector_4_jdz3y6.png" alt="" width="600px" padding="0" fluid-on-mobile="true" />
+      </mj-column>
+    </mj-section>
+
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- FOOTER -->
+    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <mj-section background-color="#232F3E" padding="30px 20px 30px">
+      <mj-column>
+        <!-- Footer Logo -->
+        <mj-image src="https://res.cloudinary.com/dhneogiam/image/upload/v1766939428/logo_wvitlk.png" alt="Wayfair" width="140px" align="center" padding="0 0 10px" href="https://www.wayfair.com/" />
+        <mj-text align="center" color="#AAAAAA" font-size="13px" padding="0 0 25px" line-height="20px"> A Zillion Things Home </mj-text>
+
+        <mj-social font-size="15px" icon-size="35px" mode="horizontal" align="center" padding="0 0 30px">
+          <mj-social-element name="facebook" href="https://facebook.com/wayfair" background-color="#7B189F" border-radius="50px" />
+          <mj-social-element name="instagram" href="https://instagram.com/wayfair" background-color="#7B189F" border-radius="50px" />
+          <mj-social-element name="pinterest" href="https://pinterest.com/wayfair" background-color="#7B189F" border-radius="50px" />
+          <mj-social-element name="twitter" href="https://twitter.com/wayfair" background-color="#7B189F" border-radius="50px" />
+          <mj-social-element name="youtube" href="https://youtube.com/wayfair" background-color="#7B189F" border-radius="50px" />
+        </mj-social>
+
+        <mj-text align="center" color="#888888" font-size="13px" padding="0 0 20px" line-height="20px">
+          <a href="https://www.wayfair.com/v/account/orders" style="color: #888888; text-decoration: none; margin: 0 10px">Track Order</a> |
+          <a href="https://www.wayfair.com/help" style="color: #888888; text-decoration: none; margin: 0 10px">Help Center</a> |
+          <a href="https://www.wayfair.com/returns" style="color: #888888; text-decoration: none; margin: 0 10px">Returns</a> |
+          <a href="https://www.wayfair.com/v/account" style="color: #888888; text-decoration: none; margin: 0 10px">My Account</a>
+        </mj-text>
+
+        <mj-divider border-color="#444444" padding="20px 60px" />
+
+        <mj-text align="center" color="#666666" font-size="11px" line-height="19px">
+          © 2024 Wayfair LLC. All rights reserved.<br />
+          4 Copley Place, Boston, MA 02116
+        </mj-text>
+
+        <mj-text align="center" color="#666666" font-size="11px" padding="20px 0 0" line-height="19px">
+          This email was sent to {{email}}. You're receiving this because you signed up for Wayfair emails.<br />
+          <a href="{{unsubscribe_url}}" style="color: #7b189f; text-decoration: underline">Unsubscribe</a> | <a href="{{preferences_url}}" style="color: #7b189f; text-decoration: underline">Email Preferences</a> |
+          <a href="{{privacy_url}}" style="color: #7b189f; text-decoration: underline">Privacy Policy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
