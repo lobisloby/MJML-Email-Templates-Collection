@@ -83,3 +83,4 @@ mjml --watch wellness/index.mjml -o wellness/index.html
 
 Feel free to fork this repository, create branches, and submit pull requests. Any contributions are welcome!
 ```
+support@apps-alchemy.com
